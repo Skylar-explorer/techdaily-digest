@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Logs
+logs/
+
+# Database (运行时生成，不进版本控制)
+database/articles.json
+
+# Generated assets
+frontend/texture.png
+frontend/preview.html
+
+# macOS
+.DS_Store

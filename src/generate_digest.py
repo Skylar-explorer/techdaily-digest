@@ -59,9 +59,17 @@ class DigestGenerator:
 
     def render_article(self, summary: Dict, index: int) -> str:
         """Render a single article with 5 sections"""
+        from urllib.parse import urlparse
 
         def clean(text):
             return text.replace('...', '').replace('…', '').strip() if text else ''
+
+        # Derive display source from the actual article link domain
+        try:
+            parsed = urlparse(summary.get('link', ''))
+            display_source = parsed.netloc.replace('www.', '') or summary.get('source', '')
+        except Exception:
+            display_source = summary.get('source', '')
 
         one_liner = clean(summary.get('one_liner', ''))
         detailed_analysis = clean(summary.get('detailed_analysis', summary.get('summary', '')))
@@ -103,7 +111,7 @@ class DigestGenerator:
 
     <header class="story-head">
       <div class="story-meta">
-        <span class="meta-source">{summary['source']}</span>
+        <span class="meta-source">{display_source}</span>
         <span class="meta-dot">·</span>
         <span class="meta-date">{pub_date}</span>
         <span class="meta-dot">·</span>

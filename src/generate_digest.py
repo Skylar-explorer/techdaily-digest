@@ -732,6 +732,40 @@ class DigestGenerator:
                 transform: scaleX(1);
             }}
         }}
+
+        /* ══ 历史推送 ══ */
+        .history-edition-bar {{
+            margin-top: 3.5rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--paper-line);
+        }}
+
+        .load-more-wrap {{
+            padding: 3rem 0 2.5rem;
+            text-align: center;
+            display: none;
+        }}
+        .load-more-btn {{
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--forest);
+            background: transparent;
+            border: 1px solid var(--forest-mid);
+            padding: 0.85em 2.75em;
+            cursor: pointer;
+            transition: background 0.18s, color 0.18s, border-color 0.18s;
+        }}
+        .load-more-btn:hover:not(:disabled) {{
+            background: var(--forest);
+            color: var(--paper);
+        }}
+        .load-more-btn:disabled {{
+            color: var(--ink-4);
+            border-color: var(--paper-deep);
+            cursor: default;
+        }}
     </style>
 </head>
 <body>
@@ -751,9 +785,15 @@ class DigestGenerator:
     <span class="edition-bar-line"></span>
   </div>
 
-  <main>
+  <main id="main-feed">
 {articles_html}
   </main>
+
+  <div class="load-more-wrap" id="load-more-wrap">
+    <button class="load-more-btn" id="load-more-btn" onclick="loadMore()">
+      查看更多历史推送
+    </button>
+  </div>
 
   <footer class="page-footer">
     <span class="footer-brand">TechDaily — 精选技术博客每日摘要</span>
@@ -764,7 +804,7 @@ class DigestGenerator:
 
 <script>
 (function() {{
-  // ── 滚动入场：story + insight-band ──────────────────────────────
+  // ── 滚动入场 Observer（今日 + 历史动态插入均共用） ──────────────
   var io = new IntersectionObserver(function(entries) {{
     entries.forEach(function(e) {{
       if (e.isIntersecting) {{
@@ -772,24 +812,17 @@ class DigestGenerator:
         io.unobserve(e.target);
       }}
     }});
-  }}, {{
-    threshold: 0.07,
-    rootMargin: '0px 0px -32px 0px'
-  }});
+  }}, {{ threshold: 0.07, rootMargin: '0px 0px -32px 0px' }});
 
-  // 观察所有 .story 和 .insight-band（insight-band 嵌在 story 内，
-  // 但它有独立的入场动画，需单独触发）
   document.querySelectorAll('.story').forEach(function(el, idx) {{
-    // 给每个 story 加轻微的交错延迟
     el.style.transitionDelay = (idx * 0.08) + 's';
     io.observe(el);
   }});
-
   document.querySelectorAll('.insight-band').forEach(function(el) {{
     io.observe(el);
   }});
 
-  // ── 平滑滚动到内部锚点 ──────────────────────────────────────────
+  // ── 平滑滚动锚点 ────────────────────────────────────────────────
   document.querySelectorAll('a[href^="#"]').forEach(function(a) {{
     a.addEventListener('click', function(e) {{
       var target = document.querySelector(a.getAttribute('href'));
@@ -799,10 +832,197 @@ class DigestGenerator:
       }}
     }});
   }});
+
+  // ── 历史推送加载 ─────────────────────────────────────────────────
+  var allDates = [];
+  var currentIndex = 1;  // index 0 = 今日（已预渲染），从 1 开始加载
+
+  // 工具函数
+  function clean(s) {{
+    return s ? s.replace(/\.\.\./g, '').replace(/…/g, '').trim() : '';
+  }}
+  function getSource(link, fallback) {{
+    try {{ return new URL(link || '').hostname.replace(/^www\./, '') || fallback || ''; }}
+    catch(e) {{ return fallback || ''; }}
+  }}
+  function fmtDate(pub) {{
+    var p = (pub || '').slice(0, 10).split('-');
+    return p.length === 3 ? (parseInt(p[1]) + '月' + parseInt(p[2]) + '日') : pub;
+  }}
+  function levelCls(lv) {{
+    lv = lv || '中级';
+    return lv.indexOf('初') !== -1 ? 'lv-b' : (lv.indexOf('高') !== -1 ? 'lv-a' : 'lv-m');
+  }}
+
+  function buildKeyPoints(pts) {{
+    return (pts || []).slice(0, 3).map(function(pt, i) {{
+      var p = clean(pt);
+      if (p.indexOf('要点') === 0 && p.indexOf('：') !== -1)
+        p = p.split('：').slice(1).join('：').trim();
+      return '<li><span class="kp-n">' + String(i+1).padStart(2,'0') +
+             '</span><span class="kp-body">' + p + '</span></li>';
+    }}).join('');
+  }}
+  function buildTags(tags) {{
+    return (tags || []).slice(0, 3).map(function(t) {{
+      return '<span class="tag">' + t + '</span>';
+    }}).join('');
+  }}
+
+  function buildArticle(s, idx) {{
+    var lv = s.level || '中级';
+    return '<article class="story">' +
+      '<div class="story-index">' + String(idx).padStart(2,'0') + '</div>' +
+      '<div class="story-inner">' +
+        '<header class="story-head">' +
+          '<div class="story-meta">' +
+            '<span class="meta-source">' + getSource(s.link, s.source) + '</span>' +
+            '<span class="meta-dot">·</span>' +
+            '<span class="meta-date">' + fmtDate(s.published) + '</span>' +
+            '<span class="meta-dot">·</span>' +
+            '<span class="meta-level ' + levelCls(lv) + '">' + lv + '</span>' +
+          '</div>' +
+          '<h2 class="story-title"><a href="' + s.link + '" target="_blank" rel="noopener">' +
+            (s.headline || '') + '</a></h2>' +
+        '</header>' +
+        '<div class="lede-wrap"><p class="lede">' + clean(s.one_liner || '') + '</p></div>' +
+        '<div class="story-grid">' +
+          '<section class="sec-points"><h3 class="sec-label">关键要点</h3>' +
+            '<ol class="kp-list">' + buildKeyPoints(s.key_points) + '</ol></section>' +
+          '<section class="sec-analysis"><h3 class="sec-label">深度解读</h3>' +
+            '<p class="prose">' + clean(s.detailed_analysis || s.summary || '') + '</p></section>' +
+        '</div>' +
+        '<div class="insight-band"><div class="insight-inner">' +
+          '<span class="insight-eyebrow">关键洞察</span>' +
+          '<p class="insight-text">' + clean(s.key_insight || '') + '</p>' +
+        '</div></div>' +
+        '<div class="matters-wrap">' +
+          '<h3 class="sec-label matters-label">为什么现在值得关注</h3>' +
+          '<p class="prose matters-prose">' + clean(s.why_it_matters || '') + '</p>' +
+        '</div>' +
+        '<footer class="story-foot">' +
+          '<div class="foot-tags">' + buildTags(s.tags) + '</div>' +
+          '<a class="foot-link" href="' + s.link + '" target="_blank" rel="noopener">阅读原文 ↗</a>' +
+        '</footer>' +
+      '</div></article>';
+  }}
+
+  function buildDateHeader(dateStr) {{
+    var p = dateStr.split('-');
+    var label = p[0] + '年' + parseInt(p[1]) + '月' + parseInt(p[2]) + '日';
+    return '<div class="edition-bar history-edition-bar">' +
+      '<span class="edition-bar-label">' + label + ' · 历史推送</span>' +
+      '<span class="edition-bar-line"></span></div>';
+  }}
+
+  // 初始化：拉取日期索引，决定是否显示按钮
+  fetch('data/index.json')
+    .then(function(r) {{ return r.ok ? r.json() : Promise.reject(); }})
+    .then(function(dates) {{
+      allDates = dates;
+      if (allDates.length > 1) {{
+        document.getElementById('load-more-wrap').style.display = '';
+      }}
+    }})
+    .catch(function() {{ /* 无历史数据，静默忽略 */ }});
+
+  window.loadMore = function() {{
+    if (currentIndex >= allDates.length) return;
+    var btn = document.getElementById('load-more-btn');
+    btn.disabled = true;
+    btn.textContent = '加载中 …';
+
+    var date = allDates[currentIndex];
+    currentIndex++;
+
+    fetch('data/' + date + '.json')
+      .then(function(r) {{ return r.ok ? r.json() : Promise.reject(); }})
+      .then(function(data) {{
+        var feed = document.getElementById('main-feed');
+
+        // 日期分隔标题
+        var hWrap = document.createElement('div');
+        hWrap.innerHTML = buildDateHeader(date);
+        feed.appendChild(hWrap.firstElementChild);
+
+        // 文章列表
+        var newStories = [];
+        (data.articles || []).forEach(function(s, i) {{
+          var wrap = document.createElement('div');
+          wrap.innerHTML = buildArticle(s, i + 1);
+          var article = wrap.firstElementChild;
+          feed.appendChild(article);
+          newStories.push(article);
+          article.querySelectorAll('.insight-band').forEach(function(b) {{ io.observe(b); }});
+        }});
+
+        // 错开入场动画
+        requestAnimationFrame(function() {{
+          requestAnimationFrame(function() {{
+            newStories.forEach(function(el, i) {{
+              el.style.transitionDelay = (i * 0.06) + 's';
+              io.observe(el);
+            }});
+          }});
+        }});
+
+        if (currentIndex < allDates.length) {{
+          btn.disabled = false;
+          btn.textContent = '查看更多历史推送';
+        }} else {{
+          btn.textContent = '已显示全部历史';
+          btn.disabled = true;
+        }}
+      }})
+      .catch(function() {{
+        currentIndex--;
+        btn.disabled = false;
+        btn.textContent = '加载失败，点击重试';
+      }});
+  }};
 }})();
 </script>
 </body>
 </html>'''
+
+    def get_data_dir(self) -> str:
+        """Return (and create) the frontend/data/ directory"""
+        data_dir = os.path.join(os.path.dirname(self.output_path), 'data')
+        os.makedirs(data_dir, exist_ok=True)
+        return data_dir
+
+    def save_daily_json(self, summaries: List[Dict], date_key: str, date_display: str):
+        """Persist today's AI summaries as frontend/data/YYYY-MM-DD.json"""
+        data_dir = self.get_data_dir()
+        day_path = os.path.join(data_dir, f'{date_key}.json')
+        payload = {
+            'date': date_key,
+            'date_display': date_display,
+            'articles': summaries,
+        }
+        with open(day_path, 'w', encoding='utf-8') as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        print(f"Saved daily JSON: {day_path}")
+
+    def update_index_json(self, date_key: str):
+        """Maintain frontend/data/index.json — a sorted-desc list of available dates"""
+        data_dir = self.get_data_dir()
+        index_path = os.path.join(data_dir, 'index.json')
+
+        if os.path.exists(index_path):
+            with open(index_path, 'r', encoding='utf-8') as f:
+                dates = json.load(f)
+        else:
+            dates = []
+
+        if date_key not in dates:
+            dates.append(date_key)
+
+        dates.sort(reverse=True)  # newest first
+
+        with open(index_path, 'w', encoding='utf-8') as f:
+            json.dump(dates, f, ensure_ascii=False, indent=2)
+        print(f"Updated index.json: {len(dates)} date(s) on record")
 
     def generate(self, since_hours: int = 24, max_articles: int = 5) -> int:
         """
@@ -840,8 +1060,13 @@ class DigestGenerator:
         # Save to database
         self.fetcher.save_articles(articles)
 
-        # Generate HTML
+        # Persist daily JSON for history feature
+        date_key = datetime.now().strftime("%Y-%m-%d")
         date_str = datetime.now().strftime("%Y年%m月%d日")
+        self.save_daily_json(summaries, date_key, date_str)
+        self.update_index_json(date_key)
+
+        # Generate HTML
         html = self.render_html(summaries, date_str)
 
         # Write output

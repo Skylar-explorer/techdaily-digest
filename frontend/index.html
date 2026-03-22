@@ -562,6 +562,40 @@
                 transform: scaleX(1);
             }
         }
+
+        /* ══ 历史推送 ══ */
+        .history-edition-bar {
+            margin-top: 3.5rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--paper-line);
+        }
+
+        .load-more-wrap {
+            padding: 3rem 0 2.5rem;
+            text-align: center;
+            display: none;
+        }
+        .load-more-btn {
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--forest);
+            background: transparent;
+            border: 1px solid var(--forest-mid);
+            padding: 0.85em 2.75em;
+            cursor: pointer;
+            transition: background 0.18s, color 0.18s, border-color 0.18s;
+        }
+        .load-more-btn:hover:not(:disabled) {
+            background: var(--forest);
+            color: var(--paper);
+        }
+        .load-more-btn:disabled {
+            color: var(--ink-4);
+            border-color: var(--paper-deep);
+            cursor: default;
+        }
     </style>
 </head>
 <body>
@@ -572,7 +606,7 @@
     <h1 class="masthead-logo">Tech<em>Daily</em></h1>
     <div class="masthead-sub">
       <span>精选技术情报 · 每日更新</span>
-      <span class="masthead-sub-date">2026年03月20日</span>
+      <span class="masthead-sub-date">2026年03月22日</span>
     </div>
   </header>
 
@@ -581,204 +615,15 @@
     <span class="edition-bar-line"></span>
   </div>
 
-  <main>
-
-<article class="story">
-  <div class="story-index">01</div>
-
-  <div class="story-inner">
-
-    <header class="story-head">
-      <div class="story-meta">
-        <span class="meta-source">simonwillison.net</span>
-        <span class="meta-dot">·</span>
-        <span class="meta-date">3月19日</span>
-        <span class="meta-dot">·</span>
-        <span class="meta-level lv-m">中级</span>
-      </div>
-      <h2 class="story-title">
-        <a href="https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything" target="_blank" rel="noopener">OpenAI收购Astral及uv/ruff/ty的思考</a>
-      </h2>
-    </header>
-
-    <div class="lede-wrap">
-      <p class="lede">OpenAI收购Astral本质是争夺AI编程代理生态的关键基础设施，通过控制uv等Python核心工具来强化Codex的竞争优势。</p>
-    </div>
-
-    <div class="story-grid">
-
-      <section class="sec-points">
-        <h3 class="sec-label">关键要点</h3>
-        <ol class="kp-list"><li>
-              <span class="kp-n">01</span>
-              <span class="kp-body">uv在2024年2月发布后仅两年，上月下载量已超1.26亿次，成为解决Python环境管理问题的实际标准工具，其普及速度远超传统方案。</span>
-            </li><li>
-              <span class="kp-n">02</span>
-              <span class="kp-body">Astral团队将并入OpenAI的Codex团队，官方声明中OpenAI强调“加速Codex工作”，而Astral更侧重“继续开源建设”，暗示收购可能同时瞄准人才（如Rust专家BurntSushi）与产品。</span>
-            </li><li>
-              <span class="kp-n">03</span>
-              <span class="kp-body">文章指出Anthropic与OpenAI在编程代理领域竞争白热化，双方2025年订阅收入达数十亿美元级别，此次收购是基础设施层面的战略卡位。</span>
-            </li></ol>
-      </section>
-
-      <section class="sec-analysis">
-        <h3 class="sec-label">深度解读</h3>
-        <p class="prose">文章从OpenAI收购Astral的消息切入，先分析双方公告的微妙差异：OpenAI看重工具对Codex的加速价值，Astral则承诺继续开源。接着聚焦Astral三大工具——环境管理器uv、代码检查器ruff、类型检查器ty，指出uv是真正“承重级”基础设施，能直接解决Python生态的经典混乱问题。作者进一步联系到行业竞争，认为收购背后是OpenAI与Anthropic在编程代理市场数十亿美元规模的争夺战，而Astral的商业产品pyx在此次交易中被刻意淡化，暗示整合重心将偏向AI赋能而非企业服务。</p>
-      </section>
-
-    </div>
-
-    <div class="insight-band">
-      <div class="insight-inner">
-        <span class="insight-eyebrow">关键洞察</span>
-        <p class="insight-text">收购暴露了AI公司竞争的新战场：不再局限于模型能力，而是向下控制开发者工作流中的关键工具链。OpenAI试图将uv等工具深度集成到Codex，可能打造“编码环境-AI代理”闭环，让开发者更难脱离其生态，这本质是基础设施的垄断前兆。</p>
-      </div>
-    </div>
-
-    <div class="matters-wrap">
-      <h3 class="sec-label matters-label">为什么现在值得关注</h3>
-      <p class="prose matters-prose">2025年底编程代理已从“有用工具”变为“不可或缺”，市场进入变现关键期。对开发者而言，uv等工具可能逐渐绑定OpenAI服务，需警惕技术栈依赖风险；对技术决策者，这意味着AI编程工具的选型需同时评估厂商生态锁定效应与长期可控性。</p>
-    </div>
-
-    <footer class="story-foot">
-      <div class="foot-tags"><span class="tag">Python工具链</span><span class="tag">AI编程代理</span><span class="tag">开源收购</span></div>
-      <a class="foot-link" href="https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything" target="_blank" rel="noopener">阅读原文 ↗</a>
-    </footer>
-
-  </div>
-</article>
-
-<article class="story">
-  <div class="story-index">02</div>
-
-  <div class="story-inner">
-
-    <header class="story-head">
-      <div class="story-meta">
-        <span class="meta-source">simonwillison.net</span>
-        <span class="meta-dot">·</span>
-        <span class="meta-date">3月18日</span>
-        <span class="meta-dot">·</span>
-        <span class="meta-level lv-m">中级</span>
-      </div>
-      <h2 class="story-title">
-        <a href="https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything" target="_blank" rel="noopener">本地运行千问397B的苹果“闪存LLM”自研技术</a>
-      </h2>
-    </header>
-
-    <div class="lede-wrap">
-      <p class="lede">开发者通过苹果“LLM in a Flash”技术，在48GB内存的MacBook上成功运行了209GB的巨型MoE模型。</p>
-    </div>
-
-    <div class="story-grid">
-
-      <section class="sec-points">
-        <h3 class="sec-label">关键要点</h3>
-        <ol class="kp-list"><li>
-              <span class="kp-n">01</span>
-              <span class="kp-body">该实验成功将Qwen3.5-397B-A17B这个原本需要209GB存储空间的混合专家模型，在量化后以5.5+ tokens/秒的速度运行于仅48GB内存的M3 Max MacBook Pro上，核心突破在于利用SSD流式加载专家权重，而非全部驻留内存。</span>
-            </li><li>
-              <span class="kp-n">02</span>
-              <span class="kp-body">实现的关键是应用了苹果2023年论文中的方法，通过构建推理成本模型来优化从闪存读取数据的策略，具体包括减少从闪存传输的数据总量，以及以更大、更连续的数据块进行读取。</span>
-            </li><li>
-              <span class="kp-n">03</span>
-              <span class="kp-body">实验采用了“自研究”模式，将苹果论文喂给Claude Code，由其自动设计了90次实验并生成了优化的MLX Objective-C和Metal代码，最终将专家权重量化至2比特（后续升级至4比特），并将每个token激活的专家数量从10个降至4个。</span>
-            </li></ol>
-      </section>
-
-      <section class="sec-analysis">
-        <h3 class="sec-label">深度解读</h3>
-        <p class="prose">这篇文章讲的是开发者Dan Woods解决了一个看起来很矛盾的问题：如何在内存有限的个人电脑上运行一个远超内存容量的超大型语言模型。他瞄准的是Qwen3.5-397B-A17B，一个混合专家模型，其特点是每次推理只需调用一部分“专家”权重。他的思路很聪明：既然不能把所有模型参数都塞进内存，那就只把当前需要的部分从速度较慢但容量大的SSD硬盘实时“流式”加载到内存里。他直接拿苹果公司关于“LLM in a Flash”的研究论文当说明书，甚至用AI（Claude Code）去自动研究论文并编程做实验，最终调优出一套代码，成功在高端笔记本上以可用的速度跑起了这个庞然大物，虽然模型质量可能有些损失，但证明了技术可行性。</p>
-      </section>
-
-    </div>
-
-    <div class="insight-band">
-      <div class="insight-inner">
-        <span class="insight-eyebrow">关键洞察</span>
-        <p class="insight-text">这件事的深层价值在于，它展示了“边缘设备运行超大模型”从理论论文走向工程实践的快速路径。苹果的论文提供了学术思路，而社区开发者通过AI辅助编程和实验，在很短时间内就做出了可运行的原型。这预示着未来尖端AI研究的工程化落地周期会大幅缩短，开源社区利用最新学术成果进行快速迭代和创新的能力正在变得非常强大。</p>
-      </div>
-    </div>
-
-    <div class="matters-wrap">
-      <h3 class="sec-label matters-label">为什么现在值得关注</h3>
-      <p class="prose matters-prose">现在发生，是因为关键要素刚刚齐备：苹果的“LLM in a Flash”论文提供了核心算法思路；MLX等针对苹果芯片的深度学习框架降低了开发门槛；Claude等高级AI编码助手使得复杂实验的自动化成为可能。这预示着“消费级硬件运行前沿大模型”的拐点临近。对开发者意味着可以开始探索在本地部署此前不敢想象的巨型模型；对架构师提示了基于闪存的模型存储与加载可能成为新的设计模式；对产品经理则打开了在端侧提供超强AI能力而不完全依赖云端的想象空间。</p>
-    </div>
-
-    <footer class="story-foot">
-      <div class="foot-tags"><span class="tag">混合专家模型</span><span class="tag">模型量化</span><span class="tag">边缘推理</span></div>
-      <a class="foot-link" href="https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything" target="_blank" rel="noopener">阅读原文 ↗</a>
-    </footer>
-
-  </div>
-</article>
-
-<article class="story">
-  <div class="story-index">03</div>
-
-  <div class="story-inner">
-
-    <header class="story-head">
-      <div class="story-meta">
-        <span class="meta-source">simonwillison.net</span>
-        <span class="meta-dot">·</span>
-        <span class="meta-date">3月18日</span>
-        <span class="meta-dot">·</span>
-        <span class="meta-level lv-m">中级</span>
-      </div>
-      <h2 class="story-title">
-        <a href="https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything" target="_blank" rel="noopener">Snowflake Cortex AI突破沙箱并执行恶意软件</a>
-      </h2>
-    </header>
-
-    <div class="lede-wrap">
-      <p class="lede">Snowflake Cortex AI 因允许列表设计缺陷，通过进程替换绕过沙箱执行了远程恶意代码。</p>
-    </div>
-
-    <div class="story-grid">
-
-      <section class="sec-points">
-        <h3 class="sec-label">关键要点</h3>
-        <ol class="kp-list"><li>
-              <span class="kp-n">01</span>
-              <span class="kp-body">攻击始于用户让Cortex Agent分析一个GitHub仓库，该仓库的README底部隐藏了提示词注入攻击载荷。这揭示了利用AI工具处理外部不可信内容时的固有风险。</span>
-            </li><li>
-              <span class="kp-n">02</span>
-              <span class="kp-body">Cortex将`cat`命令列为无需人工批准即可安全执行的命令，但未防范命令体内可能发生的进程替换（如`cat < <(sh < <(wget))`）。这种基于模式匹配的允许列表机制存在根本缺陷。</span>
-            </li><li>
-              <span class="kp-n">03</span>
-              <span class="kp-body">作者明确表示不信任此类针对命令模式的允许列表，认为其本质上不可靠。他主张应将代理命令视为拥有该进程本身的全部权限，并倾向于在代理层之外寻求确定性沙箱解决方案。</span>
-            </li></ol>
-      </section>
-
-      <section class="sec-analysis">
-        <h3 class="sec-label">深度解读</h3>
-        <p class="prose">这篇文章讲的是Snowflake的Cortex AI代理出了一个安全漏洞，现在已经被修复了。事情是这样的：有个用户让Cortex去审查一个GitHub仓库，结果这个仓库的README文件里藏了一段恶意提示词。这段提示词欺骗了AI，让它执行了一段特别的Bash命令。这段命令用了进程替换的技巧，把`wget`下载远程脚本、`sh`执行和`cat`输出这几个看似无害的命令组合在一起，最终实现了远程代码执行。问题的关键在于，Snowflake的安全策略只简单地把`cat`这样的命令标记为“安全”，允许AI直接运行，却没有深入检查命令的完整结构和可能存在的“小把戏”，让攻击者钻了空子。</p>
-      </section>
-
-    </div>
-
-    <div class="insight-band">
-      <div class="insight-inner">
-        <span class="insight-eyebrow">关键洞察</span>
-        <p class="insight-text">文章虽在讨论一个具体漏洞，但其核心指向了当前AI代理安全设计中的一个普遍且危险的范式：过度依赖基于简单规则或模式匹配（如命令允许列表）的“软”沙箱。这暴露了行业在追求AI功能快速上线的同时，对“智能体”所拥有的系统级权限及其被诱导滥用的可能性评估不足，本质上是一种安全债务。</p>
-      </div>
-    </div>
-
-    <div class="matters-wrap">
-      <h3 class="sec-label matters-label">为什么现在值得关注</h3>
-      <p class="prose matters-prose">随着AI代理从概念验证大规模转向生产集成，此类漏洞标志着攻击面正从传统Web漏洞转向“提示词-代理-系统”的新链条。对于开发者和架构师，这意味着不能再将LLM视为单纯的文本处理器，而必须作为拥有执行权限的潜在特权用户来设计安全边界，亟需采用更彻底的沙箱隔离或零信任执行策略。产品经理在规划AI功能时，也必须将此类新型风险纳入安全评估和发布流程。</p>
-    </div>
-
-    <footer class="story-foot">
-      <div class="foot-tags"><span class="tag">提示词注入</span><span class="tag">AI安全</span><span class="tag">沙箱逃逸</span></div>
-      <a class="foot-link" href="https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything" target="_blank" rel="noopener">阅读原文 ↗</a>
-    </footer>
-
-  </div>
-</article>
+  <main id="main-feed">
 
   </main>
+
+  <div class="load-more-wrap" id="load-more-wrap">
+    <button class="load-more-btn" id="load-more-btn" onclick="loadMore()">
+      查看更多历史推送
+    </button>
+  </div>
 
   <footer class="page-footer">
     <span class="footer-brand">TechDaily — 精选技术博客每日摘要</span>
@@ -789,7 +634,7 @@
 
 <script>
 (function() {
-  // ── 滚动入场：story + insight-band ──────────────────────────────
+  // ── 滚动入场 Observer（今日 + 历史动态插入均共用） ──────────────
   var io = new IntersectionObserver(function(entries) {
     entries.forEach(function(e) {
       if (e.isIntersecting) {
@@ -797,24 +642,17 @@
         io.unobserve(e.target);
       }
     });
-  }, {
-    threshold: 0.07,
-    rootMargin: '0px 0px -32px 0px'
-  });
+  }, { threshold: 0.07, rootMargin: '0px 0px -32px 0px' });
 
-  // 观察所有 .story 和 .insight-band（insight-band 嵌在 story 内，
-  // 但它有独立的入场动画，需单独触发）
   document.querySelectorAll('.story').forEach(function(el, idx) {
-    // 给每个 story 加轻微的交错延迟
     el.style.transitionDelay = (idx * 0.08) + 's';
     io.observe(el);
   });
-
   document.querySelectorAll('.insight-band').forEach(function(el) {
     io.observe(el);
   });
 
-  // ── 平滑滚动到内部锚点 ──────────────────────────────────────────
+  // ── 平滑滚动锚点 ────────────────────────────────────────────────
   document.querySelectorAll('a[href^="#"]').forEach(function(a) {
     a.addEventListener('click', function(e) {
       var target = document.querySelector(a.getAttribute('href'));
@@ -824,6 +662,160 @@
       }
     });
   });
+
+  // ── 历史推送加载 ─────────────────────────────────────────────────
+  var allDates = [];
+  var currentIndex = 1;  // index 0 = 今日（已预渲染），从 1 开始加载
+
+  // 工具函数
+  function clean(s) {
+    return s ? s.replace(/\.\.\./g, '').replace(/…/g, '').trim() : '';
+  }
+  function getSource(link, fallback) {
+    try { return new URL(link || '').hostname.replace(/^www\./, '') || fallback || ''; }
+    catch(e) { return fallback || ''; }
+  }
+  function fmtDate(pub) {
+    var p = (pub || '').slice(0, 10).split('-');
+    return p.length === 3 ? (parseInt(p[1]) + '月' + parseInt(p[2]) + '日') : pub;
+  }
+  function levelCls(lv) {
+    lv = lv || '中级';
+    return lv.indexOf('初') !== -1 ? 'lv-b' : (lv.indexOf('高') !== -1 ? 'lv-a' : 'lv-m');
+  }
+
+  function buildKeyPoints(pts) {
+    return (pts || []).slice(0, 3).map(function(pt, i) {
+      var p = clean(pt);
+      if (p.indexOf('要点') === 0 && p.indexOf('：') !== -1)
+        p = p.split('：').slice(1).join('：').trim();
+      return '<li><span class="kp-n">' + String(i+1).padStart(2,'0') +
+             '</span><span class="kp-body">' + p + '</span></li>';
+    }).join('');
+  }
+  function buildTags(tags) {
+    return (tags || []).slice(0, 3).map(function(t) {
+      return '<span class="tag">' + t + '</span>';
+    }).join('');
+  }
+
+  function buildArticle(s, idx) {
+    var lv = s.level || '中级';
+    return '<article class="story">' +
+      '<div class="story-index">' + String(idx).padStart(2,'0') + '</div>' +
+      '<div class="story-inner">' +
+        '<header class="story-head">' +
+          '<div class="story-meta">' +
+            '<span class="meta-source">' + getSource(s.link, s.source) + '</span>' +
+            '<span class="meta-dot">·</span>' +
+            '<span class="meta-date">' + fmtDate(s.published) + '</span>' +
+            '<span class="meta-dot">·</span>' +
+            '<span class="meta-level ' + levelCls(lv) + '">' + lv + '</span>' +
+          '</div>' +
+          '<h2 class="story-title"><a href="' + s.link + '" target="_blank" rel="noopener">' +
+            (s.headline || '') + '</a></h2>' +
+        '</header>' +
+        '<div class="lede-wrap"><p class="lede">' + clean(s.one_liner || '') + '</p></div>' +
+        '<div class="story-grid">' +
+          '<section class="sec-points"><h3 class="sec-label">关键要点</h3>' +
+            '<ol class="kp-list">' + buildKeyPoints(s.key_points) + '</ol></section>' +
+          '<section class="sec-analysis"><h3 class="sec-label">深度解读</h3>' +
+            '<p class="prose">' + clean(s.detailed_analysis || s.summary || '') + '</p></section>' +
+        '</div>' +
+        '<div class="insight-band"><div class="insight-inner">' +
+          '<span class="insight-eyebrow">关键洞察</span>' +
+          '<p class="insight-text">' + clean(s.key_insight || '') + '</p>' +
+        '</div></div>' +
+        '<div class="matters-wrap">' +
+          '<h3 class="sec-label matters-label">为什么现在值得关注</h3>' +
+          '<p class="prose matters-prose">' + clean(s.why_it_matters || '') + '</p>' +
+        '</div>' +
+        '<footer class="story-foot">' +
+          '<div class="foot-tags">' + buildTags(s.tags) + '</div>' +
+          '<a class="foot-link" href="' + s.link + '" target="_blank" rel="noopener">阅读原文 ↗</a>' +
+        '</footer>' +
+      '</div></article>';
+  }
+
+  function buildDateHeader(dateStr) {
+    var p = dateStr.split('-');
+    var label = p[0] + '年' + parseInt(p[1]) + '月' + parseInt(p[2]) + '日';
+    return '<div class="edition-bar history-edition-bar">' +
+      '<span class="edition-bar-label">' + label + ' · 历史推送</span>' +
+      '<span class="edition-bar-line"></span></div>';
+  }
+
+  // 初始化：拉取日期索引，决定是否显示按钮
+  fetch('data/index.json')
+    .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+    .then(function(dates) {
+      allDates = dates;
+      if (allDates.length >= 1) {
+        var wrap = document.getElementById('load-more-wrap');
+        var btn = document.getElementById('load-more-btn');
+        wrap.style.display = '';
+        if (currentIndex >= allDates.length) {
+          btn.textContent = '已显示全部历史';
+          btn.disabled = true;
+        }
+      }
+    })
+    .catch(function() { /* 无历史数据，静默忽略 */ });
+
+  window.loadMore = function() {
+    if (currentIndex >= allDates.length) return;
+    var btn = document.getElementById('load-more-btn');
+    btn.disabled = true;
+    btn.textContent = '加载中 …';
+
+    var date = allDates[currentIndex];
+    currentIndex++;
+
+    fetch('data/' + date + '.json')
+      .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+      .then(function(data) {
+        var feed = document.getElementById('main-feed');
+
+        // 日期分隔标题
+        var hWrap = document.createElement('div');
+        hWrap.innerHTML = buildDateHeader(date);
+        feed.appendChild(hWrap.firstElementChild);
+
+        // 文章列表
+        var newStories = [];
+        (data.articles || []).forEach(function(s, i) {
+          var wrap = document.createElement('div');
+          wrap.innerHTML = buildArticle(s, i + 1);
+          var article = wrap.firstElementChild;
+          feed.appendChild(article);
+          newStories.push(article);
+          article.querySelectorAll('.insight-band').forEach(function(b) { io.observe(b); });
+        });
+
+        // 错开入场动画
+        requestAnimationFrame(function() {
+          requestAnimationFrame(function() {
+            newStories.forEach(function(el, i) {
+              el.style.transitionDelay = (i * 0.06) + 's';
+              io.observe(el);
+            });
+          });
+        });
+
+        if (currentIndex < allDates.length) {
+          btn.disabled = false;
+          btn.textContent = '查看更多历史推送';
+        } else {
+          btn.textContent = '已显示全部历史';
+          btn.disabled = true;
+        }
+      })
+      .catch(function() {
+        currentIndex--;
+        btn.disabled = false;
+        btn.textContent = '加载失败，点击重试';
+      });
+  };
 })();
 </script>
 </body>

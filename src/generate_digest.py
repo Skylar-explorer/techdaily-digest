@@ -920,8 +920,14 @@ class DigestGenerator:
     .then(function(r) {{ return r.ok ? r.json() : Promise.reject(); }})
     .then(function(dates) {{
       allDates = dates;
-      if (allDates.length > 1) {{
-        document.getElementById('load-more-wrap').style.display = '';
+      if (allDates.length >= 1) {{
+        var wrap = document.getElementById('load-more-wrap');
+        var btn = document.getElementById('load-more-btn');
+        wrap.style.display = '';
+        if (currentIndex >= allDates.length) {{
+          btn.textContent = '已显示全部历史';
+          btn.disabled = true;
+        }}
       }}
     }})
     .catch(function() {{ /* 无历史数据，静默忽略 */ }});

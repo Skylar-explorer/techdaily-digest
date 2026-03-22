@@ -6,7 +6,7 @@ import json
 import os
 import sys
 from datetime import datetime
-from typing import List, Dict
+from typing import List, Dict, Optional
 
 # Import our modules
 from rss_fetcher import RSSFetcher, Article
@@ -1030,7 +1030,7 @@ class DigestGenerator:
             json.dump(dates, f, ensure_ascii=False, indent=2)
         print(f"Updated index.json: {len(dates)} date(s) on record")
 
-    def generate(self, since_hours: int = 24, max_articles: int = 5) -> int:
+    def generate(self, since_hours: int = 24, max_articles: Optional[int] = None) -> int:
         """
         Generate daily digest
         Returns number of articles processed
@@ -1052,9 +1052,13 @@ class DigestGenerator:
             print(f"Generated empty digest at: {self.output_path}")
             return 0
 
-        # Limit articles
-        articles = articles[:max_articles]
-        print(f"\nProcessing top {len(articles)} articles...")
+        # Sort by publication date, newest first
+        articles.sort(key=lambda a: a.published, reverse=True)
+
+        # Optionally limit the number of articles
+        if max_articles is not None:
+            articles = articles[:max_articles]
+        print(f"\nProcessing {len(articles)} articles...")
 
         # Generate summaries
         summaries = []
@@ -1094,7 +1098,7 @@ def main():
 
     parser = argparse.ArgumentParser(description='Generate TechDaily digest')
     parser.add_argument('--hours', type=int, default=24, help='Fetch articles from last N hours')
-    parser.add_argument('--max', type=int, default=5, help='Maximum articles to include')
+    parser.add_argument('--max', type=int, default=None, help='Maximum articles to include (default: no limit)')
     parser.add_argument('--output', type=str, default=None, help='Output HTML path')
 
     args = parser.parse_args()

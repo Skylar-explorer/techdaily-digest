@@ -4,7 +4,7 @@ RSS Feed Fetcher - Fetches articles from subscribed RSS feeds
 """
 import feedparser
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from dataclasses import dataclass, asdict
 from typing import List, Optional
 import hashlib
@@ -62,14 +62,20 @@ class RSSFetcher:
         """Generate unique ID for article"""
         return hashlib.md5(link.encode()).hexdigest()
 
-    def _parse_date(self, entry) -> datetime:
-        """Parse publication date from feed entry"""
+    def _parse_date(self, entry) -> Optional[datetime]:
+        """Parse publication date from feed entry.
+
+        feedparser normalises all timestamps to UTC struct_time.
+        We reconstruct them as UTC-aware datetimes so comparisons
+        against datetime.now(timezone.utc) are always correct.
+        Returns None when no date is available (entry will be skipped).
+        """
         if hasattr(entry, 'published_parsed') and entry.published_parsed:
-            return datetime(*entry.published_parsed[:6])
+            return datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
         elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
-            return datetime(*entry.updated_parsed[:6])
+            return datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
         else:
-            return datetime.now()
+            return None  # No date → skip, don't fake datetime.now()
 
     def _fetch_full_content(self, url: str) -> str:
         """Fetch full article content from URL"""
@@ -129,6 +135,11 @@ class RSSFetcher:
             for entry in feed.entries:
                 published = self._parse_date(entry)
 
+                # Skip entries with no parseable date (avoids treating
+                # undated archive posts as "just published")
+                if published is None:
+                    continue
+
                 # Skip if article is too old
                 if since and published < since:
                     continue
@@ -167,7 +178,7 @@ class RSSFetcher:
 
     def fetch_all(self, since_hours: int = 24) -> List[Article]:
         """Fetch articles from all feeds"""
-        since = datetime.now() - timedelta(hours=since_hours)
+        since = datetime.now(timezone.utc) - timedelta(hours=since_hours)
         all_articles = []
 
         print(f"\nFetching articles since {since}...")

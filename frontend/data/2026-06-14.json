@@ -1,0 +1,197 @@
+{
+  "date": "2026-06-14",
+  "date_display": "2026年06月14日",
+  "articles": [
+    {
+      "headline": "构建串口与VGA“全能控制台”",
+      "one_liner": "用废弃机架套件DIY便携串口/VGA终端，省钱又实用。",
+      "key_points": [
+        "作者以120美元（含运费）从eBay购入一台有屏幕损伤的IBM 7316-TF3 1U机架控制台，含17英寸LCD和带UltraNav的键盘，屏幕虽受损但仍可读。",
+        "该键盘为IBM SK-8845RC USB Travel Keyboard，支持TrackPoint和触控板双指点方式，并集成USB Hub提供额外两个USB端口，键盘通过可伸缩折叠臂连接。",
+        "屏幕和键盘的VGA/USB线缆均通过同一折叠臂走线，臂拉出时保持连接，设计紧凑，适合DIY改造为便携终端。"
+      ],
+      "detailed_analysis": "作者厌倦了拖着老式CRT终端或占用带串口的Mac笔记本，决定用便宜方案DIY一个自包含的串口/VGA控制台。他从eBay淘来一台有瑕疵的IBM 1U机架控制台（含17寸屏和键盘），利用其自带折叠臂和集成键盘/指点设备，计划嵌入一个终端模拟器，打造便携、轻量的“万能控制台”。文章详细展示了硬件选型、成本（120美元）和改造思路，强调类似Dell/HP机型也可用。",
+      "key_insight": "这篇文章的实践价值在于：它展示了如何用废弃企业硬件（机架控制台）低成本解决工程师日常调试痛点——无需依赖笨重CRT或占用主力笔记本。核心思路是“废物利用+模块化改造”，对经常需要现场调试嵌入式系统或旧服务器的开发者，直接可复现。",
+      "why_it_matters": "随着老旧服务器和嵌入式系统仍广泛使用串口调试，而CRT终端和专用串口笔记本日益稀缺，这种DIY方案填补了便携、低成本控制台的空白。对运维和硬件工程师而言，现在正是利用eBay上廉价二手企业硬件（如IBM/Dell机架控制台）快速搭建调试工具的最佳时机，避免高价购买专用设备。",
+      "tags": [
+        "串口终端",
+        "VGA控制台",
+        "DIY硬件"
+      ],
+      "level": "中级",
+      "source": "oldvcr.blogspot.com",
+      "generated_at": "2026-06-14T04:44:55.728391",
+      "id": "a3e6ef3e0ed145fc1076027eddae71e4",
+      "link": "https://oldvcr.blogspot.com/2026/06/building-serial-and-vga-everything.html",
+      "published": "2026-06-14T01:26:37+00:00",
+      "author": "ClassicHasClass (noreply@blogger.com)"
+    },
+    {
+      "headline": "向PyPI发布WASM轮子以用于Pyodide",
+      "one_liner": "Pyodide终于支持通过PyPI直接分发WASM Python包，大幅降低维护负担。",
+      "key_points": [
+        "1. Pyodide 314.0版本允许开发者将Python包编译为WASM wheel并直接发布到PyPI，此前300多个包需由维护团队手动构建和托管，成为社区瓶颈。",
+        "2. 作者成功将Luau语言（C++编写）编译为276KB的WASM wheel（luau-wasm），通过cibuildwheel自动化构建，用户仅需micropip.install即可在浏览器中运行。",
+        "3. 截至文章发布，已有28个PyPI包使用新的pyemscripten_202*_wasm32标签，包括uuid7-rs、imgui-bundle等，证明该机制已开始被社区采用。"
+      ],
+      "detailed_analysis": "这篇文章讲的是Pyodide团队终于解决了WASM Python包的分发难题。以前，所有支持Pyodide的包都得由核心团队手动维护和托管，导致新包加入需要人工审核，效率极低。现在，借助PEP 783定义的PyEmscripten平台，开发者可以像发布Linux、macOS或Windows wheel一样，直接把WASM wheel上传到PyPI。作者用Luau语言做了个实验，成功把C++写的解释器编译成WASM并发布，用户只需在Pyodide REPL里用micropip安装就能运行。目前已有28个包跟进，这个机制正在快速落地。",
+      "key_insight": "这篇文章的深层信号是：WebAssembly在Python生态中正从“实验性玩具”走向“生产级基础设施”。PyPI对WASM的原生支持，意味着C/C++/Rust扩展可以无缝在浏览器中运行，而无需依赖CDN或自定义托管。这对数据科学、游戏引擎、工具链的浏览器化部署是重大利好——开发者可以复用现有Python包管理流程，无需学习新工具链。",
+      "why_it_matters": "因为PyPI对WASM的支持是2025年4月才合并的PR，而Pyodide 314.0同期发布。这意味着过去两年WASM Python包只能通过非标准渠道分发，现在终于有了官方通道。对开发者而言，如果你有C/Rust扩展需要浏览器端运行，现在就可以用cibuildwheel一键构建并发布，无需等待社区维护。对架构师而言，这预示着“浏览器即运行时”的Python应用将加速出现。",
+      "tags": [
+        "Pyodide",
+        "WebAssembly",
+        "PyPI"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-06-14T04:45:03.748825",
+      "id": "b8d669d310a8fecd5e6f34ba0a55b4cf",
+      "link": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
+      "published": "2026-06-13T23:55:18+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "luau-wasm 0.1a0",
+      "one_liner": "Luau-Wasm让Lua脚本能在浏览器和Python生态中无缝运行。",
+      "key_points": [
+        "1. 该项目将Roblox的Luau语言（Lua的优化分支）编译为WebAssembly，并打包成Python Wheel格式，可直接在Pyodide环境中通过pip安装使用。",
+        "2. 发布版本为0.1a0，属于早期实验性版本，但已具备在浏览器中运行Luau脚本的基本能力，为后续迭代奠定基础。",
+        "3. 作者Simon Willison同步发布了配套博文《Publishing WASM wheels to PyPI for use with Pyodide》，详细解释了将WASM模块发布为Python包的技术路径和工具链。"
+      ],
+      "detailed_analysis": "这篇文章本质上是一个技术发布公告，但背后是一条清晰的工程链路：Luau（Roblox优化的Lua方言）被编译成WebAssembly，然后打包成Python Wheel格式，上传到PyPI。这样，任何使用Pyodide（在浏览器中运行Python）的Web应用，都可以通过`pip install luau-wasm`直接引入Lua脚本引擎。作者Simon Willison是Python和WebAssembly生态的活跃实践者，这个项目是他探索“多语言运行时在浏览器中互操作”的又一次实验。目前是0.1a0，意味着功能可用但远未稳定，适合尝鲜和贡献。",
+      "key_insight": "这个项目暗示了一个趋势：WebAssembly正在成为“语言互操作”的通用层，而Python的包管理生态（PyPI+Wheel）正在被用作分发非Python运行时（如Lua、Ruby、甚至Go）的标准化渠道。对开发者而言，这意味着未来在浏览器中组合多种语言将像安装Python包一样简单。",
+      "why_it_matters": "因为Pyodide和WASI运行时正在成熟，而Luau作为高性能、轻量级的脚本语言，特别适合嵌入到Web应用中做沙箱化用户脚本执行。现在关注，可以提前掌握“用Python生态分发WASM运行时”的工程模式，这对构建下一代浏览器内扩展系统、低代码平台或游戏编辑器有直接参考价值。",
+      "tags": [
+        "WebAssembly",
+        "Pyodide",
+        "Lua"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-06-14T04:45:10.992865",
+      "id": "e5649c6aabdc728c8f630b9d2203cdc6",
+      "link": "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything",
+      "published": "2026-06-13T23:14:30+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "将SQLite结果列映射回源`表.列`",
+      "one_liner": "SQLite查询结果可逆向映射回源表列，无需解析SQL。",
+      "key_points": [
+        "核心方案利用SQLite未公开的C函数`sqlite3_column_table_name()`，通过Python的`ctypes`直接调用，绕过标准Python驱动限制。",
+        "备选方案包括使用`apsw`库（原生暴露该C函数）和解析`EXPLAIN`输出，后者可处理CTE等复杂语法但性能开销更大。",
+        "该能力对Datasette项目至关重要，使其能对任意SQL查询结果附加表级元数据，实现列溯源可视化。"
+      ],
+      "detailed_analysis": "Simon Willison想为Datasette增加一个功能：让任意SQL查询结果能自动标注来源表和列。他尝试用Claude Code（Opus 4.8模型）探索方案，发现三条路径：一是直接调用SQLite C API的`sqlite3_column_table_name()`，通过Python的`ctypes`桥接；二是使用`apsw`库，它原生暴露该函数；三是解析`EXPLAIN`输出，虽通用但复杂。最终，直接调用C函数最简洁高效，但需要处理Python驱动不暴露该接口的问题。这个探索展示了如何利用底层API扩展数据库工具的能力边界。",
+      "key_insight": "这个技术探索的深层价值在于：它揭示了SQLite生态中一个被忽视的“元数据鸿沟”——标准Python驱动（如sqlite3）主动屏蔽了底层C API的列溯源能力。Simon的方案本质上是绕过这一抽象层，直接获取数据库引擎内部保留的信息。这对所有基于SQLite构建分析工具的人都是提醒：标准库可能不是最优选择，底层API往往藏着未被利用的能力。",
+      "why_it_matters": "随着AI辅助编码工具（如Claude Code）普及，开发者能更快探索这类底层技术方案。两年前，手动翻阅SQLite C文档并编写ctypes代码门槛太高；现在，AI可以快速生成原型代码。对Datasette用户和SQLite工具开发者而言，这意味着可以低成本实现列级溯源、自动文档生成等高级功能，而无需等待官方驱动更新。",
+      "tags": [
+        "SQLite",
+        "Python",
+        "元数据溯源"
+      ],
+      "level": "高级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-06-14T04:45:18.136998",
+      "id": "47ed75b2fc809f77db6ae32cdfafd87d",
+      "link": "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything",
+      "published": "2026-06-13T23:05:00+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "多元主义：股东至上与预知CEO（2026年6月13日）",
+      "one_liner": "股东至上主义本质上是不可证伪的伪标准，CEO需要预知未来才能证明自己尽责。",
+      "key_points": [
+        "1. 米尔顿·弗里德曼1970年在《纽约时报》提出“企业的社会责任就是增加利润”，将股东至上主义包装成可客观衡量的“明亮线标准”，但实际无法判断管理者是否“尽可能”赚钱。",
+        "2. 在竞争市场中，第二名公司永远无法证明自己“赚了最多钱”——如果第一名赚110亿而第二名赚100亿，按弗里德曼逻辑，后者管理层应被立即解雇。",
+        "3. 企业社会责任（如Target销售LGBTQ商品、Google支持员工环保活动）本质是商业策略：Target卖彩虹商品是为了赚钱，直到2024年反LGBTQ浪潮导致亏损；Google“不作恶”形象是为了吸引人才，每位工程师年均贡献100万美元利润。"
+      ],
+      "detailed_analysis": "这篇文章拆穿了弗里德曼股东至上主义的逻辑漏洞。弗里德曼声称“最大化股东价值”是客观标准，但实际无法判断管理者是否“尽可能”赚钱——因为市场总有第二名，且未来不可预测。作者指出，企业社会责任本质是商业策略（如Target卖彩虹商品、Google支持员工活动），而非道德行为。最终，股东至上主义需要CEO拥有预知未来的超能力才能执行，这暴露了其作为“万能借口”的本质：管理者可以用“为了股东利益”为任何决策辩护，而事后无法证伪。",
+      "key_insight": "文章暗示：股东至上主义之所以流行，不是因为它正确，而是因为它为管理者提供了完美的免责机制——任何失败都可以归咎于“不可预见的市场变化”，而任何成功都可以归功于“最大化股东价值”。这种不对称性让CEO成为“事后诸葛亮”的受益者。",
+      "why_it_matters": "这篇文章发表于2026年，正值AI预测能力爆发、企业ESG（环境、社会和治理）标准争议加剧的时期。当AI可以模拟未来市场情景时，股东至上主义的“不可预测性”借口将面临挑战。对技术决策者而言，这意味着：未来企业治理可能从“事后解释”转向“事前模拟”，AI预测工具将重塑董事会问责机制。",
+      "tags": [
+        "股东至上主义",
+        "企业治理",
+        "不可证伪性"
+      ],
+      "level": "中级",
+      "source": "pluralistic.net",
+      "generated_at": "2026-06-14T04:45:25.750388",
+      "id": "59ded6aaf16cc98c4d7f098886a66b83",
+      "link": "https://pluralistic.net/2026/06/13/minority-shareholder-report/",
+      "published": "2026-06-13T17:49:56+00:00",
+      "author": "Cory Doctorow"
+    },
+    {
+      "headline": "特朗普名字（字体错误）已从肯尼迪中心移除",
+      "one_liner": "特朗普名字从肯尼迪中心移除，字体错误暴露政治表演的荒诞性。",
+      "key_points": [
+        "1. 特朗普名字于凌晨3点被施工队从肯尼迪中心建筑正面移除，此时距联邦法官设定的两周最后期限已过去数小时，法院此前已裁定中心董事会更名行为违法。",
+        "2. 文章标题特意强调“字体错误”，暗示特朗普团队在命名时连基本视觉规范都未遵守，这种细节暴露了其政治操作中一贯的粗糙与随意。",
+        "3. 作者以“完美隐喻”收尾，将名字移除视为更广泛“清理工作”的象征，暗示当前政治生态中需要系统性纠正的不仅是物理标识，更是背后的权力逻辑。"
+      ],
+      "detailed_analysis": "这篇文章本质上是一则政治讽刺短评。它报道了特朗普名字从肯尼迪中心被移除的事件，但核心不在于事件本身，而在于作者通过“字体错误”这个细节，将特朗普的政治操作定性为一场粗制滥造的表演。法院判决强制移除，施工队凌晨执行，整个过程像一场仓促的舞台撤景。作者最后那句“完美隐喻”，把这件事从具体新闻提升为对特朗普时代整体政治风格的批判——那些浮夸、不规范、最终被法律强制纠正的痕迹，需要被系统性地清除。",
+      "key_insight": "文章真正的锋芒在于“字体错误”这个看似无关的细节。它暗示特朗普团队连最基本的专业标准都不愿遵守，却急于将自己的名字刻在公共建筑上。这种对形式规范的漠视，与其政策制定中的随意性一脉相承。作者不是在报道新闻，而是在用设计领域的专业视角，揭露政治操作中的“视觉谎言”——名字可以刻上去，但连字体都选不对，说明这从来就不是对艺术的尊重，只是对权力的自我加冕。",
+      "why_it_matters": "这件事发生在法院强制执行之后，而非特朗普刚离任时，说明法律程序正在缓慢但坚定地纠正政治越界。对技术决策者而言，这是一个信号：任何脱离专业规范、仅靠权力推动的“快速部署”，最终都会面临强制回滚。它提醒工程师和产品经理，在系统设计中必须内置合规检查与纠错机制，否则再华丽的“命名”也会被法院的“删除命令”覆盖。",
+      "tags": [
+        "政治隐喻",
+        "字体规范",
+        "法律强制"
+      ],
+      "level": "初级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-06-14T04:45:33.839475",
+      "id": "6192d0e78b557ece02bddc0702777278",
+      "link": "https://apple.news/ANLNtQOeuSkiJ35tzkYw9oA",
+      "published": "2026-06-13T17:34:15+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "苹果私有云计算对第三方开发者限制严格",
+      "one_liner": "Apple的PCC对第三方开发者设限，本质是优先保障自身Siri AI需求。",
+      "key_points": [
+        "1. PCC仅向App Store小企业计划成员开放，且要求开发者所有应用首次下载总量低于200万次，而非仅针对使用PCC的应用。",
+        "2. 目前没有任何付费API层级供超出限制的开发者使用，iCloud+订阅用户也无法获得额外PCC配额。",
+        "3. 开发者Gui Rambo指出，其10年前发布的ChibiStudio累计下载超200万次，虽已无新用户增长，但仍被排除在PCC之外。"
+      ],
+      "detailed_analysis": "Apple在WWDC上宣布PCC对部分开发者免费，但实际限制极为严格：仅小企业计划成员且所有应用累计首次下载低于200万次才能使用。目前没有付费升级选项，意味着超出限制的开发者完全无法接入。Apple显然优先保障Siri AI的云端算力，第三方开发者只是“顺带”获得有限权限。这暴露了Apple在AI基础设施上的保守策略——宁可限制生态，也不愿让第三方挤占核心服务资源。",
+      "key_insight": "Apple刻意不设付费层级，暗示其PCC算力储备远不足以支撑大规模第三方调用。这不仅是技术限制，更是商业策略：Apple不愿让第三方AI应用依赖其基础设施，以免未来被绑定或被迫扩容。同时，这也是一种“软性排他”——让大型开发者继续使用其他云服务，维持生态多样性。",
+      "why_it_matters": "AI应用爆发期，开发者急需低成本、高隐私的云端推理方案。Apple此时推出PCC却设严苛门槛，说明其AI战略仍以自用为核心。对开发者而言，这意味着短期内不应押注Apple的AI云服务，需继续依赖AWS/Azure等第三方平台。同时，这也预示Apple可能在未来推出付费层级，但价格不会亲民。",
+      "tags": [
+        "Apple Intelligence",
+        "开发者限制"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-06-14T04:45:41.106407",
+      "id": "f4feae3e6ca5f41ace4b4a08bc104247",
+      "link": "https://developer.apple.com/private-cloud-compute/",
+      "published": "2026-06-13T17:20:59+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "美国政府以国家安全为由要求Anthropic关闭Fable 5和Mythos 5模型",
+      "one_liner": "美国政府以国家安全为由，强制Anthropic关闭其最先进AI模型，暴露了AI治理的深层矛盾。",
+      "key_points": [
+        "1. 禁令覆盖所有外国国籍的Anthropic员工，包括美国境内外的外籍雇员，意味着即使公司内部研发人员也无法访问Fable 5和Mythos 5模型。",
+        "2. 政府未提供具体国家安全细节，仅暗示发现一种“越狱”方法，但Anthropic评估该方法仅能识别少数已知、轻微漏洞，且其他公开模型无需越狱也能发现。",
+        "3. Anthropic CEO Dario Amodei本月刚发文将前沿AI比作“可武器化的核材料”，认为可能需要更激进的监管，而政府行动恰好呼应了这一比喻。"
+      ],
+      "detailed_analysis": "这篇文章的核心冲突是：Anthropic刚发布Fable 5和Mythos 5两天，美国政府就以国家安全为由，下令立即关闭所有访问权限，甚至禁止外籍员工接触。Anthropic认为政府指出的“越狱”漏洞并不独特，其他模型也能做到。作者借此引出深层问题：当AI公司自己将模型比作核武器时，是否已经默认了政府干预的合理性？文章通过引用CEO的核武器比喻和Ben Thompson的“公司治理vs民主治理”讨论，揭示出AI治理正从技术问题转向政治权力博弈——谁有权决定模型是否危险？是CEO还是民选政府？",
+      "key_insight": "文章未明说但暗示的真相是：Anthropic的“核武器”比喻正在反噬自身。当公司用极端类比来争取监管或营销时，实际上为政府干预提供了合法性。这次行动可能不是孤立事件，而是美国政府测试“AI出口管制”边界的信号——未来任何被认为“危险”的模型都可能面临类似命运，无论漏洞是否真实。",
+      "why_it_matters": "这件事发生在AI模型能力快速逼近“危险阈值”的当下，而非两年前。它预示：1）美国政府可能将AI模型视为类似芯片的出口管制物，开发者需重新评估合规成本；2）外籍AI人才在美国的工作权限将面临实质性限制；3）模型发布后两天内被关闭，意味着“先发布后审查”模式已不可行，产品经理需提前规划政府沟通策略。",
+      "tags": [
+        "AI治理",
+        "出口管制",
+        "模型安全"
+      ],
+      "level": "高级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-06-14T04:45:49.249324",
+      "id": "e8bdc063325c4f499a116ca92f1a2b70",
+      "link": "https://www.anthropic.com/news/fable-mythos-access",
+      "published": "2026-06-13T17:02:29+00:00",
+      "author": "John Gruber"
+    }
+  ]
+}

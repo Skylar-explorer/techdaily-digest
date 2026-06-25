@@ -1,0 +1,198 @@
+{
+  "date": "2026-06-25",
+  "date_display": "2026年06月25日",
+  "articles": [
+    {
+      "headline": "SimonW浏览器兼容性数据库",
+      "one_liner": "MDN浏览器兼容数据被转为SQLite数据库，可直连查询。",
+      "key_points": [
+        "数据库约66MB，托管在GitHub仓库的`db`分支，通过GitHub CDN提供开放CORS头，可直接用Datasette Lite在线查询，无需下载。",
+        "构建过程完全自动化：Claude Code生成Python脚本，用sqlite-utils转换数据；GPT-5.5编写GitHub Actions工作流，构建后强制推送到独立分支。",
+        "灵感来自Mozilla新发布的MDN MCP服务，该项目将MDN数据暴露给AI代理，而本方案让开发者直接用SQL查询兼容性数据。"
+      ],
+      "detailed_analysis": "Simon Willison看到Mozilla推出了MDN MCP服务，让AI能直接调用MDN数据。他想到：与其让AI代理去查，不如直接把MDN的浏览器兼容性数据转成SQLite数据库，让开发者也能用SQL查询。他用Claude Code写转换脚本，用GPT-5.5写GitHub Actions工作流，自动构建数据库并推送到独立分支。最终数据库托管在GitHub上，带开放CORS头，任何人都能用Datasette Lite在线查询。整个过程展示了AI辅助编程的实用模式。",
+      "key_insight": "这件事的深层价值在于：它示范了如何将“为AI设计的数据接口”反向转化为“为人设计的可查询数据库”。MCP服务本质上是让AI能调用数据，而Simon的做法是让人类也能用SQL直接查询同一份数据。这暗示了一个趋势：随着AI数据接口标准化，开发者可以低成本地从中提取出对人类友好的查询工具。",
+      "why_it_matters": "Mozilla刚推出MDN MCP服务，Simon就快速做出了这个反向工具，说明AI数据接口的生态正在快速形成。对前端开发者来说，这意味着未来可以像查本地数据库一样查浏览器兼容性，无需反复访问MDN页面。对架构师而言，这是一个信号：MCP协议可能成为数据共享的新标准，值得提前布局。",
+      "tags": [
+        "MDN",
+        "SQLite",
+        "MCP协议"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-06-25T04:03:38.698177",
+      "id": "db84718fb2b8b020065cdfe72a3221c1",
+      "link": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
+      "published": "2026-06-24T23:59:03+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "WebKit始终启用所有应用的复制菜单项",
+      "one_liner": "WebKit 2025年引入的bug导致所有应用“复制”菜单项始终可用，却可能清空剪贴板。",
+      "key_points": [
+        "1. 自2025年初起，任何使用WebKit的Mac应用（如Safari、Mail、NetNewsWire）中，当WebView获得焦点时，“编辑→复制”菜单项始终处于启用状态，即使没有任何选中内容。",
+        "2. 执行无选中内容的复制操作后，剪贴板会被一个无法粘贴的plist数据块覆盖，原有内容丢失（或推入历史记录），且无任何提示音。",
+        "3. WebKit团队在修复一个存在十年的JavaScript `document.execCommand(\"copy\")` 行为bug时，错误地将应用层菜单行为与JS API行为混为一谈，导致该bug被标记为“Won’t Fix”。"
+      ],
+      "detailed_analysis": "这篇文章揭露了一个影响所有Mac用户的WebKit bug：从2025年初开始，所有使用WebKit的应用中，“复制”菜单项在无选中内容时仍可点击，执行后却清空剪贴板并写入无用数据。作者Jeff Johnson发现并报告了该bug，但WebKit团队将其错误关闭，理由是JavaScript的复制API需要始终可用。实际上，这是将底层JS行为与上层菜单状态控制混淆的结果。文章呼吁WebKit团队重新审视这个已提交的详细bug报告，因为其影响面极广，且违背了Mac应用菜单项“不可用时禁用”的长期设计原则。",
+      "key_insight": "这个bug暴露了WebKit团队在API抽象层上的设计缺陷：将JavaScript引擎的权限模型直接暴露给原生UI层，导致应用开发者无法控制菜单状态。这暗示着WebKit在跨平台统一代码时，可能牺牲了macOS原生交互规范，对依赖WebKit的第三方应用开发者而言，意味着需要额外编写补丁来恢复正确的菜单行为。",
+      "why_it_matters": "这个bug发生在2025年初，正值WebKit团队高调鼓励提交bug报告之际，却错误关闭了一个影响所有Mac应用的严重问题。对macOS开发者而言，这意味着你的应用可能正在无声地破坏用户剪贴板数据，而用户会归咎于你的应用而非WebKit。现在正是向WebKit团队施压修复的最佳时机，否则该行为将固化为“特性”。",
+      "tags": [
+        "WebKit",
+        "剪贴板bug",
+        "macOS菜单规范"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-06-25T04:03:47.608949",
+      "id": "7f96b269fa9e2839f0ec4df0e9453eb8",
+      "link": "https://lapcatsoftware.com/articles/2026/6/5.html",
+      "published": "2026-06-24T21:52:43+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Safari 27 Beta 中的 WebKit",
+      "one_liner": "WebKit团队正将重心从堆功能转向修bug、提质量，像一次“雪豹式”的深度打磨。",
+      "key_points": [
+        "Safari 27 beta包含58项全新特性，但修复了525个bug，是近年修复数量最多的版本，表明团队将大量资源投入了质量改进而非功能堆叠。",
+        "官方明确表示“大多数工作不是关于新事物”，而是让已有功能更正确、处理更多边界情况、并与其他功能按预期协同工作，这是对“功能优先”策略的明确转向。",
+        "文章引用WebKit团队呼吁用户测试并提交具体bug报告，强调“问题越具体越有帮助”，暗示团队正在依赖社区反馈来定位长期被忽视的细节问题。"
+      ],
+      "detailed_analysis": "这篇文章其实是在说：WebKit团队终于承认，过去几年他们可能太急着加新功能了，导致积累了大量小毛病。Safari 27 beta的525个修复和58个新特性，比例悬殊，说明他们决定花一整年时间像苹果当年做Snow Leopard那样，优先把地基夯实。他们甚至公开邀请用户去测试那些“一直让你不爽”的地方，并提交具体用例。这不是一次普通更新，而是一次质量优先的战略转向。",
+      "key_insight": "文章没明说但暗示的是：WebKit团队可能感受到了来自Chromium生态的竞争压力——当对手在拼AI、拼新API时，WebKit选择用“更可靠”作为差异化卖点。这对开发者意味着，未来Safari的兼容性问题可能会减少，但新特性推进速度会放缓。如果你被某个WebKit bug困扰多年，现在是最好的反馈窗口。",
+      "why_it_matters": "这件事发生在2026年中，正值AI浏览器和WebGPU等新技术加速落地。WebKit选择此时集中修bug，说明他们判断“稳定”比“新功能”更能留住开发者。对前端工程师和跨平台开发者而言，这意味着未来半年到一年内，Safari的兼容性会显著改善，但新标准支持可能滞后。建议立即测试你的项目在Safari 27 beta上的表现，并提交关键bug。",
+      "tags": [
+        "WebKit",
+        "Safari 27",
+        "质量优先"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-06-25T04:03:55.619137",
+      "id": "c116f75179385e03899a8ed3cee6584b",
+      "link": "https://webkit.org/blog/17967/news-from-wwdc26-webkit-in-safari-27-beta/",
+      "published": "2026-06-24T19:10:27+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "博客可以只是陈述显而易见的事实",
+      "one_liner": "指出显而易见的问题，本身就是有价值的写作。",
+      "key_points": [
+        "1. John Gruber 批评了网站上无处不在的“订阅弹窗”和“Cookie 同意”等用户敌对模式，指出其荒谬性：网页应该直接展示内容，而不是先让用户通过一个障碍才能看到。",
+        "2. 作者引用《皇帝的新衣》的隐喻，说明许多有价值的内容其实只是“说出显而易见的事”，但因为没人说，才显得重要。这种“没人说”的沉默，正是写作的契机。",
+        "3. 作者认为，最好的博客文章往往来自一种“我是不是疯了？难道只有我看到这个问题？”的感觉。当现实中的例子不断堆积，而无人讨论时，就是该写出来的时刻。"
+      ],
+      "detailed_analysis": "这篇文章的核心观点是：博客写作的价值不在于追求新颖或深刻，而在于敢于说出那些“显而易见但没人说”的事实。作者以John Gruber批评网页弹窗为例，指出这种“网页应该显示网页本身”的常识，在现实中却被普遍违背。作者反思自己常觉得写的东西太浅显，但正是这种“皇帝的新衣”式的沉默，让那些敢于指出问题的人变得珍贵。文章鼓励读者：如果你觉得某个问题明显到不值得说，那恰恰说明它值得被说出来——因为别人可能根本没意识到，或者不敢说。",
+      "key_insight": "这篇文章揭示了一个反直觉的写作策略：最有力的内容往往不是“新发现”，而是“旧常识的重新确认”。在信息过载的时代，人们真正需要的不是更多新知识，而是有人替他们说出那些他们早已感知但无法清晰表达的不满或困惑。这种“替读者说出心里话”的能力，比任何深度分析都更能建立信任和共鸣。",
+      "why_it_matters": "当前互联网充斥着用户敌对设计（弹窗、付费墙、Cookie同意），用户早已麻木。但正是这种“普遍接受”的沉默，让敢于指出问题的人获得巨大影响力。对于开发者或产品经理，这意味着：与其追逐新功能，不如先修复那些用户已经抱怨但没人系统批评的“显而易见”的糟糕体验。现在正是“常识回归”的时机。",
+      "tags": [
+        "博客写作",
+        "用户体验",
+        "内容策略"
+      ],
+      "level": "初级",
+      "source": "blog.jim-nielsen.com",
+      "generated_at": "2026-06-25T04:04:03.901694",
+      "id": "41662a0fae8c3198c010f84a52a49e31",
+      "link": "https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/",
+      "published": "2026-06-24T19:00:00+00:00",
+      "author": "blog.jim-nielsen.com"
+    },
+    {
+      "headline": "[赞助] WorkOS：智能体需要认证，现已有规范",
+      "one_liner": "AI代理需要标准化用户注册接口，auth.md正成为行业新规范。",
+      "key_points": [
+        "auth.md是一种托管在域名下的文件，类似robots.txt，专门为AI代理提供用户注册流程、权限范围和凭证发放的标准化说明，解决了代理无法自主完成注册的痛点。",
+        "该规范基于现有OAuth标准组合而成，不重新发明轮子，Cloudflare、Firecrawl和Resend三家知名公司已率先采用，验证了其可行性。",
+        "WorkOS作为赞助商主导了该开放协议的制定，并提供了完整规范文档，暗示其可能通过该标准抢占代理认证市场入口。"
+      ],
+      "detailed_analysis": "AI代理在替用户执行任务时，常卡在注册环节——它不知道如何填表、选权限、拿凭证。WorkOS提出的auth.md就是给代理看的“注册说明书”，放在你的域名根目录，告诉代理支持哪些注册流程、暴露哪些OAuth作用域、如何颁发凭证。Cloudflare等公司已经用上了。这个思路很聪明：不造新协议，而是把现有OAuth标准组合成机器可读的格式，让代理能像人一样完成注册。",
+      "key_insight": "auth.md本质上是WorkOS在AI代理时代的“域名税”策略。通过定义标准文件格式，WorkOS成为代理认证的默认入口，所有采用该规范的代理都会优先调用WorkOS的认证服务。这比直接卖API更聪明——先定标准，再卖服务，类似Cloudflare通过robots.txt控制爬虫流量。",
+      "why_it_matters": "AI代理正从聊天工具进化成自主执行任务的数字员工，但注册环节仍是断点。现在auth.md出现，是因为代理数量即将爆发（2026年预计超10亿），而OAuth等旧标准从未考虑过机器自主注册的场景。对开发者来说，这意味着你的应用如果想让代理直接注册，就得尽快部署auth.md，否则会被代理生态排除在外。",
+      "tags": [
+        "AI代理",
+        "OAuth",
+        "认证标准"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-06-25T04:04:12.020900",
+      "id": "587dce10c043e74292e0abee7c851670",
+      "link": "http://workos.com/auth-md?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q32026",
+      "published": "2026-06-24T18:46:46+00:00",
+      "author": "Daring Fireball Department of Commerce"
+    },
+    {
+      "headline": "引用汤姆·麦克赖特",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<blockquote cite=\"https://macwright.com/2026/06/24/accidental-anonymity.html\"><p>In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-06-25T04:04:22.141777",
+      "id": "b154199e2bd5ef08efb55925d832fc3e",
+      "link": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
+      "published": "2026-06-24T18:13:51+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "加州设计：苹果历史播客",
+      "one_liner": "苹果50年叙事播客众筹成功，揭示品牌文化深度挖掘的新趋势。",
+      "key_points": [
+        "1. Jason Snell与Myke Hurley发起Kickstarter众筹，目标制作50集以上叙事播客，覆盖苹果50年历史，已达成主要资金目标，剩余一周冲刺更多延伸目标。",
+        "2. 该播客获Daring Fireball作者John Gruber背书，他称“若你喜爱The Talk Show或Upgrade播客却不支持此项目，说明你还没正确连接”。",
+        "3. 众筹采用延伸目标机制，超出基础集数后继续解锁新内容，显示社区对深度苹果历史内容的强烈需求与付费意愿。"
+      ],
+      "detailed_analysis": "这篇文章本质是John Gruber对“Designed in California”播客项目的强力推荐。他先点明项目已众筹成功但仍有延伸目标待达成，然后以自身播客与Jason Snell的对话为背书，强调该项目对苹果历史爱好者、特别是现有苹果播客听众的必追价值。核心逻辑是：苹果50年历史是未被充分挖掘的叙事金矿，而Snell与Hurley的组合（前者是前Macworld主编，后者是Relay FM联合创始人）保证了内容深度与制作质量。Gruber的推荐信力在于，他本人就是苹果生态最资深评论者之一，其背书直接降低了读者的决策成本——如果你信任他的品味，就该立即支持。",
+      "key_insight": "文章未明说但隐含的信号是：苹果品牌已从“产品公司”进化为“文化符号”，其历史叙事正成为独立的内容产业。众筹模式的成功证明，核心粉丝愿意为深度、非官方的历史解读付费，这预示苹果周边内容将从新闻评论转向系统性的历史档案建设。对内容创作者而言，这意味着“品牌考古”类项目有明确商业可行性。",
+      "why_it_matters": "苹果成立50周年（2026年）是自然的时间锚点，但更深层原因是：苹果正从创新驱动转向生态维护，历史叙事成为强化品牌认同的关键工具。对开发者与产品经理而言，理解苹果决策背后的历史脉络（如从Mac到iPhone的架构演变）能直接指导当前技术选型与产品策略。现在支持，意味着能第一时间获取这些稀缺的、经过专业梳理的行业洞察。",
+      "tags": [
+        "苹果历史",
+        "播客众筹",
+        "品牌叙事"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-06-25T04:04:31.077644",
+      "id": "1fbe24f26c3435116380dadbc0231132",
+      "link": "https://designed.fm/",
+      "published": "2026-06-24T15:17:18+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "每周更新509",
+      "one_liner": "家庭影院AV领域的水极深，意识到无知才是精进的第一步。",
+      "key_points": [
+        "作者明确将自己定位在“有意识的无能”阶段，即知道自己不知道，这与大多数人的“无意识的无能”形成鲜明对比，后者往往因盲目自信而踩坑。",
+        "文章引用“四阶段能力模型”，指出家庭影院AV是超级专业化领域，一旦深入，复杂度和成本会指数级飙升，暗示入门门槛极高。",
+        "作者透露其房屋扩建项目中包含一套令人震撼的AV方案，但未透露具体细节，表明该领域存在大量非公开的、定制化的高端解决方案。"
+      ],
+      "detailed_analysis": "这篇文章其实是一则预告。作者坦承自己在家庭影院AV领域处于“知道自己不知道”的阶段，这比大多数人的“不知道自己不知道”要清醒得多。他用能力模型点明，这个领域极其专业，表面之下是复杂的技术和昂贵的设备。但他话锋一转，说正在进行的房屋扩建项目里藏着一套让人“惊掉下巴”的AV方案，吊足了胃口。整篇就是告诉你：这行水很深，但我马上要分享点真东西了。",
+      "key_insight": "文章真正的价值不在于内容本身，而在于作者对“认知边界”的坦诚。在技术社区，承认无知往往比炫耀知识更难。这种“有意识的无能”恰恰是深度学习的起点，也暗示了后续内容将聚焦于如何系统性地攻克复杂系统，而非泛泛而谈。",
+      "why_it_matters": "家庭影院AV正经历从“买设备”到“系统集成”的范式转移，4K/8K、杜比全景声、HDMI 2.1等标准让配置复杂度陡增。作者此时切入，预示着他将分享一套可复用的决策框架，帮助工程师在预算、性能和体验之间找到平衡点。对正在规划智能家居的开发者而言，这是避开“交学费”的绝佳窗口。",
+      "tags": [
+        "家庭影院",
+        "认知模型",
+        "系统集成"
+      ],
+      "level": "中级",
+      "source": "troyhunt.com",
+      "generated_at": "2026-06-25T04:04:38.905846",
+      "id": "f02c4afd3d88f9c5dc04581524f7082e",
+      "link": "https://www.troyhunt.com/weekly-update-509/",
+      "published": "2026-06-24T05:17:32+00:00",
+      "author": "Troy Hunt"
+    }
+  ]
+}

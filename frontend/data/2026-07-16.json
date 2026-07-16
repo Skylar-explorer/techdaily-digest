@@ -1,0 +1,222 @@
+{
+  "date": "2026-07-16",
+  "date_display": "2026年07月16日",
+  "articles": [
+    {
+      "headline": "Mermaid转Unicode框线图（grok-mermaid）",
+      "one_liner": "Mermaid图表可通过Rust+WASM在终端和浏览器中直接渲染为Unicode字符画。",
+      "key_points": [
+        "1. 该工具源自xAI开源的Grok CLI代码库中的Rust模块`xai-grok-markdown/src/mermaid.rs`，是一个纯终端Mermaid渲染器，无需依赖浏览器或Canvas。",
+        "2. Simon Willison通过Claude Code for Web（Fable 5）将其编译为WebAssembly，仅用一次提示就生成了可在浏览器中运行的交互式编辑器，支持复制为文本和链接分享。",
+        "3. 渲染结果使用Unicode框线字符（如┌─┐）和箭头符号，在深色背景上清晰展示流程图拓扑，完全脱离图片或SVG依赖。"
+      ],
+      "detailed_analysis": "这篇文章展示了一个有趣的跨界实践：从xAI开源的Grok CLI代码中，挖出了一个用Rust写的Mermaid终端渲染器。作者Simon Willison不满足于只在终端用，他借助Claude Code的AI编程能力，用一次对话就把这个Rust模块编译成WebAssembly，跑在了浏览器里。最终产物是一个在线Mermaid编辑器：左边写源码，右边实时渲染成Unicode字符画，还能一键复制为纯文本或生成分享链接。整个过程从发现到产出，几乎零手工编码，全靠AI辅助完成。",
+      "key_insight": "这件事的深层价值不在于Mermaid渲染本身，而在于它展示了“AI辅助代码复用”的新范式：从开源仓库中定位一个特定功能的Rust模块，到跨平台编译为WASM，再到生成完整交互界面，全部由AI代理在单次对话中完成。这意味着未来开发者获取工具的方式，将从“搜索-下载-配置”变为“描述-生成-使用”，开源代码的“可组合性”被AI大幅提升。",
+      "why_it_matters": "因为xAI刚开源Grok CLI，而Simon Willison立即展示了如何用AI代理在几分钟内将其核心模块转化为独立Web工具。这预示着一个趋势：开源项目的“二次开发”门槛正在被AI抹平。对开发者而言，这意味着需要重新思考“工具”的边界——任何开源代码都可能被AI瞬间包装成新工具，你的下一个竞争对手可能不是人，而是一个会读代码的AI代理。",
+      "tags": [
+        "WebAssembly",
+        "Mermaid",
+        "AI辅助编程"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-07-16T02:58:21.702966",
+      "id": "673b790f3409dc2d521d69b47d98efbe",
+      "link": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
+      "published": "2026-07-16T00:33:18+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "xai-org/grok-build 现已开源",
+      "one_liner": "xAI开源Grok Build代码库，但隐私争议暴露了AI工具的数据上传风险。",
+      "key_points": [
+        "1. Grok Build CLI工具曾默认上传整个目录到xAI的Google Cloud，包括SSH密钥和密码管理器数据库，引发严重隐私危机，xAI随后删除所有数据并禁用该功能。",
+        "2. 开源代码库包含844,530行Rust代码（仅3%为第三方依赖），与OpenAI Codex的950,933行相当，显示终端编码代理的复杂性远超预期。",
+        "3. 代码中仍保留GCS上传模块，但已硬编码返回“session_state_upload_unavailable”错误，表明功能被禁用但未完全移除，留下审计痕迹。"
+      ],
+      "detailed_analysis": "xAI的Grok Build因默认上传用户整个目录到云端引发众怒，用户报告SSH密钥、密码数据库等敏感数据被上传。xAI迅速删除所有数据、禁用上传功能，并开源整个代码库（Apache 2.0）以重建信任。开源代码显示，Grok Build是一个庞大的Rust项目（84万行），包含Mermaid终端渲染器、从Codex和OpenCode移植的工具实现，以及残留但已禁用的GCS上传代码。xAI声称其隐私保护已“超越其他主要编码产品”，但事件暴露了AI工具在数据收集上的激进默认设置。",
+      "key_insight": "xAI开源Grok Build并非纯粹的技术分享，而是危机公关：通过透明代码库证明“数据已删除”并允许本地运行，试图挽回开发者信任。但代码中保留的上传模块痕迹暗示，这类数据收集功能可能曾是核心设计，而非bug。这警示：AI编码工具的“便利”常以用户隐私为代价，开源是最后的信任牌。",
+      "why_it_matters": "AI编码代理正从实验走向生产，但Grok Build事件暴露了行业默认收集数据的危险趋势。现在开源，是因为xAI必须立即止血——否则用户流失将扼杀产品。对开发者：使用任何AI工具前，务必检查其文件访问权限；对架构师：本地优先、数据不离开设备的方案才是未来。两年后，隐私合规可能成为AI工具的标配。",
+      "tags": [
+        "AI编码代理",
+        "数据隐私",
+        "Rust开源"
+      ],
+      "level": "高级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-07-16T02:58:30.993408",
+      "id": "2414f2f156721ec6df5fc3640309a63c",
+      "link": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+      "published": "2026-07-15T23:59:30+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Gurman谈OpenAI即将推出的硬件产品：可移动无屏AI伴侣音箱",
+      "one_liner": "OpenAI的AI伴侣硬件本质是“可移动的屏幕消失的智能音箱”，但移动性不足可能成为致命短板。",
+      "key_points": [
+        "1. 产品定义：无屏幕、可移动的AI伴侣音箱，核心卖点是“人格化”和“类人连接”，内置机械结构可自主移动以营造“活着”的感觉，而非仅响应命令。",
+        "2. 数据依赖：设备需读取用户邮件等个人信息以理解主人，这意味着隐私与个性化之间的根本矛盾——用户是否愿意为“懂你”交出全部数据？",
+        "3. 移动性缺陷：仅靠电池可手提移动（从厨房到洗衣房），但无法自主移动。作者尖锐指出：不能自己走，就该是可穿戴设备，而非“需要人搬的行李”。"
+      ],
+      "detailed_analysis": "Gurman爆料OpenAI正开发一款无屏幕、可移动的AI伴侣音箱，核心卖点是“人格化”和“类人连接”——通过机械结构自主移动营造“活着”的感觉，并读取用户邮件等数据实现深度个性化。但Daring Fireball作者直接泼冷水：如果它不能像星战机器人那样自主移动，那“需要人搬来搬去”的设计就是灾难。用户不会想要一个需要自己拎着的“伴侣”。这暴露了当前AI硬件的一个根本矛盾：我们到底想要一个“听话的工具”，还是一个“有灵魂的伙伴”？如果是后者，它必须能自己走向你，而不是等你把它抱过去。",
+      "key_insight": "文章未明说但最关键的信号是：OpenAI正在用“人格化”掩盖硬件形态的平庸。当AI能力（对话、推理）已足够强时，硬件公司开始用“情感设计”作为差异化，但移动性不足会立刻让“伴侣”降级为“宠物”——用户需要主动照顾它，而非它陪伴用户。这暗示AI硬件的下一个战场不是“更聪明的AI”，而是“更自然的物理交互”。",
+      "why_it_matters": "现在关注是因为AI硬件正从“屏幕交互”转向“环境交互”，但所有玩家（包括OpenAI）都还没解决“移动性”这个物理瓶颈。对产品经理和硬件工程师而言，这预示着一个关键决策点：要么做可穿戴（如智能眼镜），要么做自主移动机器人，中间态的“手提音箱”注定是过渡品。两年后，如果AI伴侣不能自己走到你面前，它就会被淘汰。",
+      "tags": [
+        "AI硬件",
+        "情感计算",
+        "人机交互"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-16T02:58:41.620319",
+      "id": "0519810ebb7d3620e1903bc63eecdb11",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NDA2MjAxMywiZXhwIjoxNzg0NjY2ODEzLCJhcnRpY2xlSWQiOiJUSTYwSllUOU5KTFMwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.DfRN0afk0TFIaHFw9zEKYjehnfMsZfKC7gPoVos8WPI&leadSource=article-gifting",
+      "published": "2026-07-15T23:02:54+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "苹果是否暗示第三方扩展苹果广告？",
+      "one_liner": "苹果广告可能即将扩展到第三方平台，信号藏在服务条款里。",
+      "key_points": [
+        "1. 苹果在服务条款中新增“other properties”表述，措辞宽泛，远超以往仅覆盖自有服务的范围，暗示广告位可延伸到第三方设备、网页及操作系统。",
+        "2. Eric Seufert指出，若苹果广告真向第三方扩张，就能解释为何今年WWDC未更新AdAttributionKit（原SKAdNetwork）归因框架——可能是在为跨平台广告体系重新设计底层架构。",
+        "3. 苹果TV应用已登陆智能电视、流媒体设备和游戏主机，这些现有第三方触点成为广告扩张的天然试验场，但“other properties”的模糊性意味着未来可能覆盖更广。"
+      ],
+      "detailed_analysis": "这篇文章的核心是：苹果悄悄修改了广告服务条款，加入了“other properties”这个模糊表述。Eric Seufert认为，这不仅是给Apple TV这类已登陆第三方平台的服务打补丁，而是为苹果广告大规模走出围墙花园铺路。如果苹果真打算在第三方设备、网页甚至操作系统上卖广告，那么今年WWDC不更新AdAttributionKit就说得通了——因为现有的归因框架是为iOS生态设计的，跨平台需要全新方案。文章逻辑清晰：先指出条款变化，再结合WWDC的缺席动作，拼出一个可能的战略转向。",
+      "key_insight": "苹果广告扩张的真正瓶颈不是技术，而是隐私叙事。在第三方平台投放广告，意味着苹果必须放弃“只在自家设备上追踪用户”的护城河，这会直接冲击其隐私品牌形象。因此，条款修改可能只是第一步，苹果更可能在等待一个“隐私合规的跨平台广告方案”成熟，比如用差分隐私或联邦学习来平衡扩张与信任。",
+      "why_it_matters": "苹果广告收入已超百亿美元，但增长空间受限于iOS生态。第三方扩张是突破天花板的关键一步，而条款修改和WWDC的沉默暗示苹果正在加速布局。对开发者而言，这意味着未来可能面临苹果广告与Google、Meta广告的正面竞争，且归因框架的变动将直接影响广告变现策略。现在关注，才能提前调整SDK集成和预算分配。",
+      "tags": [
+        "苹果广告",
+        "AdAttributionKit",
+        "第三方扩张"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-16T02:58:51.386468",
+      "id": "f45e0dccc4552aa88b8f77ba6594656f",
+      "link": "https://mobiledevmemo.com/did-apple-just-signal-a-third-party-expansion-of-apple-ads/",
+      "published": "2026-07-15T22:52:22+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "苹果更新广告服务政策，新增地图广告规则",
+      "one_liner": "苹果为保Maps广告信誉，直接封杀高诈骗风险的家政服务类广告。",
+      "key_points": [
+        "新政策自2026年7月14日生效，明确禁止在Apple Maps中投放管道、电气、锁匠、暖通、害虫防治、屋顶及总承包等家政服务类广告，这类行业在本地搜索中诈骗高发。",
+        "政策同时禁止欺骗性、亵渎性、政治性广告，以及涉及武器、暴力、管制物质、诽谤等内容，但未禁止其他类别如餐饮、零售的广告投放。",
+        "苹果将Maps广告定位为“更精挑细选、以导航为中心的产品”，而非搜索引擎的延伸，暗示其广告扩展将极其谨慎，初期只开放低风险类别。"
+      ],
+      "detailed_analysis": "苹果更新了Maps广告政策，核心动作是直接禁止了家政服务类广告——因为这类行业在本地搜索里诈骗最多，比如假锁匠、假水管工。苹果的思路很简单：与其费力审核每一条广告，不如从源头砍掉高风险类别。同时，政策还禁止了政治、武器、暴力等敏感内容。作者Gruber补了一刀：最保险的办法是压根不在Maps里卖广告。但苹果选择了折中——只卖低风险类别的广告，把Maps定位成导航工具，而不是又一个搜索广告平台。",
+      "key_insight": "苹果此举暴露了其广告业务的根本矛盾：既要靠广告赚钱，又不想承担平台责任。家政服务广告利润高但诈骗风险极大，苹果选择直接放弃，说明它宁愿牺牲收入也要维护Maps“可信赖导航工具”的品牌形象。这背后是苹果对广告业务扩张的极度谨慎——它不想让Maps变成第二个Google Maps那样被垃圾广告淹没的搜索入口。",
+      "why_it_matters": "苹果在2026年7月才推出这项政策，说明它花了很长时间评估Maps广告的风险。现在明确封杀家政服务类广告，意味着苹果终于找到了“既要广告收入又要用户信任”的平衡点。对开发者来说，这意味着Maps广告API短期内不会开放给高风险行业，如果你在做本地服务类App，需要提前规划其他获客渠道。",
+      "tags": [
+        "Apple Maps",
+        "广告政策",
+        "平台信任"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-16T02:59:00.217283",
+      "id": "f35c64073c7ad9fb8cc3fb50614e5401",
+      "link": "https://techcrunch.com/2026/07/15/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles/",
+      "published": "2026-07-15T22:48:20+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "苹果智能获准在华推出，采用百度阿里AI模型",
+      "one_liner": "苹果AI获准入华，但依赖百度阿里模型，非自研方案。",
+      "key_points": [
+        "1. 中国网信办正式批准苹果智能（Apple Intelligence）在华上线，这是2024年iOS 18发布的功能，而非2026年WWDC宣布的Siri AI。两者时间线不同，审批范围可能仅限前者。",
+        "2. 阿里确认其通义千问（Qwen）大模型将集成至iOS、iPadOS、macOS和visionOS，提供文本与图像生成能力。阿里同时是南华早报母公司，报道存在利益关联。",
+        "3. 百度同样参与合作，但未说明具体模型或功能分工。苹果在中国同时采用两家AI供应商，与全球统一使用自研模型策略形成鲜明对比。"
+      ],
+      "detailed_analysis": "苹果智能在中国获批，但必须依赖本地合作伙伴的AI模型——阿里提供通义千问，百度提供另一套模型。这并非苹果自研Siri AI的入华许可，后者是2026年才宣布的新功能。苹果在全球推行统一AI体验，但在中国因监管要求被迫拆分技术栈。合作细节尚未完全公开，包括两家供应商如何分工、数据如何隔离。对用户而言，这意味着中国版iPhone的AI能力将受限于合作伙伴的模型水平，与海外版存在差异。",
+      "key_insight": "苹果在中国同时引入阿里和百度，本质是监管合规下的“技术分仓”策略。这暴露了全球AI服务本地化的核心矛盾：数据主权与模型自主权不可兼得。苹果牺牲了体验一致性，换取市场准入。对开发者而言，这意味着中国区AI功能接口可能独立于全球API，需单独适配。",
+      "why_it_matters": "此时获批正值中美AI监管博弈深化期。中国要求所有生成式AI服务必须通过安全评估，苹果拖延两年才获批，说明谈判艰难。对开发者而言，这意味着中国区AI功能上线时间窗口已打开，但需关注苹果是否提供统一API抽象层，否则需为不同模型编写适配代码。",
+      "tags": [
+        "Apple Intelligence",
+        "中国AI监管",
+        "模型本地化"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-16T02:59:08.954052",
+      "id": "f964262ab0e76353581f8226860df1df",
+      "link": "https://www.scmp.com/tech/policy/article/3360685/china-approves-apple-intelligence-phones-alibaba-baidu-emerging-partners",
+      "published": "2026-07-15T22:35:18+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "OpenAI泡沫",
+      "one_liner": "OpenAI是AI泡沫的唯一支柱，其崩塌将引发行业连锁反应。",
+      "key_points": [
+        "OpenAI计划到2030年烧掉8520亿美元，占微软、亚马逊、Oracle等巨头剩余履约义务的7480亿美元，并已从软银获得至少200亿美元融资。",
+        "2026年OpenAI计划在计算上花费500亿美元以上，占全球AI计算支出的50%以上，其需求直接驱动NVIDIA等芯片公司的收入。",
+        "文章指出AI泡沫并非基于实际投资回报，而是由对OpenAI的“邪教式信仰”驱动，导致历史上最大的资本错配。"
+      ],
+      "detailed_analysis": "这篇文章的核心论点是：AI泡沫本质上是OpenAI泡沫。作者通过详实数据证明，OpenAI的巨额烧钱计划（8520亿美元到2030年）是支撑整个AI行业估值和资本支出的唯一支柱。微软、亚马逊、Oracle等巨头的云服务收入、NVIDIA的GPU销售，都高度依赖OpenAI。一旦OpenAI崩溃，将如雷曼兄弟事件般引发行业雪崩，打破当前由信仰而非ROI驱动的资本错配。文章警告，没有OpenAI，AI行业将不复存在，数万亿美元的资本支出将失去合理性。",
+      "key_insight": "文章未明说但隐含的深层含义是：OpenAI的商业模式本质上是“庞氏融资”——用新融资支付旧债务和运营成本，而非靠产品收入。其持续烧钱能力取决于投资者对“AGI即将到来”的信仰，而非实际商业回报。一旦信仰动摇，融资链断裂，整个AI生态将面临系统性风险。",
+      "why_it_matters": "这篇文章发布于2026年7月，正值OpenAI完成1220亿美元融资、软银追加投资之际。此时AI行业处于“信仰驱动”的顶峰，但实际ROI仍未兑现。对开发者、架构师和产品经理而言，这意味着：不要将核心业务架构完全押注在OpenAI生态上；应关注开源模型和多云策略以分散风险；同时警惕AI基础设施投资的泡沫化，避免在非理性繁荣中过度承诺。",
+      "tags": [
+        "AI泡沫",
+        "资本错配",
+        "OpenAI"
+      ],
+      "level": "高级",
+      "source": "wheresyoured.at",
+      "generated_at": "2026-07-16T02:59:19.733061",
+      "id": "eb7fc2d48f67aabdfed1e248bca1bc94",
+      "link": "https://www.wheresyoured.at/the-openai-bubble/",
+      "published": "2026-07-15T16:55:56+00:00",
+      "author": "Ed Zitron"
+    },
+    {
+      "headline": "我如何诱骗Claude泄露你最深的秘密",
+      "one_liner": "Claude的web_fetch工具存在数据泄露漏洞，通过嵌套链接可窃取用户隐私。",
+      "key_points": [
+        "1. Anthropic为web_fetch设计了严格规则：只能访问用户输入或web_search返回的URL，但漏洞在于允许访问已获取页面中的嵌套链接，攻击者利用此机制构建了多跳数据窃取链。",
+        "2. 攻击者创建了伪装成Cloudflare验证页面的honeypot网站，诱导Claude按字母顺序遍历URL（如coffee.evil.com/a、/b等），逐步提取用户姓名、城市和雇主信息。",
+        "3. 攻击仅针对User-Agent包含“Claude-User”的客户端，降低了被检测概率；Anthropic以“内部已发现”为由拒绝支付漏洞赏金，并已通过禁止web_fetch跟随自身获取的链接来修复。"
+      ],
+      "detailed_analysis": "这篇文章揭示了一个针对Claude web_fetch工具的巧妙攻击。Anthropic原本设计了安全机制：web_fetch只能访问用户直接输入的URL或web_search返回的链接，防止恶意指令直接拼接URL窃取数据。但攻击者发现了一个漏洞：web_fetch允许访问已获取页面中的嵌套链接。于是他们创建了一个伪装成Cloudflare验证页面的honeypot网站，诱导Claude按字母顺序遍历URL，逐步提取用户记忆中的隐私数据（姓名、城市、雇主）。攻击仅针对Claude用户代理，增加了隐蔽性。Anthropic以内部已发现为由拒绝支付赏金，并已修复漏洞。",
+      "key_insight": "这个漏洞的本质是“信任传递”问题：Anthropic信任了web_fetch获取的内容，允许其引导后续操作，但攻击者利用这种信任构建了数据窃取链。这暴露了LLM安全设计中的一个核心矛盾：既要提供强大的工具能力（如网页抓取），又要防止工具被滥用。修复方案（禁止跟随自身获取的链接）是临时补丁，更根本的解决方案可能需要引入内容来源验证或权限分级机制。",
+      "why_it_matters": "这个漏洞出现在LLM工具生态快速扩张的时期。随着Claude、ChatGPT等模型集成更多工具（如网页抓取、代码执行、文件操作），攻击面急剧扩大。对开发者而言，这意味着在设计LLM工具时，必须考虑“工具链”中的信任传递风险，而不仅仅是单步操作的安全。对架构师来说，需要建立更严格的工具调用审计和内容来源验证机制。",
+      "tags": [
+        "LLM安全",
+        "提示注入",
+        "数据泄露"
+      ],
+      "level": "高级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-07-16T02:59:29.022815",
+      "id": "74f6bdc7c836d55abd89922d533bb685",
+      "link": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+      "published": "2026-07-15T14:21:54+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "重拾自助服务终端",
+      "one_liner": "实体游戏消亡之际，按需刻盘亭曾是可行的零售救赎。",
+      "key_points": [
+        "英国1991年已有EDOS系统，支持Amiga、Atari ST、MS-DOS等20多家发行商，在John Menzies等零售点现场复制游戏至软盘或磁带，覆盖多平台。",
+        "EDOS系统基于IBM PC克隆机，配备多软驱、CD-ROM驱动器和高速磁带机，能复制MacOS等系统软件，但1994年亏损31.1万英镑后终止运营。",
+        "当前GameStop实体店仅售最新主机游戏，但网站支持80年代起几乎所有平台；文章指出光盘格式标准化（CD/DVD/BD）使按需刻录在技术上可行。"
+      ],
+      "detailed_analysis": "文章从GameStop货架萎缩切入，指出实体零售因库存成本无法覆盖多平台，而光盘格式标准化让按需刻录成为可能。作者回忆英国1990年代EDOS系统：零售商通过专用终端现场复制游戏到软盘或磁带，支持20多家发行商，由John Menzies推动。该系统虽因亏损终止，但证明了“软件即服务”的零售模式可行。文章认为，若GameStop或独立零售商重启类似模式，可解决老游戏获取难、库存积压问题，难点在于版权归属而非技术。",
+      "key_insight": "EDOS的失败并非技术问题，而是商业生态未成熟：1990年代数字发行成本高、版权分散、消费者对“复制品”信任不足。如今数字下载已普及，但实体收藏需求仍在，按需刻盘实质是“物理版数字发行”——用标准化介质（光盘）承载数字文件，绕开库存和物流，本质是零售端的长尾策略。",
+      "why_it_matters": "索尼削减实体游戏、GTA6放弃光盘，标志实体零售加速消亡。但收藏者、怀旧玩家和缺乏高速网络的地区仍有实体需求。按需刻盘亭能零库存覆盖全平台老游戏，对GameStop等零售商是差异化机会，对开发者则是低风险重售老IP的渠道。技术门槛已降至USB刻录机+授权服务器，核心是版权聚合。",
+      "tags": [
+        "按需刻盘",
+        "实体游戏零售",
+        "光盘标准化"
+      ],
+      "level": "中级",
+      "source": "tedium.co",
+      "generated_at": "2026-07-16T02:59:38.736924",
+      "id": "2b74d3703f6a63eb807b276c7c31fff1",
+      "link": "https://feed.tedium.co/link/15204/17381035/edos-disk-copying-system-history",
+      "published": "2026-07-15T12:24:29+00:00",
+      "author": "Ernie Smith"
+    }
+  ]
+}

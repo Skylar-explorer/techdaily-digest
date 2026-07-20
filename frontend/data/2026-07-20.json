@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-20",
+  "date_display": "2026年07月20日",
+  "articles": [
+    {
+      "headline": "论文",
+      "one_liner": "设计即代码：Paper将设计工具直接输出为可部署的HTML/CSS，消除设计与开发间的翻译损耗。",
+      "key_points": [
+        "Paper的核心机制是“每一层都是真实的HTML和CSS”，这意味着设计师在Paper中完成的每个元素，开发人员可直接复用为生产代码，无需二次重构或手动转换。",
+        "支持双向工作流：既可以从设计生成代码，也能从代码反向生成可编辑的设计层。通过Paper Snapshot功能，可将已上线的网站捕获为可编辑图层，实现迭代。",
+        "集成AI代理：通过MCP（模型上下文协议）连接任意AI代理，代理可直接读取和编辑设计文件，将重复性工作自动化，让设计师聚焦于决策与创意。"
+      ],
+      "detailed_analysis": "这篇文章本质上在介绍一个颠覆传统设计-开发协作模式的新工具。过去，设计师用Sketch或Figma产出设计稿，开发人员再手动翻译成代码，这个“翻译”过程是效率瓶颈和错误来源。Paper的做法是让设计工具直接生成真实可用的HTML/CSS，设计即代码。它还支持反向操作：抓取线上网站作为可编辑图层，以及通过MCP协议接入AI代理自动处理繁琐任务。这相当于把设计工具变成了一个双向编译器和自动化平台，目标是减少交接、翻译和抽象层，让设计到交付的路径最短。",
+      "key_insight": "Paper的深层信号是：设计工具正在从“视觉稿编辑器”进化为“前端代码生成器+协作平台”。它瞄准的不是替代Figma，而是吃掉Figma与代码仓库之间的那层“翻译成本”。当AI代理能直接读写设计文件时，设计师的角色将从“画图者”转向“决策者与策展人”——这预示着前端开发的门槛将进一步降低，但设计决策的权重反而更高。",
+      "why_it_matters": "因为AI代理（如Claude、GPT）已能理解HTML/CSS，但过去它们无法直接操作设计文件。Paper通过MCP协议让AI代理直接读写设计层，等于给AI装上了“设计手柄”。对开发者而言，这意味着设计稿可以自动生成可维护的代码；对产品经理，意味着原型到上线的周期可能从周级压缩到天级。现在关注，是因为工具生态正在从“人-人协作”转向“人-AI-工具”三角协作，Paper是这一转向在设计领域的早期落地。",
+      "tags": [
+        "设计工程化",
+        "MCP协议",
+        "AI辅助设计"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-20T03:37:37.222697",
+      "id": "bb20e46ce6ce218d40453e6bac335313",
+      "link": "https://paper.design/?utm_source=df",
+      "published": "2026-07-19T22:31:11+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "9to5Mac发现巴西App Store数十款伪装赌博应用",
+      "one_liner": "伪装成天气导航应用的赌博App，竟能登顶巴西App Store榜首。",
+      "key_points": [
+        "9to5Mac发现超过60款“夹克应用”，在巴西IP下自动切换为赌博平台，其余地区显示为普通游戏或工具。",
+        "其中“PotatoPlot Puzzle”是一款兔子土豆农夫游戏，却位列巴西“天气”类别第一，图标为AI生成动物。",
+        "作者指出苹果应成立“反欺诈小队”，目标不是消灭所有骗局，而是确保最流行、最赚钱的应用不被诈骗占据。"
+      ],
+      "detailed_analysis": "文章揭露了App Store巴西区的一起系统性欺诈：开发者将赌博应用伪装成导航、旅行、天气等类别中的低质游戏，利用AI生成图标和截图通过审核。当用户从巴西IP打开时，应用会显示在线赌场。最讽刺的是，一款名为“PotatoPlot Puzzle”的游戏竟成为巴西最受欢迎的“天气应用”。作者认为，苹果不可能杜绝所有伪装，但至少应监控排名靠前的应用——让这种明显荒谬的骗局登顶，说明审核机制存在严重漏洞。",
+      "key_insight": "苹果的App Review本质是“合规检查”而非“安全审计”，它依赖静态规则和人工抽检，无法应对动态行为切换（如IP触发）。这暴露了平台治理的深层矛盾：苹果既想维持“安全花园”形象，又缺乏投入实时行为监控的意愿。对开发者而言，这意味着“上架后行为”才是真正的风险战场。",
+      "why_it_matters": "巴西是新兴市场增长最快的App Store之一，用户基数大、监管相对宽松，成为欺诈试验田。此事发生在AI生成内容成本极低的当下，意味着未来伪装应用将更逼真、更难识别。对产品经理和架构师而言，必须将“运行时行为监控”纳入安全设计，而非仅依赖上架审核。",
+      "tags": [
+        "App Store审核",
+        "欺诈应用",
+        "地理伪装"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-20T03:37:47.273919",
+      "id": "9314fbf5747c5df115bfe9d166fe9d10",
+      "link": "https://9to5mac.com/2026/07/17/investigation-reveals-dozens-of-disguised-gambling-apps-on-the-app-store-in-brazil/",
+      "published": "2026-07-19T17:18:57+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "AI狂热正在摧毁全球决策",
+      "one_liner": "AI狂热正让企业决策脱离实际，沦为表演性战略。",
+      "key_points": [
+        "1. 一位高管从未使用过ChatGPT，却为营收超20亿美元的公司制定了完全围绕AI的技术战略，暴露了高层决策与真实技术认知的严重脱节。",
+        "2. 某公司设立“Token排行榜”激励AI使用，工程师被迫让AI将Go仓库重写为Zig以保住工作，说明KPI驱动下AI被滥用为职场生存工具。",
+        "3. 供应商高管不敢质疑客户提出的100倍效率提升，因为诚实会得罪客户高管、导致合同取消，形成“集体说谎”的囚徒困境。"
+      ],
+      "detailed_analysis": "这篇文章揭露了AI狂热如何扭曲企业决策。作者通过多个匿名案例，展示了一个荒诞循环：高管为迎合市场炒作，制定脱离实际的AI战略；中层为保住职位，用AI做无意义的重写；供应商为维护客户关系，不敢戳破100倍效率提升的谎言。最终，没有人真正关心AI能否解决问题，所有人都在表演“我们在用AI”。这种系统性虚伪正在侵蚀全球企业的决策质量。",
+      "key_insight": "AI炒作已从“技术泡沫”演变为“社交泡沫”——决策者并非无知，而是理性地选择说谎。因为诚实会破坏客户关系、威胁个人职位，而附和谎言能维持合同和晋升。这种博弈结构比技术缺陷更难破解，它意味着企业AI战略的“理性”程度，取决于组织内谁说真话的代价有多高。",
+      "why_it_matters": "当前AI投资处于历史高位，但企业落地效果普遍不及预期。这篇文章揭示了根本原因：决策层与执行层的信息断裂。对开发者而言，这意味着需要主动建立“反炒作”沟通机制，用可验证的指标（如实际吞吐量、错误率）替代“Token消耗量”等虚荣指标。对架构师，这意味着要警惕“为AI而AI”的架构设计，回归业务价值判断。",
+      "tags": [
+        "AI炒作",
+        "企业决策",
+        "囚徒困境"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-07-20T03:37:57.082619",
+      "id": "44d772e48fc7a2a0c203a7c7f5b5e3d7",
+      "link": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+      "published": "2026-07-19T05:06:21+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Claude Code现使用Rust编写的Bun",
+      "one_liner": "Claude Code已内置Rust版Bun，启动提速10%，用户无感。",
+      "key_points": [
+        "1. Claude Code v2.1.181（6月17日发布）开始使用Rust重写的Bun，Linux启动速度提升10%，但用户几乎察觉不到变化，符合“无聊即好”的工程哲学。",
+        "2. 通过strings命令在Claude Code二进制中提取到563个.rs源文件路径，包括bundle_v2.rs等核心模块，证实Rust版Bun已嵌入生产环境。",
+        "3. 内置Bun版本号为v1.4.0，高于GitHub最新发布版v1.3.14，说明Claude Code使用了尚未正式发布的Canary版本，且该版本号自5月17日提交后未再变更。"
+      ],
+      "detailed_analysis": "这篇文章通过逆向工程手法，验证了Jarred Sumner关于Claude Code已采用Rust版Bun的声明。作者先用strings命令从二进制中提取Bun版本号，发现v1.4.0比公开版本更新，说明Anthropic在同步追踪Bun的Canary构建。接着通过搜索.rs文件路径，找到563个Rust源文件引用，确凿证明Rust版Bun已嵌入Claude Code。最后用一个巧妙的TypeScript脚本，通过Bun.version直接输出内置版本号，进一步确认。整个过程展示了如何用简单的命令行工具验证软件供应链变更。",
+      "key_insight": "这件事的深层信号是：大型AI产品正在将JavaScript运行时基础设施从Node.js迁移到Rust生态。Claude Code选择Bun而非Deno，且直接嵌入Canary版本，说明Anthropic与Oven团队有深度合作。对开发者而言，这意味着未来AI工具链的底层性能优化将更多依赖Rust而非JS引擎调优。",
+      "why_it_matters": "AI编码助手正从“调用API”转向“本地执行代码”，运行时性能成为关键瓶颈。Bun的Rust重写恰好在Claude Code需要更快的启动速度和更低的资源占用时成熟。对架构师而言，这意味着评估AI工具时，底层运行时（Node vs Bun vs Deno）将成为新的选型维度，直接影响CI/CD流水线和本地开发体验。",
+      "tags": [
+        "Claude Code",
+        "Bun",
+        "Rust重写"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-07-20T03:38:06.180886",
+      "id": "2c8078d9a85e87e08c581a30a80e66fc",
+      "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+      "published": "2026-07-19T03:54:09+00:00",
+      "author": "simonwillison.net"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "date": "2026-07-25",
+  "date_display": "2026年07月25日",
+  "articles": [
+    {
+      "headline": "Quoting Boris Cherny",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<blockquote cite=\"https://twitter.com/bcherny/status/2080713091688583312\"><p>More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-07-25T03:16:52.811417",
+      "id": "d1edc7f3d00c2ca1dd48d155ecf38eb9",
+      "link": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+      "published": "2026-07-25T00:42:59+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Introducing Claude Opus 5",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong><a href=\"https://www.anthropic.com/news/claude-opus-5\">Introducing Claude Opus 5</a></strong></p>\nI've been offline <a href=\"https://en.wikipedia.org/wiki/Elkhorn_Slough\">kayaking with sea otters</a> for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 th 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-07-25T03:16:53.762247",
+      "id": "8e564905e76280922579c3062c7c38a2",
+      "link": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+      "published": "2026-07-24T23:48:50+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "★ Regarding Ad Blockers and Daring Fireball",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Following up on the previous item today, re: <a href=\"https://daringfireball.net/linked/2026/07/24/coiner-of-enshittification-endorses-dickover\">content blockers and ad-blocking</a>, I ran into a weird situation a few weeks ago with my column “<a href=\"https://daringfireball.net/2026/07/ternus_ap 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-25T03:16:54.726905",
+      "id": "adbe99df9365e3dc5d98a81018dff9ab",
+      "link": "https://daringfireball.net/2026/07/regarding_ad_blockers_and_daring_fireball",
+      "published": "2026-07-24T20:57:20+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Podcast Notes: Ed Catmull on David Senra",
+      "one_liner": "来自blog.jim-nielsen.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了blog的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Ed Catmull, co-founder of Pixar and former president of Disney Animation, was on <a href=\"https://www.davidsenra.com/episode/ed-catmull\">the David Senra podcast</a> and I quite enjoyed the interview.</p>\n<p>(If you like the interview, you should read <a href=\"https://www.penguinrandomhouse.com/bo 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解blog讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "blog"
+      ],
+      "level": "中级",
+      "source": "blog.jim-nielsen.com",
+      "generated_at": "2026-07-25T03:16:55.701055",
+      "id": "eab776a2df6f5f8b30e75348392e4edb",
+      "link": "https://blog.jim-nielsen.com/2026/podcast-notes-ed-catmull/",
+      "published": "2026-07-24T19:00:00+00:00",
+      "author": "blog.jim-nielsen.com"
+    },
+    {
+      "headline": "Coiner of ‘Enshittification’ Endorses ‘Dickover’",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><a href=\"https://daringfireball.net/linked/2026/07/24/dickover-of-the-week-tomtoc\">Speaking of dickovers</a>, here’s Cory Doctorow, writing this week at Pluralistic:</p>\n\n<blockquote>\n  <p>Seizing the means of computation isn’t theft, it’s <em>bargaining</em>.\nCommercial surveillance companies wi 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-25T03:16:56.726094",
+      "id": "ab2b4066ac792684379178957802db53",
+      "link": "https://pluralistic.net/2026/07/21/dickovers/",
+      "published": "2026-07-24T18:51:29+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "This Week on The Analog Antiquarian",
+      "one_liner": "来自filfre.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了filfre的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<blockquote class=\"wp-embedded-content\"><p><a href=\"https://analog-antiquarian.net/2026/07/24/opus-5-richard-iii/\">Opus 5: Richard III</a></p></blockquote>\n<p></p> 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解filfre讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "filfre"
+      ],
+      "level": "中级",
+      "source": "filfre.net",
+      "generated_at": "2026-07-25T03:16:57.704441",
+      "id": "557533b90ab99d68a27d4f108698a092",
+      "link": "https://www.filfre.net/2026/07/this-week-on-the-analog-antiquarian/",
+      "published": "2026-07-24T17:00:04+00:00",
+      "author": "Jimmy Maher"
+    },
+    {
+      "headline": "Premium: The Hater’s Guide To Oracle (Part 2)",
+      "one_liner": "来自wheresyoured.at的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了wheresyoured的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong><em>Good morning premium subscribers! As ever, please ping me at ez@betteroffline.com if you have any questions.</em></strong></p><hr /><p>Oracle has one of the strongest mythologies in the tech industry. Ask a regular person and they&#x2019;ll tell you that it&#x2019;s &#x201c;incredibly 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解wheresyoured讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "wheresyoured"
+      ],
+      "level": "中级",
+      "source": "wheresyoured.at",
+      "generated_at": "2026-07-25T03:16:58.704186",
+      "id": "a4a7630c1eaec4ec1d0412d0da8aa966",
+      "link": "https://www.wheresyoured.at/premium-the-haters-guide-to-oracle-part-2/",
+      "published": "2026-07-24T16:56:52+00:00",
+      "author": "Ed Zitron"
+    },
+    {
+      "headline": "Dickover of the Week: Tomtoc",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Here’s a real gem that a reader sent me. <a href=\"https://www.tomtoc.com/\">Tomtoc</a> is a maker of laptop bags and sleeves. Visit their homepage and, of course, you’ll get a dickover asking you to join their mailing list “for exclusive updates and get a chance to win a free tech pouch every mont 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-25T03:16:59.681705",
+      "id": "fd1b5320312e0c3bd51c59898bb120a0",
+      "link": "https://daringfireball.net/2026/05/what_is_a_dickover",
+      "published": "2026-07-24T16:43:43+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Sixers Sign LeBron James",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>The betting odds for the Sixers to win the NBA championship went from 20-1 to 10-1. <a href=\"https://x.com/KingJames/status/2080677086386430018\">Here’s James on Twitter/X</a>, explaining his decision:</p>\n\n<blockquote>\n  <p>This is my last decision. I’m not going for money. I’m not going\nfor fami 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-25T03:17:00.659635",
+      "id": "8d6cae719cb138995f9751f807f9d627",
+      "link": "https://www.inquirer.com/sixers/live/lebron-james-signs-philadelphia-76ers-contract-salary-roster-updates-reaction-20260724.html",
+      "published": "2026-07-24T16:40:00+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "The Talk Show: ‘A Scam Held Together With Patriotism and Golden Paint’",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Quinn Nelson returns to the show to discuss OpenAI’s ChatGPT/Codex “native” app migration fiasco, Siri AI in Apple’s OS 27 betas, MacOS 27 Golden Gate, and the hottest new cell phone of the year, the Trump T1.</p>\n\n<p><audio controls=\"controls\" preload=\"none\" src=\"https://traffic.libsyn.com/secur 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-25T03:17:01.660499",
+      "id": "1334749ac7ae1bb1e43de84a0789de08",
+      "link": "https://daringfireball.net/thetalkshow/2026/07/23/ep-452",
+      "published": "2026-07-24T15:44:11+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Pluralistic: AI solipsists and AI cynics (24 Jul 2026)",
+      "one_liner": "来自pluralistic.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了pluralistic的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><!--\nTags:\ncynicism, bubblenomics, finance, ai, ai bubble, billionaires, billionaireism\n\nSummary:\nAI solipsists and AI cynics; Hey look at this; Upcoming appearances; Recent appearances; Latest books; Upcoming books\n\nURL:\nhttps://pluralistic.net/2026/07/24/supplemental-income/\n\nTitle:\nPluralistic 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解pluralistic讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "pluralistic"
+      ],
+      "level": "中级",
+      "source": "pluralistic.net",
+      "generated_at": "2026-07-25T03:17:02.661151",
+      "id": "9c9dca6ef324aaaab0b4da574741e6c8",
+      "link": "https://pluralistic.net/2026/07/24/supplemental-income/",
+      "published": "2026-07-24T10:21:03+00:00",
+      "author": "Cory Doctorow"
+    },
+    {
+      "headline": "Have you read it?",
+      "one_liner": "来自idiallo.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了idiallo的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>I think I finally figured it out. That is, the reason why AI written articles suck:</p>\n<blockquote>\n<p>Both the author and I are reading the article for the first time.</p>\n</blockquote>\n<p>When an article is insightful I don't even mind the emdashes or that the stark truth is not X, but Y. A go 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解idiallo讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "idiallo"
+      ],
+      "level": "中级",
+      "source": "idiallo.com",
+      "generated_at": "2026-07-25T03:17:03.762461",
+      "id": "1c1cb99768f9ad456cc4ec452b324439",
+      "link": "https://idiallo.com/byte-size/have-you-read-your-own-article",
+      "published": "2026-07-24T08:06:22+00:00",
+      "author": "rss@idiallo.com"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "date": "2026-07-26",
+  "date_display": "2026年07月26日",
+  "articles": [
+    {
+      "headline": "Ruff v0.16.0",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong><a href=\"https://astral.sh/blog/ruff-v0.16.0\">Ruff v0.16.0</a></strong></p>\nAstral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my unpin 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-07-26T03:28:44.168372",
+      "id": "90bf6c61272926bfadf0a6bd0a4ad5ed",
+      "link": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
+      "published": "2026-07-25T22:44:05+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "‘AI Mania Is Eviscerating Global Decision-Making’",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Fascinating essay by Nikhil Suresh:</p>\n\n<blockquote>\n  <p>On a trip overseas, I had the privilege of a meeting with one of\nthe Fortune 500 executives mentioned at the beginning of the post,\nwho will remain anonymous so that they are not executed by firing\nsquad by their board. As we were chattin 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-26T03:28:45.102346",
+      "id": "bc68f656b59f4bf135a29d31a7b63319",
+      "link": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/",
+      "published": "2026-07-25T18:15:12+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "EU Fines Google $1 Billion for DMA Competition Violations, Including Making Search Results More Useful",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>The European Commission on Thursday:</p>\n\n<blockquote>\n  <p>The Commission found that Google gives preferential treatment to\nits own services, including shopping, hotels, transport and sports\nresults, over those of third parties in Google Search, thereby\nbreaching its obligations under the DMA.</ 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-26T03:28:45.961197",
+      "id": "be66ad64ec4c1357ad2a20bdd742ae22",
+      "link": "https://digital-markets-act.ec.europa.eu/commission-fines-google-eur890-million-breaches-digital-markets-act-2026-07-23_en",
+      "published": "2026-07-25T17:44:13+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Court Grants SerpApi’s Motion to Dismiss Google Lawsuit",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Julien Khaleghy, CEO of SerpApi:</p>\n\n<blockquote>\n  <p>The U.S. District Court for the Northern District of California\ngranted our motion to dismiss Google’s lawsuit, marking a win not\njust for SerpApi, but for all who depend on an open internet.\nWe’re pleased that the court rejected Google’s at 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-26T03:28:46.881006",
+      "id": "dab71e8e7e5a0cb2375923c4e8a9ce22",
+      "link": "https://serpapi.com/blog/google-v-serpapi-the-court-granted-our-motion-to-dismiss/",
+      "published": "2026-07-25T17:27:19+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Apple Maps to Power Navigation Experience for Ford’s New EVs",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Apple Newsroom:</p>\n\n<blockquote>\n  <p>Apple and Ford today announced that Apple Maps will be integrated\ndirectly into Ford’s upcoming Universal Electric Vehicle (UEV)\nPlatform through Apple’s new MapKit for Automotive SDK. Coming to\nFord’s UEV Platform in 2027, this integration will deliver a\nbe 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-26T03:28:47.738316",
+      "id": "25bd6d2166c355a8819e9cd99583dfb8",
+      "link": "https://www.apple.com/newsroom/2026/07/apple-maps-to-power-navigation-experience-for-ford-uev-platform/",
+      "published": "2026-07-25T16:21:00+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Measles Cases Hit New Record in U.S., as Stupid-Americans Reject Vaccines",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Teddy Rosenbluth, reporting for The New York Times:</p>\n\n<blockquote>\n  <p>On Friday, the Centers for Disease Control and Prevention\nannounced that there have been 2,318 confirmed cases of measles so\nfar this year. The case count toppled the record <a href=\"https://www.nytimes.com/2025/07/09/well 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-26T03:28:48.671768",
+      "id": "673440be7a121387fd32bb75f13c6be8",
+      "link": "https://www.nytimes.com/2026/07/24/well/measles-record-united-states-numbers.html?unlocked_article_code=1.0VA.4jBf.vqAYN4Bwu807",
+      "published": "2026-07-25T16:06:52+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "bIRC — A New Native IRC Client for Mac",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>For a long time the best native Mac IRC client was <a href=\"https://www.codeux.com/textual/\">Textual</a>, but although Textual still works, <a href=\"https://help.codeux.com/textual/\">it’s been sunset</a> by the author. Not to fear, however. Fredrik Blank <a href=\"https://www.fredrikblank.com/blog 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-07-26T03:28:49.545797",
+      "id": "b52ca4ca39adbcb9bd13372b12f129c0",
+      "link": "https://birc.app/",
+      "published": "2026-07-25T15:39:51+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Pluralistic: Apple's robo-repo (25 Jul 2026)",
+      "one_liner": "来自pluralistic.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了pluralistic的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><!--\nTags:\ndrm, ios, apple, arm-breakers, debt, graeber, repo men, apple, digital arm-breakers\n\nSummary:\nApple's robo-repo; Hey look at this; Upcoming appearances; Recent appearances; Latest books; Upcoming books\n\nURL:\nhttps://pluralistic.net/2026/07/25/cruel-cruelty-oh-cruelty/\n\nTitle:\nPluralist 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解pluralistic讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "pluralistic"
+      ],
+      "level": "中级",
+      "source": "pluralistic.net",
+      "generated_at": "2026-07-26T03:28:50.457168",
+      "id": "07c477f39926750560e9d52d11273b80",
+      "link": "https://pluralistic.net/2026/07/25/cruel-cruelty-oh-cruelty/",
+      "published": "2026-07-25T10:41:10+00:00",
+      "author": "Cory Doctorow"
+    }
+  ]
+}

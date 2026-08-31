@@ -1,0 +1,54 @@
+{
+  "date": "2026-08-31",
+  "date_display": "2026年08月31日",
+  "articles": [
+    {
+      "headline": "理解ChatGPT工作原理",
+      "one_liner": "ChatGPT Work 实为云与本地双产品，云版首次打通代码执行与互联网。",
+      "key_points": [
+        "Work Cloud 提供 Sol、Luna、Terra 三种模型及 Light 至 Ultra 六档推理强度，而 Chat 仅有 5.6 Instant 至 Pro 四档，且 Pro 仅限 $100/月用户，$20/月用户封顶 High。Work 会话计入 Codex 配额，与 Chat 独立计费。",
+        "Work Cloud 的代码执行环境默认开放全部域名访问，可克隆 GitHub 仓库、安装依赖并直接与外部 API 交互；Chat 的容器代理则完全封锁此类访问，Claude 的等效环境仅允许 PYPI、NPM 和 GitHub 的短名单域名。",
+        "Work 内置完整 headless Chrome，可加载页面、填写表单、截图，并支持在登录场景下由用户接管输入密码和 2FA，凭据不经过模型。还可对已加载 DOM 执行 JavaScript。"
+      ],
+      "detailed_analysis": "作者先厘清 ChatGPT Work 是两款产品：云版（Work Cloud）和桌面版（Work Local，即旧 Codex 换皮）。随后聚焦云版，逐一对比其与 Chat 的功能差异。核心结论是 Work 并非\"更强的 Chat\"，而是拥有三项独有能力：模型选择更丰富（含 Luna/Terra 及 Ultra 推理档）、代码执行环境可自由访问互联网、以及可操控完整 Chrome 实例。作者强调，Chat 的代码容器曾短暂支持装包但已失效，而 Work 的开放网络访问使其能完成\"克隆仓库→装依赖→调外部服务\"的完整任务链，这是本质性突破。",
+      "key_insight": "OpenAI 正将 Work 定位为\"代理执行层\"，与 Chat 的\"对话生成层\"刻意区隔。模型配额分离暗示 Work 消耗的是 Codex 计算资源，而非对话推理资源——这暴露了其商业策略：用更贵的算力换取任务完成度，而非单纯提升对话质量。对开发者而言，Work 实质上是把 Codex 的底层能力包装成非程序员可用的形态，预示着 AI 工具正从\"问答\"转向\"交付物\"。",
+      "why_it_matters": "此刻正值 OpenAI 与 Anthropic 在\"代理式 AI\"上正面交锋：Claude 的容器已开放受限网络访问，而 Work 直接放开全部域名，且支持定时自动化与子代理编排。对开发者，这意味着可构建自主抓取、分析、发布的完整流水线；对产品经理，Work 的浏览器接管登录能力让\"AI 替你操作 SaaS\"成为现实。两年前代码解释器只能算数据，两年后它已能替你上网办事——工具链的质变正在发生。",
+      "tags": [
+        "ChatGPT Work",
+        "代码执行",
+        "代理式AI"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-08-31T04:45:55.480178",
+      "id": "82c9cc6f0884e2802ecef13f817938f3",
+      "link": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "published": "2026-08-30T23:59:47+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "决赛入围者4",
+      "one_liner": "任务不该钉在日期上，而该落在日子上——这是Finalist对计划工具的底层重构。",
+      "key_points": [
+        "Finalist 4新增Markdown笔记双向同步，支持与Obsidian文件夹往返，任务自动落到对应日期，且Mac菜单栏应用内可见。这意味着用户可以用纯文本管理计划，不锁定在单一生态。",
+        "Apple Pencil在重建的Timeline中可“速写”计划，几秒完成日程勾勒。这指向触控笔在效率工具中的新定位——不是替代键盘，而是补充快速输入场景。",
+        "该版本经四个月开发、1000名beta测试者参与，覆盖iPhone、iPad、Mac及新增的Apple Watch。跨四端同步且支持手写输入，说明独立开发者正以订阅制之外的免费试用模式，挑战传统计划工具的市场。"
+      ],
+      "detailed_analysis": "作者从去年12月开始使用Finalist，核心体验是“把任务加到日子上，而不是给任务定日期”。这个反转解决了待办清单的经典痛点：未完成的任务不会堆积成焦虑源，而是留在过去。Finalist 4的最大更新是笔记系统，支持应用内或Markdown文件，与Obsidian双向同步，任务自动归位到对应日期。Timeline重建后支持Apple Pencil速写计划，配合菜单栏应用和Apple Watch，形成跨设备闭环。作者强调这是四个月、千名测试者打磨的结果，并推荐免费试用。",
+      "key_insight": "“任务留在过去”的设计哲学，实质是承认人类计划能力的有限性——它不惩罚未完成，而是让时间自然过滤无效任务。这种温和的交互逻辑，比强制清零的GTD更符合真实工作节奏。对开发者而言，Obsidian集成暗示了工具链的开放趋势：独立应用不再试图垄断数据，而是成为用户已有工作流中的一环。这可能是效率工具从“平台”转向“组件”的信号。",
+      "why_it_matters": "Apple Pencil的普及和Obsidian等本地优先工具的崛起，让“手写+Markdown”的混合输入成为可行方案。两年前触控笔生态不成熟，两年后AI可能接管日程规划。现在正是独立开发者用轻量、可定制工具抢占细分市场的窗口期。对产品经理，这是观察“任务管理”如何从列表转向时间轴+自由书写的实践样本；对开发者，Obsidian双向同步是本地优先架构的参考实现。",
+      "tags": [
+        "Markdown同步",
+        "Apple Pencil",
+        "本地优先"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-08-31T04:46:03.803181",
+      "id": "f8db858146256af60866c9828c0c1934",
+      "link": "https://www.finalist.works/?utm_source=df-aug-2026",
+      "published": "2026-08-30T18:35:22+00:00",
+      "author": "John Gruber"
+    }
+  ]
+}

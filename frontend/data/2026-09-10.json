@@ -1,0 +1,126 @@
+{
+  "date": "2026-09-10",
+  "date_display": "2026年09月10日",
+  "articles": [
+    {
+      "headline": "引用Calif Research",
+      "one_liner": "AI两天写出零点击RCE，一周组装成微信通话蠕虫。",
+      "key_points": [
+        "WeWorm被称作首个通过微信通话在iOS和Android上传播的零点击蠕虫，受害者无需接听、无需任何交互，即便接听也听不到声音，攻击依然成功。这打破了\"不接陌生来电就安全\"的直觉防线。",
+        "团队借助AI，约两天完成漏洞发现与首个远程代码执行（RCE）利用，再用一周把利用升级为可自我传播的蠕虫。对比过去需要更大团队耗时数月，这个时间压缩本身就是核心信息。",
+        "Calif Research明确说AI已能承担大部分工作，人类只负责判断攻击目标和安全测试方式。这句话把AI的角色从\"辅助编码\"推到了\"漏洞挖掘与武器化的主力\"。"
+      ],
+      "detailed_analysis": "这是一份漏洞研究团队Calif Research发布的WeWorm演示。他们盯上的是微信通话链路，做出一个零点击蠕虫：受害者不用接电话，甚至完全没碰手机，攻击就能完成，接听了也听不到任何声音，利用照样成功。真正让安全圈警觉的不是微信本身，而是他们的工作方式。团队和AI协作，大约两天就找到漏洞并写出首个RCE利用，再花一周把它变成能自我传播的蠕虫。他们强调，这种规模的蠕虫过去要更大团队做几个月，如今AI已经能完成大部分工作，人只提供目标判断和安全测试的取舍。",
+      "key_insight": "真正的信号不是某个App有漏洞，而是漏洞武器化的成本曲线被AI压平了。过去\"写蠕虫\"是稀缺技能，现在瓶颈从编码能力转移到判断力和测试纪律。这意味着防御方的响应窗口会同步缩短，补丁和检测规则的迭代速度必须跟上攻击生成的速度。",
+      "why_it_matters": "两年前LLM还写不稳可利用的漏洞代码，两年后它已能配合人类在数天内完成从0到蠕虫的链路。对开发者，别再把\"零点击\"当成理论威胁，通话、推送这类无需交互的入口要重新做威胁建模；对安全团队，AI辅助攻击应纳入红队常态；对产品经理，跨平台即时通讯的权限边界需要更激进的收敛。",
+      "tags": [
+        "零点击蠕虫",
+        "AI辅助漏洞利用",
+        "微信安全"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-09-10T03:59:05.554835",
+      "id": "180b6c6ca2d334921e7f7489d145fe6e",
+      "link": "https://simonwillison.net/2026/Sep/10/calif-research/",
+      "published": "2026-09-10T00:56:41+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": ".blend URL 查看器",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/blender-viewer\">.blend URL Viewer</a></p>\n        <p>I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see <a href=\"https://til.simonwillison.net/llms/blender-coding-agents-macos\">my TIL</a>).</p>\n<p>As a big fan of t 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-09-10T03:59:10.158799",
+      "id": "ca785e528de2c30a07a1d90fd6f4c15b",
+      "link": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+      "published": "2026-09-09T23:58:32+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "我们拥有Glass",
+      "one_liner": "来自idiallo.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了idiallo的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>This was so casually uttered by LG executives in their sales pitch to advertising companies. </p>\n<blockquote>\n<p>We own the glass.</p>\n</blockquote>\n<p>What they mean is, they own your tv. They own everything on it. You may have paid for the box, but they own the glass. They can run anything the 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解idiallo讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "idiallo"
+      ],
+      "level": "中级",
+      "source": "idiallo.com",
+      "generated_at": "2026-09-10T03:59:15.245980",
+      "id": "c89337f664f9d4830fc68208805b15ca",
+      "link": "https://idiallo.com/byte-size/",
+      "published": "2026-09-09T20:55:02+00:00",
+      "author": "rss@idiallo.com"
+    },
+    {
+      "headline": "别让任何人拿走你的大电缆箱",
+      "one_liner": "来自blog.jim-nielsen.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了blog的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Speaking of being on the internet and finding things that make you go, <a href=\"https://blog.jim-nielsen.com/2026/its-not-just-me/\">“Hey! It’s not just me!”</a> I scrolled across <a href=\"https://bsky.app/profile/tylergaw.com/post/3muzwcei6pc2k\">this skeet from Tyler Gaw</a>:</p>\n<blockquote>\n<p> 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解blog讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "blog"
+      ],
+      "level": "中级",
+      "source": "blog.jim-nielsen.com",
+      "generated_at": "2026-09-10T03:59:20.814286",
+      "id": "f75c9c257c658f059c975c769595dd37",
+      "link": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
+      "published": "2026-09-09T19:00:00+00:00",
+      "author": "blog.jim-nielsen.com"
+    },
+    {
+      "headline": "多元主义：反疫苗/反垄断（2026年9月9日）",
+      "one_liner": "反疫苗与反垄断共享同一套认知陷阱：因果链太长，让人误以为制度失效等于事实不存在。",
+      "key_points": [
+        "文章用作者亲身经历做锚点：他违背医嘱同时接种带状疱疹、流感、新冠三种疫苗，难受了大约一天。但他想到祖母的男友Rusty——一个从不示弱的健美运动员，唯独在带状疱疹发作时痛哭失声。这个对比把\"疫苗副作用\"和\"疾病本身\"的代价差距拉到可感知的尺度。",
+        "文章指出疫苗的核心困境是\"效果太好\"：正因为天花、麻疹、腮腺炎被消灭得太彻底，后来者只看到胳膊酸痛，看不到这些病曾经如何杀死儿童。这种因果关系的衰减——今天挨一针，八年后才看到结果——和吸烟致癌的认知难题结构完全相同，而烟草商正是利用这个时间差制造\"盈利性怀疑\"。",
+        "文章的关键转折在于：它说这是一篇关于反垄断的文章。135年前垄断者摧毁工人生活、腐蚀政治，催生了反垄断法。作者把反疫苗和反垄断并置，暗示两者都是\"制度信任崩塌\"的产物——当公众无法亲自验证技术判断，只能依赖过程可信度，而过程一旦被腐蚀，怀疑就无处安放。"
+      ],
+      "detailed_analysis": "这篇文章的起点是一个令人愤怒的现象：美国正在经历已灭绝疾病的回归，而数百万人仍坚称疫苗是骗局。作者没有简单地把这归为愚蠢，而是拆解了背后的认知机制。疫苗的因果链太长、太多因素交织，普通人没有技术能力去分辨烟草游说者和公共卫生机构的说法谁对。我们能做的只是信任\"过程\"——信任这套制度在认真做真相追寻。但当制度明显失职时，我们既没有专业知识自己判断，也没有可靠机制来裁决专家分歧，就只剩下绝望。作者说，这本质上是一篇关于反垄断的文章，因为135年前垄断者摧毁工人生活、腐蚀政治，和今天疫苗信任崩塌的底层逻辑是同一个：制度失效让复杂问题变得无法回答。",
+      "key_insight": "这篇文章真正在说的是：反垄断不只是经济政策，它是社会认知的基础设施。当垄断力量腐蚀了制度可信度，受伤害的不只是市场价格，还有公众对一切复杂技术判断的信任能力。反疫苗和反垄断在作者笔下不是两个话题，而是同一个问题的两种症状——一个关于身体，一个关于市场，但都指向\"当过程不可信时，人如何做决定\"这个更深的困境。",
+      "why_it_matters": "这篇文章发表于2026年9月，正值美国疫苗覆盖率持续下降、已灭绝疾病重新流行的节点。对技术从业者来说，它的价值不在于疫苗本身，而在于它揭示的模式：任何依赖\"制度信任\"的复杂系统——无论是公共卫生、开源治理还是平台审核——一旦过程可信度被侵蚀，用户就会转向阴谋论或彻底放弃。产品经理和架构师应该警惕：你设计的系统是否也在制造\"因果链太长、用户无法验证\"的信任黑洞？",
+      "tags": [
+        "反垄断",
+        "认知偏差",
+        "制度信任"
+      ],
+      "level": "中级",
+      "source": "pluralistic.net",
+      "generated_at": "2026-09-10T03:59:26.666045",
+      "id": "ed0941a1b0e8823c07dcf82e75bcb4fb",
+      "link": "https://pluralistic.net/2026/09/09/when-it-dont-rain/",
+      "published": "2026-09-09T10:28:57+00:00",
+      "author": "Cory Doctorow"
+    }
+  ]
+}

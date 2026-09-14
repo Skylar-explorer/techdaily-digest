@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-14",
+  "date_display": "2026年09月14日",
+  "articles": [
+    {
+      "headline": "commit-rewriter 0.1",
+      "one_liner": "Simon Willison 发布 commit-rewriter，用网页界面批量改写 Git 提交信息。",
+      "key_points": [
+        "这个工具解决的是 AI 编程代理留下的\"提交信息垃圾\"问题。Datasette 安全版本发布时，初始提交里塞满了编码代理的冗余输出和私有仓库的 issue ID 引用，直接公开会泄露内部信息且可读性极差，所以需要一个能批量清洗提交历史的工具。",
+        "使用方式极简：uvx commit-rewriter path/to/repo，省略路径则在当前目录运行。界面提供提交列表侧边栏、可编辑文本框、按信息/作者/哈希搜索、以及\"仅显示已编辑\"过滤，还支持展开完整格式化 diff 对照修改。",
+        "最关键的安全机制是：提交编辑时工具会先创建一个带时间戳的分支保存当前仓库状态，然后从第一个被编辑的提交一直重写到最新提交。这意味着任何误操作都可以通过那个时间戳分支回滚，降低了改写历史的心理门槛。"
+      ],
+      "detailed_analysis": "Simon Willison 在做 Datasette 安全版本发布时遇到一个具体麻烦：编码代理生成的初始提交信息充满了内部术语和私有 issue 编号，不能直接公开。手动用 git rebase 逐条改既慢又容易出错，于是他花时间做了个小网页应用。运行后浏览器里列出所有提交，每条都能直接编辑信息、查看 diff，改完点提交，工具自动建一个时间戳分支做备份，再从最早被改的那条开始重写整条历史。本质上这是把 git rebase -i 的交互式改写能力包装成了对非 Git 专家更友好的图形界面，同时用自动备份分支解决了改写历史最让人担心的不可逆问题。",
+      "key_insight": "这个工具的真正信号不是\"又一个 Git GUI\"，而是 AI 辅助编程正在制造一类新的技术债务：提交历史污染。当编码代理成为日常生产力工具，它们生成的提交信息质量参差不齐，而提交历史是团队协作和开源发布的公共资产。commit-rewriter 本质上是在为\"AI 生成代码的后期清理\"这个新兴工作流提供基础设施，这个需求在两年前几乎不存在。",
+      "why_it_matters": "AI 编码代理在 2025 到 2026 年大规模进入日常开发流程，但配套的\"清理工具链\"严重滞后。commit-rewriter 是一个早期信号：未来会有更多工具专门处理 AI 生成产物的后处理问题，比如提交信息规范化、代码风格统一、注释去重。对开发者来说，现在就该把\"提交信息质量审查\"纳入 AI 辅助编程的标准流程，而不是等到发布前才手忙脚乱地改写历史。",
+      "tags": [
+        "Git 历史改写",
+        "AI 辅助编程",
+        "开发者工具"
+      ],
+      "level": "初级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-09-14T04:14:31.716811",
+      "id": "5cbfbaf50adf9e345b9a3a2b34c566ce",
+      "link": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+      "published": "2026-09-14T00:28:10+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "开发者体验迟缓将制约快速模型发展",
+      "one_liner": "模型快到不需要等，瓶颈就转移到工具调用和开发环境速度上。",
+      "key_points": [
+        "Taalas 的 Jimmy 把 LLaMA-3.1-8B 跑到每秒一万七千 token，无论回答多长都在你按下发送的瞬间返回；而 GPT-6-Astra 只有约六十 token 每秒，两者的体验差距是\"等待\"和\"即时\"的差距。作者由此推断，当生成 token 不再是瓶颈，工具调用速度会突然变得极其重要：读文件是 100ms 还是 10ms、跑测试是 500ms 还是两秒，决定了 agent 是近乎瞬时响应还是让你等上几分钟。",
+        "作者指出 DevEx 团队基本是 2010 年代的产物，那时公司有动力让工程师开心，如今大多被砍到骨架甚至取消。但如果 agent 成为主要\"开发者\"，这类团队可能在 2020 年代末回归，只不过服务对象从人类工程师变成 AI agent，目标是压缩 agent 的开发循环。",
+        "关于\"模型会不会故意多想一会儿让你继续等\"，作者持否定态度：大多数普通工程问题不会因为多烧一百万 token 思考而解得更好，只有逼近模型能力上限时才需要长推理。这意味着速度提升不会被厂商用\"更长的思考\"抵消掉。"
+      ],
+      "detailed_analysis": "文章在解决一个反直觉的问题：现在大家优化开发体验还在抠秒级甚至毫秒级，但作者说这没意义，因为你的时间主要花在思考或等 AI agent 上。真正的变化在于模型推理速度正在爆炸式提升，Jimmy 已经做到每秒一万七千 token，快到没有等待感。一旦生成不再是瓶颈，agent 的工具调用——读文件、跑测试、编译——就会变成新的瓶颈，快慢之差是\"瞬时\"和\"几分钟\"的区别。于是压力会转向选择编译和测试都快的语言（比如 Go），以及围绕 agent 重新优化开发循环。作者预测，曾经被裁掉的 DevEx 团队会在 2020 年代末以\"服务 AI agent\"的名义回归。",
+      "key_insight": "这篇文章真正在说的是：开发工具链的优化目标正在从\"让人舒服\"切换成\"让 agent 跑得快\"。过去 DevEx 是福利和留人手段，未来它可能变成纯粹的吞吐量工程——因为 agent 的等待时间直接等于金钱和迭代速度。语言和框架的竞争维度也会变，编译慢、测试慢的技术栈会在 agent 时代被结构性淘汰，哪怕人类开发者觉得它们写起来更爽。",
+      "why_it_matters": "两年前模型还慢到必须等人，讨论 agent 工具链速度没有意义；现在超快推理已经出现，而 agent 编码正在成为主流工作方式，拐点就在眼前。对开发者来说，现在就该审视自己项目的测试和编译耗时，因为那将是 agent 体验的天花板；对架构师和产品经理，选型时要把\"agent 循环速度\"当成一等指标，而不是只看人类开发者的偏好。",
+      "tags": [
+        "AI agent",
+        "开发者体验",
+        "推理速度"
+      ],
+      "level": "中级",
+      "source": "seangoedecke.com",
+      "generated_at": "2026-09-14T04:14:37.087016",
+      "id": "d334e50eabc0a0f9fd27317bbd80c5c9",
+      "link": "https://seangoedecke.com/slow-devex-will-bottleneck-fast-models/",
+      "published": "2026-09-14T00:00:00+00:00",
+      "author": "seangoedecke.com"
+    },
+    {
+      "headline": "shot-scraper 1.12",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.12\">shot-scraper 1.12</a></p>\n        <p>I've added WebP support to my <a href=\"https://shot-scraper.datasette.io/\">shot-scraper</a> screenshot automation tool. You can now take a WebP screenshot of a web pag 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-09-14T04:14:41.129163",
+      "id": "ac9b1ff283ed2d65026d1cd7b9c4b11f",
+      "link": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+      "published": "2026-09-13T23:58:14+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Glyphs 4",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>My thanks to Glyphs for sponsoring this last week at DF. Glyphs 4 is a truly native Mac app for creating fonts, lettering, icons, and pictograms. Glyphs lets you draw with flexible strokes and efficiently reuse shapes across huge sets of glyphs, and explore variable vector designs with complex hi 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-09-14T04:14:46.624503",
+      "id": "80dc74565f15213124f2e357d583b0e8",
+      "link": "https://glyphsapp.com/",
+      "published": "2026-09-13T21:44:17+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "AI迫使你坚持最初的信念",
+      "one_liner": "来自idiallo.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了idiallo的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Have you ever watched any old hacker movie lately? The hacker can write at 180 WPM, never using the backspace or changing his mind ever. It’s like before they ever started, they already knew the last character they would type on the screen. But that’s not how it works in real life, at least not f 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解idiallo讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "idiallo"
+      ],
+      "level": "中级",
+      "source": "idiallo.com",
+      "generated_at": "2026-09-14T04:14:52.067997",
+      "id": "da8ffcf1de6d7770bd8e8b4b8668847a",
+      "link": "https://idiallo.com/blog/making-changes-mid-sentence",
+      "published": "2026-09-13T20:00:00+00:00",
+      "author": "rss@idiallo.com"
+    },
+    {
+      "headline": "将 Netlify 分析数据保留超过 30 天",
+      "one_liner": "用 Val Town 定时抓取 Netlify 即将丢弃的 30 天分析数据，存进 SQLite 长期保留。",
+      "key_points": [
+        "Netlify Analytics 只保留最近 30 天流量数据，作者多年来想自己存档却因\"懒\"一直没做，直到发现 Val Town 才落地。这个限制是整件事的起点：平台不给你长期数据，你就得自己接住。",
+        "Val Town 把代码、密钥、SQLite 存储、定时任务打包成一个个独立\"Val\"，每 30 天跑一次脚本，抓取过去 30 天数据入库。作者特意强调这种\"作用域隔离\"的价值：不用为杂七杂八的小任务设计共享 schema，也不用维护一个不断膨胀的代码库。",
+        "前端用 Quadratic 这个\"能跑代码的电子表格\"当仪表盘，通过 Val Town 的 API 拉取最新数据，点一下\"重新运行代码\"就能刷新。切换域名只需改一个单元格，整个数据集和图表就重绘，等于把数据管道的前端做成了可交互的 spreadsheet。"
+      ],
+      "detailed_analysis": "作者用 Netlify Analytics 监控几个网站的流量，还做了每日邮件摘要。但 Netlify 只存 30 天数据，他想看半年趋势时就没辙了。这个痛点存在多年，他一直想自己存，却因为\"只有足够简单才愿意做\"而拖着。Val Town 正好提供了这种简单：一个 Val 里同时有代码、密钥、SQLite 和定时器，每 30 天自动抓一次数据存下来。存储时他选择原样保留 Netlify 返回的 JSON，不做预处理。查看数据则交给 Quadratic，一个能执行 Python 的电子表格，通过 API 拉数据、做转换、画仪表盘，切换域名只改一个单元格。整套流程没有复杂架构，却解决了平台数据过期的问题。",
+      "key_insight": "这篇文章表面是个人小工具分享，实际点出了一个普遍困境：SaaS 平台的数据保留策略是商业决策，不是技术限制。Netlify 只存 30 天，因为长期存储对它的成本收益不划算。但对用户来说，这些\"被丢弃\"的数据恰恰是长期趋势分析的原料。作者的解法不是要求平台改变，而是用轻量工具自己接住数据流。这暗示了一种趋势：当平台把数据当作短期运营指标而非用户资产时，用户需要自建\"数据归档层\"，而 Val Town 这类工具正在降低这件事的门槛。",
+      "why_it_matters": "两年前做这件事，你得自己搭服务器、配 cron、管数据库、写前端，成本高到\"懒\"是理性选择。现在 Val Town 把计算、存储、密钥、调度打包成开箱即用的原语，Quadratic 把数据分析前端变成可编程表格，整条链路从\"一个周末项目\"压缩到\"一个下午\"。对开发者意味着：那些\"想做但嫌麻烦\"的数据归档任务，现在真的可以动手了。对架构师意味着：平台数据保留策略应该被纳入依赖风险评估，别等数据没了才后悔。",
+      "tags": [
+        "Netlify Analytics",
+        "Val Town",
+        "数据归档"
+      ],
+      "level": "中级",
+      "source": "blog.jim-nielsen.com",
+      "generated_at": "2026-09-14T04:14:57.640344",
+      "id": "e205ff78935f6a22901055c12403afa3",
+      "link": "https://blog.jim-nielsen.com/2026/preserving-netlify-analytics-data/",
+      "published": "2026-09-13T19:00:00+00:00",
+      "author": "blog.jim-nielsen.com"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "date": "2026-09-20",
+  "date_display": "2026年09月20日",
+  "articles": [
+    {
+      "headline": "咬紧牙关，发布它",
+      "one_liner": "好品味反而是交付的敌人，工程师必须学会硬着头皮发布不完美的作品。",
+      "key_points": [
+        "Ira Glass 的经典观察被作者用作全文支点：创作者的品味总是先于能力成熟，前几年做出来的东西\"有潜力但不够好\"，而正是这份品味让作品令自己失望。作者把这个规律从创意领域迁移到编程，指出天赋型程序员对优雅和正确的近乎病态的追求，恰恰是他们不愿交付的根源。",
+        "作者给出了一个反直觉的结论：在大型代码库里，一致性比正确性更重要，所以有时候正确的做法是主动复制已有的缺陷（只要不是灾难性的）。这个判断直接挑战了\"每个 diff 都要让代码变得更好\"的洁癖，也解释了为什么很多优秀工程师在大公司里会陷入瘫痪。",
+        "作者用自己的博客数据做了实证：他列出三篇写的时候觉得不好但读者反响热烈的文章，以及三篇自认不错却无人问津的文章，结论是\"你根本无法预测人们会觉得什么有趣\"。因此高频产出比少量精雕细琢的产出回报率高得多，而且发布这个动作本身像技能一样，越练越容易。"
+      ],
+      "detailed_analysis": "这篇文章要解决的是一个很具体的困境：为什么越是有天赋的工程师，越容易卡在\"不敢发布\"这件事上。作者的思路是把 Ira Glass 关于创意工作的经典论述搬到软件工程里，指出品味和能力之间的落差是结构性的，不是靠更努力就能消除的。他观察到天赋型程序员会退回到小范围里做\"安全\"的事，比如调开发环境、重构测试，甚至什么都不做，在羞耻感里打转直到离职。他的解法很粗暴：硬着头皮发布。因为一个糟糕的 diff 可以随着时间改进，但一个不存在的 diff 永远无法改进。他还用自己的博客数据证明，作者本人对作品质量的判断和读者的反应之间几乎没有相关性，所以高频发布才是更优策略。",
+      "key_insight": "这篇文章表面上在讲心态，实际上在讲一个被忽视的工程经济学问题：在大型系统里，交付速度本身就是一种质量属性。作者说\"一致性比正确性更重要\"这句话值得反复咀嚼，它意味着在成熟代码库里，一个风格统一但有小瑕疵的改动，比一个完美但格格不入的重构更有价值。这背后是维护成本的计算，而不是审美判断。很多工程师把\"代码质量\"当成绝对标准，但在组织语境下，它永远是相对的。",
+      "why_it_matters": "AI 编码工具正在大幅降低\"写出代码\"的门槛，这意味着\"构建能力\"和\"交付能力\"之间的差距会被进一步放大。当生成代码变得廉价，真正稀缺的是判断力：知道什么该发、什么时候发、哪些瑕疵可以容忍。对开发者来说，现在比任何时候都需要刻意练习\"发布\"这个动作，而不是躲在打磨里。对技术管理者来说，需要重新设计激励机制，让\"发了但不够完美\"比\"没发但很精致\"得到更多认可。",
+      "tags": [
+        "工程文化",
+        "交付心态",
+        "代码质量"
+      ],
+      "level": "中级",
+      "source": "seangoedecke.com",
+      "generated_at": "2026-09-20T04:17:07.162390",
+      "id": "962ab31bbffa8b93701d2056a6ea5c92",
+      "link": "https://seangoedecke.com/grit-your-teeth-and-ship-it/",
+      "published": "2026-09-20T00:00:00+00:00",
+      "author": "seangoedecke.com"
+    },
+    {
+      "headline": "datasette-auth-github 1.0",
+      "one_liner": "Cookie 没设 Max-Age，导致登录会话在移动端频繁失效。",
+      "key_points": [
+        "问题根源是插件设置 cookie 时缺少 Max-Age 参数，导致会话在浏览器关闭后即失效。在 Mobile Safari 上这个问题尤其明显，因为该浏览器会频繁地终止会话，与用户如何使用应用无关。修复见 issue #80，这是本次 1.0 版本唯一的实质性代码改动。",
+        "该插件已存在相当长时间，且同时针对 Datasette 0.65.x 和 Datasette 1.0ax 两个版本线做了测试覆盖。作者借此机会将其提升为 1.0 正式版本，这本身不涉及新功能，而是对稳定性的正式确认。作者明确表示自己在努力养成把稳定插件推到 1.0 的习惯。",
+        "这个插件运行在 agent.datasette.io 演示站点上，是作者自己日常使用的真实场景。问题不是通过用户反馈发现的，而是作者自己注意到会话时长异常后排查出来的。这种\"自己先用、自己先烦\"的发现路径，是个人项目维护中常见的质量保障方式。"
+      ],
+      "detailed_analysis": "Simon Willison 在 agent.datasette.io 上跑着自己的 GitHub 登录插件，发现登录状态维持不了多久。排查后发现是插件写 cookie 时漏了 Max-Age，浏览器一关会话就没了，Mobile Safari 上尤其容易触发。他在 issue #80 里修掉了这个问题。因为插件已经稳定运行很久，并且同时兼容 Datasette 0.65.x 和 1.0ax，他顺势把版本号推到 1.0。整件事没有新功能，是一次典型的\"修 bug 顺便转正\"。",
+      "key_insight": "这篇文章的价值不在技术深度，而在于展示了一种健康的开源维护节奏：用真实场景驱动 bug 发现，用兼容性测试积累发布信心，用版本号传递稳定信号。1.0 不是功能里程碑，而是维护者对\"这东西可以放心用了\"的公开承诺。对依赖 Datasette 生态的开发者来说，这是一个可以放心锁版本的信号。",
+      "why_it_matters": "Datasette 1.0ax 正在推进中，插件生态需要跟上。这个插件同时测试两条版本线并宣布 1.0，意味着 Datasette 插件生态正在从\"能用\"过渡到\"可依赖\"。如果你在评估 Datasette 作为数据发布平台，现在可以把它纳入生产候选。对插件作者而言，这也是一个提醒：稳定比新功能更值得用版本号去表达。",
+      "tags": [
+        "Datasette",
+        "认证插件",
+        "Cookie 会话"
+      ],
+      "level": "初级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-09-20T04:17:11.781814",
+      "id": "ae6880e5d4b9623118f512e01876d3c1",
+      "link": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+      "published": "2026-09-19T19:52:02+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "加州海狮、布氏鸬鹚",
+      "one_liner": "Simon Willison 在 Pillar Point Harbor 拍到海狮与鸬鹚，事后才发现背景里藏着一只北方塘鹅。",
+      "key_points": [
+        "照片拍摄于加州 Pillar Point Harbor，画面主体是加州海狮和布兰特鸬鹚，两者都是该港口常见物种。但 Simon 是在拍完之后才注意到，标志牌底座后面还探出一只北方塘鹅——这是他在 2026 年 8 月 15 日已经单独记录过的同一只鸟，编号 sighting-391300422。",
+        "北方塘鹅（Northern Gannet）通常分布在大西洋，出现在加州太平洋沿岸属于罕见迷鸟记录。Simon 之前专门为它写过一篇观察日志，说明这只鸟在当地已经停留了一段时间，引起了观鸟社区的关注。",
+        "照片来自 iNaturalist 的静态资源，说明 Simon 的观察记录同步到了这个公民科学平台。iNaturalist 的观测数据会被科研机构用于物种分布追踪，一只迷鸟的多次记录对研究洋流变化和物种扩散有实际价值。"
+      ],
+      "detailed_analysis": "这本质上是一则个人自然观察笔记，不是技术文章。Simon Willison 在 Pillar Point Harbor 拍了两张照片，一张加州海狮，一张布兰特鸬鹚，都是加州海岸的常规物种。但他事后回看照片时发现，标志牌底座后面藏着一只北方塘鹅——这只鸟他之前已经单独记录过，还写了专门的观察日志。整件事的有趣之处在于：你以为在拍 A 和 B，结果 C 一直在画面里。这也侧面反映了公民科学平台的价值，每次随手记录都可能补全一只罕见迷鸟的活动轨迹。",
+      "key_insight": "Simon Willison 是知名技术博主，但这篇内容属于他的个人 wildlife 观察系列。这提醒我们：技术人的公开输出不一定要每篇都关于代码。长期、可追溯的个人记录本身就是一种数据资产。iNaturalist 上的 sighting ID 让每只鸟都有唯一标识，这种\"给自然现象建索引\"的思路，和工程师给系统打 log 是同一种本能。",
+      "why_it_matters": "北方塘鹅出现在加州太平洋沿岸是罕见事件，这类迷鸟记录近年似乎在增加，可能与海洋温度变化和鱼群迁移有关。对观鸟者和公民科学参与者来说，这意味着日常随手拍的照片可能比想象中更有科研价值。如果你在用 iNaturalist 或类似平台，坚持记录、标注地点和时间，就是在为物种分布数据库做贡献。技术人可以把这当作一个低成本的\"数据采集习惯\"来培养。",
+      "tags": [
+        "公民科学",
+        "物种观察",
+        "iNaturalist"
+      ],
+      "level": "初级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-09-20T04:17:17.279669",
+      "id": "d003e043b79c6c522c788c485ee3a425",
+      "link": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+      "published": "2026-09-19T17:10:08+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "泰勒·斯塔尔曼的iPhone 18 Pro相机评测",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Splendid video. Love that Stalman shot photos side-by-side with a film SLR using Kodak Portra 400, for comparison to Apple’s new film-look Photographic Styles.</p>\n\n<div>\n<a href=\"https://daringfireball.net/linked/2026/09/19/stalman-iphone-18-pro\" title=\"Permanent link to ‘Tyler Stalman’s iPhone  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-09-20T04:17:22.152428",
+      "id": "02088718eb1b02bd4a322ab6d0458572",
+      "link": "https://www.youtube.com/watch?v=m6cDErtCKAc",
+      "published": "2026-09-19T16:29:00+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "奥斯汀·曼的iPhone 18 Pro相机评测，来自科罗拉多州丹顿",
+      "one_liner": "iPhone 18 Pro 影像升级的实战验证：可变光圈与 Pro Controls 到底能拍出什么。",
+      "key_points": [
+        "Austin Mann 在科罗拉多州西南部的 Dunton River Camp 实地测试了一周，核心关注点是可变光圈和 Pro Controls 这两项专业级功能。他的测试问题始终是\"新技术如何让照片和视频更好\"，而非罗列参数。",
+        "Photographic Styles 3 新增了胶片质感和颗粒控制，这是苹果在计算摄影之外重新引入\"模拟感\"的关键一步。4K Time-lapse 和 Focus Tracking 也是本次新增的功能，覆盖了视频创作的两个高频场景。",
+        "John Gruber 特别推荐了 Mann 的示例照片和视频，尤其是展示 Pro Controls 工作方式的视频。Gruber 自嘲自己把新 iPhone 带去五金店拍，而 Mann 去的是全球各地的异域场景，这个对比暗示了 Mann 评测的不可替代性。"
+      ],
+      "detailed_analysis": "这是一篇典型的 Austin Mann 年度 iPhone 相机评测，发布在 Daring Fireball 上由 John Gruber 推荐。Mann 带着 iPhone 18 Pro 去了科罗拉多 Dunton River Camp，花一周时间实地拍摄。他关注的不是跑分，而是一个朴素的问题：这些新功能怎么让照片和视频变得更好。这次的核心新功能包括可变光圈、Pro Controls、Photographic Styles 3（带胶片质感和颗粒控制）、4K Time-lapse 和 Focus Tracking。Gruber 的推荐语很简短，但点出了价值所在：出色的示例照片、一段说明 Pro Controls 如何工作的视频，以及 Photographic Styles 3 的优秀样片。Gruber 还幽默地对比了自己和 Mann 的评测方式，暗示 Mann 的实地评测有独特价值。",
+      "key_insight": "苹果正在把专业相机的物理控制逻辑搬进手机，可变光圈和 Pro Controls 是这一趋势的明确信号。Photographic Styles 3 加入胶片颗粒则说明，当计算摄影走到极致后，用户反而开始追求\"不完美\"的质感。这两条路线并行，是苹果在影像上的双轨策略。",
+      "why_it_matters": "手机影像的竞争已经从\"能不能拍清楚\"转向\"能不能拍出风格\"。可变光圈是硬件层面的专业下放，Photographic Styles 3 是软件层面的审美工具化。对产品经理来说，这意味着用户对相机的期待正在从\"记录\"转向\"创作\"，功能设计需要围绕创作流程而非单点参数。",
+      "tags": [
+        "iPhone 18 Pro",
+        "计算摄影",
+        "可变光圈"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-09-20T04:17:26.980822",
+      "id": "3281da29db0db75ee9abea6fbda3bf5e",
+      "link": "https://www.austinmann.com/trek/iphone-18-pro-camera-review-dunton",
+      "published": "2026-09-19T15:37:39+00:00",
+      "author": "John Gruber"
+    }
+  ]
+}

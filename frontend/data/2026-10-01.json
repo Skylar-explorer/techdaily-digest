@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-01",
+  "date_display": "2026年10月01日",
+  "articles": [
+    {
+      "headline": "He Built This City",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>I visited the Museum of the City of New York today and got to see <a href=\"https://www.mcny.org/exhibition/he-built-city\">He Built This City: Joe Macken’s Model</a>, the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard.</p>\n<p>It exceeded my already high exp 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-01T05:07:07.142712",
+      "id": "74a672f8cbdec779ad324b343af68563",
+      "link": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
+      "published": "2026-09-30T21:54:19+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "[Sponsor] WorkOS: How SSO Works and the Fastest Way to Add It",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>SSO is table stakes for enterprise deals, but building it into your app yourself means writing SAML controllers, parsing XML assertions, and handling IdP-specific quirks for each provider.</p>\n\n<p>Learn how SAML flows work, the tradeoffs between building or buying, and best practices for security 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-01T05:07:09.052956",
+      "id": "b7db59965efe4a570b3583bc258f1e0c",
+      "link": "https://workos.com/guide/the-developers-guide-to-sso?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q32026",
+      "published": "2026-09-30T20:17:32+00:00",
+      "author": "Daring Fireball Department of Commerce"
+    },
+    {
+      "headline": "Gurman Reports Apple Is Launching New ‘Smart Home’ Products on October 13",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Mark Gurman, reporting for Bloomberg (gift link):</p>\n\n<blockquote>\n  <p>Apple Inc. plans to make its long-delayed push into the smart-home\nmarket on Oct. 13, marking a critical product expansion for the\ncompany under new Chief Executive Officer John Ternus. At the\ncenter of the strategy is a sma 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-01T05:07:10.937311",
+      "id": "43727775cc745ed4e3a96ffff587acc5",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/apple-is-finally-ready-to-enter-its-next-big-category-the-smart-home?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MDc3MDk0MywiZXhwIjoxNzkxMzc1NzQzLCJhcnRpY2xlSWQiOiJUTTM0SDRUOTZPU0cwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.11wEtJfuMwCkznTkepXugZ2wuZTmxO9CdsNJLAcBd1M",
+      "published": "2026-09-30T20:14:31+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Anthropic’s IPO Prospectus Is a Fucking Doozy",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Echo Wang, reporting for Reuters yesterday:</p>\n\n<blockquote>\n  <p>Anthropic is making a massive bet that AI will transform the\nglobal economy more profoundly than ​industrialization,\nelectricity and the internet, according to its IPO prospectus seen\nby Reuters.</p>\n</blockquote>\n\n<p>This is a st 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-01T05:07:12.891874",
+      "id": "d9f75c475a2481c901d436ce9e3a979b",
+      "link": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
+      "published": "2026-09-30T19:23:42+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Dear Software Makers",
+      "one_liner": "来自blog.jim-nielsen.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了blog的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Marques Brownlee just released <a href=\"https://www.youtube.com/watch?v=e1q-TuHdc4Y\">a video essay titled “Dear YouTube”</a>. </p>\n<p>I loved it.</p>\n<p>He talks about how YouTube is going to start shipping this new feature where makers can essentially publish different “variants” of their videos 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解blog讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "blog"
+      ],
+      "level": "中级",
+      "source": "blog.jim-nielsen.com",
+      "generated_at": "2026-10-01T05:07:14.830482",
+      "id": "24884ce16e3be11f74525d3dea0b071f",
+      "link": "https://blog.jim-nielsen.com/2026/dear-software-makers/",
+      "published": "2026-09-30T19:00:00+00:00",
+      "author": "blog.jim-nielsen.com"
+    },
+    {
+      "headline": "Why do you need freedom?",
+      "one_liner": "来自geohot.github.io的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了geohot的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>They will come for your thoughts, and I’m not sure what your defense will be. For surely, they are <em>better</em> at thinking than you. That choice you are about to make, well you see, we have modeled your life, and have calculated you will be happier making <em>this</em> choice instead. And the 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解geohot讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "geohot"
+      ],
+      "level": "中级",
+      "source": "geohot.github.io",
+      "generated_at": "2026-10-01T05:07:16.755264",
+      "id": "9fb3fe4beb59195bdd17f7e0e279326a",
+      "link": "https://geohot.github.io//blog/jekyll/update/2026/10/01/why-do-you-need-freedom.html",
+      "published": "2026-09-30T16:00:00+00:00",
+      "author": ""
+    }
+  ]
+}

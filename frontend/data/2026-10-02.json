@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-02",
+  "date_display": "2026年10月02日",
+  "articles": [
+    {
+      "headline": "Yankees Sweep Boston in Two Games, by Combined Score of 18-2",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>In the 6th inning last night the Yankees were only ahead 2-0, and Red Sox first baseman  Willson Contreras hit a home run, closing it to 2-1. Contreras decided to <a href=\"https://x.com/FoulTerritoryTV/status/2105479146830770481\"><em>walk</em> around the bases</a>. The baseball gods do not look k 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-02T04:56:29.577753",
+      "id": "79ab2793c7ea3fcb18972177a3f2af77",
+      "link": "https://www.nytimes.com/athletic/7648172/2026/09/30/yankees-beat-red-sox-mlb-wild-card-series/",
+      "published": "2026-10-02T00:06:56+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Do not build the LLM torture factory",
+      "one_liner": "来自seangoedecke.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了seangoedecke的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>It isn’t hard to torture an LLM. You simply extract a <a href=\"https://www.seangoedecke.com/steering-vectors/\">steering vector</a> that corresponds with LLM <a href=\"https://www.reddit.com/r/artificial/comments/1mp5mks/this_is_downright_terrifying_and_sad_gemini_ai/\">“discomfort”</a>, then artifi 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解seangoedecke讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "seangoedecke"
+      ],
+      "level": "中级",
+      "source": "seangoedecke.com",
+      "generated_at": "2026-10-02T04:56:31.451622",
+      "id": "4e7b5e484b6389942e0d88dea010b6df",
+      "link": "https://seangoedecke.com/do-not-build-the-llm-torture-factory/",
+      "published": "2026-10-02T00:00:00+00:00",
+      "author": "seangoedecke.com"
+    },
+    {
+      "headline": "Pluralistic: Voting is to politics as shopping is to boycotts (01 Oct 2026)",
+      "one_liner": "来自pluralistic.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了pluralistic的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><!--\nTags:\ngotv, consequences, hell is other people, elections, electoralism, politics, fascism,\n\nSummary:\nVoting is to politics as shopping is to boycotts; Hey look at this; Upcoming appearances; Recent appearances; Latest books; Upcoming books\n\nURL:\nhttps://pluralistic.net/2026/10/01/data-cente 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解pluralistic讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "pluralistic"
+      ],
+      "level": "中级",
+      "source": "pluralistic.net",
+      "generated_at": "2026-10-02T04:56:33.323045",
+      "id": "8049fe84f121343a0f4631f87fe41d57",
+      "link": "https://pluralistic.net/2026/10/01/data-centers/",
+      "published": "2026-10-01T17:22:48+00:00",
+      "author": "Cory Doctorow"
+    },
+    {
+      "headline": "Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
+      "one_liner": "来自dwarkesh.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了dwarkesh的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>New episode with military historian <a href=\"https://www.amazon.com/stores/author/B001JSA7E6/allbooks\">Si Sheppard</a>.</p><p>The conquests of the Aztec and Inca empires might be the most shocking events in human history.</p><p>Hernan Cort&#233;s and some hundreds of Conquistadors landed on a new 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解dwarkesh讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "dwarkesh"
+      ],
+      "level": "中级",
+      "source": "dwarkesh.com",
+      "generated_at": "2026-10-02T04:56:35.209057",
+      "id": "00487acac96983830629722b4ca33010",
+      "link": "https://www.dwarkesh.com/p/si-sheppard",
+      "published": "2026-10-01T15:28:28+00:00",
+      "author": "Dwarkesh Patel"
+    },
+    {
+      "headline": "Why Americans Stopped Throwing Dinner Parties",
+      "one_liner": "来自derekthompson.org的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了derekthompson的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><em><small>This article was featured in the One Story to Read Today newsletter. </small></em><a href=\"https://www.theatlantic.com/newsletters/sign-up/one-story-to-read-today/?utm_source=feed\" rel=\"noopener noreferrer nofollow\" target=\"_blank\"><em><small>Sign up for it here.</small></em></a></p><p 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解derekthompson讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "derekthompson"
+      ],
+      "level": "中级",
+      "source": "derekthompson.org",
+      "generated_at": "2026-10-02T04:56:37.124815",
+      "id": "677c3cf470e607328b7a41d4f4ebcf19",
+      "link": "https://www.theatlantic.com/ideas/2026/10/americans-socialization-dinner-decline-hosting/688846/?utm_source=feed",
+      "published": "2026-10-01T11:00:00+00:00",
+      "author": "Derek Thompson"
+    },
+    {
+      "headline": "Quoting Matthew Green",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<blockquote cite=\"https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/\"><p>[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in s 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-02T04:56:38.983867",
+      "id": "55278edd569df1d2d92b2914d5ad71fe",
+      "link": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+      "published": "2026-10-01T06:29:01+00:00",
+      "author": "simonwillison.net"
+    }
+  ]
+}

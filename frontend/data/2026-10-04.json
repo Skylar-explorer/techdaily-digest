@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-04",
+  "date_display": "2026年10月04日",
+  "articles": [
+    {
+      "headline": "Why My Asus Laptop Kept Rebooting After Sleep and How to Fix it",
+      "one_liner": "来自idiallo.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了idiallo的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Three years ago, I bought an Asus laptop, specifically the Zenbook Pro 17. It's a powerful machine and works just fine for my needs, but it had one problem that made me want to either return it or throw it out the window.</p>\t\t\t<p>I would work on projects for hours on end and close the lid when I 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解idiallo讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "idiallo"
+      ],
+      "level": "中级",
+      "source": "idiallo.com",
+      "generated_at": "2026-10-04T05:11:02.881980",
+      "id": "27ce131311c26514ba733bb7e1571c13",
+      "link": "https://idiallo.com/blog/asus-laptop-keeps-rebooting-after-sleep",
+      "published": "2026-10-04T02:30:00+00:00",
+      "author": "rss@idiallo.com"
+    },
+    {
+      "headline": "We're going to need default hard budget caps on pretty much everything",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Here's a product feature which the world is going to need a whole lot more of over the coming months and years: <strong>default hard budget caps</strong>. I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". Thes 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-04T05:11:04.581404",
+      "id": "81b68c5ee25b3bb6593e454ca373b380",
+      "link": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "published": "2026-10-03T23:34:02+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "September sponsors-only newsletter",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>I just sent the September edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-09-september.md\">access it here</a>.</p>\n<p>This  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-04T05:11:06.270517",
+      "id": "347c0b449d1a7d47e7fe20eae1e5b9b6",
+      "link": "https://simonwillison.net/2026/Oct/3/newsletter/",
+      "published": "2026-10-03T22:00:31+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "WorkOS",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>My thanks to WorkOS for sponsoring this last week, once again, at DF.</p>\n\n<p>SSO is table stakes for enterprise deals, but building it into your app yourself means writing SAML controllers, parsing XML assertions, and handling IdP-specific quirks for each provider. Learn how SAML flows work, the 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-04T05:11:08.017254",
+      "id": "b7db59965efe4a570b3583bc258f1e0c",
+      "link": "https://workos.com/guide/the-developers-guide-to-sso?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q32026",
+      "published": "2026-10-03T21:23:10+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Apple Confirms iPhone 18 Pro Max AT&T Cellular Issues, Affected Devices Require Hardware Replacement",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Chance Miller, 9to5Mac:</p>\n\n<blockquote>\n  <p>In a statement to 9to5Mac, Apple said:</p>\n\n<blockquote>\n  <p>We have identified an issue affecting a small number of iPhone 18\nPro Max users on the AT&amp;T network that may cause a device to lose\nservice and be unable to make calls. We released iOS 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-04T05:11:09.762483",
+      "id": "18cdb7f5fca622c308d3f56be3dac958",
+      "link": "https://9to5mac.com/2026/10/02/apple-confirms-iphone-18-pro-max-att-cellular-issues-affected-devices-require-hardware-replacement/",
+      "published": "2026-10-03T18:21:14+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Pluralistic: Economic probabilities for our grandchildren (03 Oct 2026)",
+      "one_liner": "来自pluralistic.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了pluralistic的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><!--\nTags:\ninfrastructure, post-american world, economics, climate, climate remediation, solarization, interstate highways 2.0,\n\nSummary:\nEconomic probabilities for our grandchildren; Hey look at this; Upcoming appearances; Recent appearances; Latest books; Upcoming books\n\nURL:\nhttps://pluralisti 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解pluralistic讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "pluralistic"
+      ],
+      "level": "中级",
+      "source": "pluralistic.net",
+      "generated_at": "2026-10-04T05:11:11.484751",
+      "id": "f35fc5d4ac49ffb13550a450340711e0",
+      "link": "https://pluralistic.net/2026/10/03/full-employment/",
+      "published": "2026-10-03T12:07:59+00:00",
+      "author": "Cory Doctorow"
+    },
+    {
+      "headline": "Connect Sony WH-1000XM3 on Arch Linux and a buggy UGREEN Bluetooth adapter",
+      "one_liner": "来自jayd.ml的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了jayd的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Tried to connect to my Sony WH-1000XM3 headphones on Arch Linux KDE, it would\ntry and connect but fail with <code class=\"language-plaintext highlighter-rouge\">The setup of WH-1000XM3 failed</code>.</p>\n\n<p>I have a <a href=\"https://www.amazon.com/dp/B0CZD94YFR\">UGREEN USB Bluetooth 5.3 Adapter</a 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解jayd讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "jayd"
+      ],
+      "level": "中级",
+      "source": "jayd.ml",
+      "generated_at": "2026-10-04T05:11:13.221191",
+      "id": "c4d3a0993e2b438b8f6f5140ffa0cde5",
+      "link": "https://jayd.ml/2026/10/03/sony-headphones-action-bluetooth-adapter.html",
+      "published": "2026-10-03T09:25:00+00:00",
+      "author": "Jayden Milne (blog@jayd.ml)"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-05",
+  "date_display": "2026年10月05日",
+  "articles": [
+    {
+      "headline": "“I’m Embarrassed on Behalf of the Tech Industry”",
+      "one_liner": "来自blog.jim-nielsen.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了blog的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>That’s something Ben Thompson said a recent episode of <a href=\"https://dithering.passport.online/\">Dithering</a>. He was referring to how he felt while trying to help his mom get control of her digital life. Everything was just too hard and convoluted and he felt embarrassed as someone who works 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解blog讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "blog"
+      ],
+      "level": "中级",
+      "source": "blog.jim-nielsen.com",
+      "generated_at": "2026-10-05T04:55:34.000617",
+      "id": "e73be06b08e28c104fa7f424be84801e",
+      "link": "https://blog.jim-nielsen.com/2026/embarrassed-by-tech/",
+      "published": "2026-10-04T19:00:00+00:00",
+      "author": "blog.jim-nielsen.com"
+    },
+    {
+      "headline": "Weekly Update 524: Live From Copenhagen",
+      "one_liner": "来自troyhunt.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了troyhunt的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<img alt=\"Weekly Update 524: Live From Copenhagen\" src=\"https://storage.ghost.io/c/fb/33/fb3391dc-723d-4e74-b95a-d641b5feb38e/content/images/2026/10/maxresdefault.jpg\" /><p>I&apos;m in Denmark! Well, just, I&apos;m now at Copenhagen airport ready to begin the long trek home, with the final event at  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解troyhunt讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "troyhunt"
+      ],
+      "level": "中级",
+      "source": "troyhunt.com",
+      "generated_at": "2026-10-05T04:55:35.719580",
+      "id": "16ae965e894b244d477955cdecc86d6a",
+      "link": "https://www.troyhunt.com/weekly-update-524/",
+      "published": "2026-10-04T11:52:23+00:00",
+      "author": "Troy Hunt"
+    }
+  ]
+}

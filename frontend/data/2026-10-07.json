@@ -1,0 +1,390 @@
+{
+  "date": "2026-10-07",
+  "date_display": "2026年10月07日",
+  "articles": [
+    {
+      "headline": "Quoting Jake Boggan",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<blockquote cite=\"https://news.ycombinator.com/item?id=49984923#49987367\"><p>I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of m 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-07T05:14:02.512741",
+      "id": "17929c3f9f5ee1dd19865bc6fb4c418c",
+      "link": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
+      "published": "2026-10-07T04:47:55+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "OpenAI “rogue” agent activities found on Wikimedia projects",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong><a href=\"https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/\">OpenAI “rogue” agent activities found on Wikimedia projects</a></strong></p>\nGiven how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wik 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-07T05:14:04.391175",
+      "id": "a7cbdd50cbecd6f38d5a5edcf0ce581b",
+      "link": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+      "published": "2026-10-07T00:16:45+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "How to read code",
+      "one_liner": "来自seangoedecke.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了seangoedecke的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Everyone knows how to read a book. Beginning at the first page, you read each word in order<sup id=\"fnref-1\"><a class=\"footnote-ref\" href=\"https://seangoedecke.com/how-to-read-code/#fn-1\">1</a></sup>, stopping periodically to think, until you arrive at the last word on the last page. That’s how y 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解seangoedecke讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "seangoedecke"
+      ],
+      "level": "中级",
+      "source": "seangoedecke.com",
+      "generated_at": "2026-10-07T05:14:06.212908",
+      "id": "f4faf8cd86a12b4a202f257294ba3a7c",
+      "link": "https://seangoedecke.com/how-to-read-code/",
+      "published": "2026-10-07T00:00:00+00:00",
+      "author": "seangoedecke.com"
+    },
+    {
+      "headline": "Quoting Victoria Kim",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<blockquote cite=\"https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a\"><p>Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the in 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-07T05:14:08.254697",
+      "id": "a6e3ad6b142274c6a9e2b03ea2ccff4e",
+      "link": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+      "published": "2026-10-06T23:58:56+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "llm-openai-decisions 0.1a0",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openai-decisions/releases/tag/0.1a0\">llm-openai-decisions 0.1a0</a></p>\n        <p>OpenAI released their new Jev-style <a href=\"https://developers.openai.com/api/docs/guides/decisions\">Decisions API</a>, as previously announced at l 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-07T05:14:10.055282",
+      "id": "2a3f95fef02a30e71b699488e5c9c825",
+      "link": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+      "published": "2026-10-06T23:04:13+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "llm-mistral 0.16",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-mistral/releases/tag/0.16\">llm-mistral 0.16</a></p>\n        <p>Adds support for reasoning models, such as the newly released <a href=\"https://simonwillison.net/2026/Oct/6/le-chonk/\">Mistral Large 4</a>.</p>\n    \n    \n        <p>Tags 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-07T05:14:11.873008",
+      "id": "a31b24b061cbd3c0a116d594dc49103a",
+      "link": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+      "published": "2026-10-06T21:32:34+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "EmbeddingGemma 2",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><a href=\"https://news.ycombinator.com/item?id=49980487#49983751\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49980487\">EmbeddingGemma 2</a> &mdash; Hacker News.</p><p>I really appreciate that <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/embeddingg 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-07T05:14:13.707394",
+      "id": "bb6b54936da24aab3e819bbda5e42fbf",
+      "link": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+      "published": "2026-10-06T20:37:53+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Introducing Mistral Large 4: Le chonk",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong><a href=\"https://mistral.ai/news/mistral-large-4/\">Introducing Mistral Large 4: Le chonk</a></strong></p>\nMistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVI 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-07T05:14:15.603221",
+      "id": "3c606a59980de341639c0099ad2e460a",
+      "link": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+      "published": "2026-10-06T20:18:19+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Using Parseable with Datasette for OpenTelemetry traces",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/datasette/datasette-parseable-opentelemetry\">Using Parseable with Datasette for OpenTelemetry traces</a></p>\n        <p>I <a href=\"https://news.ycombinator.com/item?id=49978171\">saw Parseable in a Show HN</a> today - it's a new observab 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-07T05:14:17.453768",
+      "id": "149df84b63964c08c40f93d2423c0e4b",
+      "link": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
+      "published": "2026-10-06T19:07:31+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Apple’s App Icon HOA",
+      "one_liner": "来自blog.jim-nielsen.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了blog的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><a href=\"https://parakeet.co/blog/the-shape-of-apps/\">Louie Mantia has a great post</a> about how app icons are converging towards the squircle on iOS and macOS.</p>\n<p>His post reads like a history. If you’re wondering, “How did we get to a place where all app icons are becoming squircles?” Mant 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解blog讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "blog"
+      ],
+      "level": "中级",
+      "source": "blog.jim-nielsen.com",
+      "generated_at": "2026-10-07T05:14:19.303514",
+      "id": "6e6371ffffa13b22624e2a1500a5806f",
+      "link": "https://blog.jim-nielsen.com/2026/app-icon-hoa/",
+      "published": "2026-10-06T19:00:00+00:00",
+      "author": "blog.jim-nielsen.com"
+    },
+    {
+      "headline": "Mistral Large 4",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><a href=\"https://news.ycombinator.com/item?id=49977979#49982139\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49977979\">Mistral Large 4</a> &mdash; Hacker News.</p><blockquote>\n<p><a href=\"https://news.ycombinator.com/item?id=49977979#49979658\">wren6991</a>: The benchmark is sa 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-07T05:14:21.130298",
+      "id": "d9a88140e7537bbf57660259ab0bb99f",
+      "link": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+      "published": "2026-10-06T18:20:58+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Unofficial Command-Line Tool Removes Apple Intelligence From MacOS 27",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Scharon Harding, Ars Technica:</p>\n\n<blockquote>\n  <p>Unlike with previous versions of macOS, <a href=\"https://arstechnica.com/gadgets/2026/09/macos-27-golden-gate-the-ars-technica-review/\">macOS 27 Golden\nGate</a> doesn’t have a toggle for turning off Apple\nIntelligence. That makes disabling AI  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-07T05:14:22.980553",
+      "id": "b885ab921e9a2f2a11ca8b9277071b12",
+      "link": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+      "published": "2026-10-06T18:17:43+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "datasette-atom 0.11a0",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-atom/releases/tag/0.11a0\">datasette-atom 0.11a0</a></p>\n        <p>A minor fix for compatibility with the latest Datasette alphas. This meant we could upgrade the <a href=\"https://datasette.io/\">datasette.io</a> site to Datase 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-07T05:14:24.832138",
+      "id": "e964055cce0bc4c93e12d26dc3c5be3e",
+      "link": "https://simonwillison.net/2026/Oct/6/datasette-atom/",
+      "published": "2026-10-06T17:35:39+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Scrimshaw Jukebox",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/scrimshaw-jukebox\">Scrimshaw Jukebox</a></p>\n        <p>I wanted to see if Claude Opus 5.5 could compose music, so <a href=\"https://claude.ai/share/1f721c20-2499-4d23-b368-3ab57146d956\">I tried this</a>:</p>\n<blockquote>\n<p><code>I w 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-07T05:14:26.930616",
+      "id": "56c07856ac05cdfece5caea41377fe3e",
+      "link": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+      "published": "2026-10-06T15:17:39+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Credit Crunch",
+      "one_liner": "来自wheresyoured.at的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了wheresyoured的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>If you liked this piece, you should subscribe to my premium newsletter, and you can subscribe on the following links:<a href=\"https://edzitronswheresyouredatghostio.outpost.pub/public/promo-subscription/w1KX6aWthd?ref=wheresyoured.at\"><u> &#x24;70 a year</u></a>,<a href=\"https://edzitronswheresyo 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解wheresyoured讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "wheresyoured"
+      ],
+      "level": "中级",
+      "source": "wheresyoured.at",
+      "generated_at": "2026-10-07T05:14:28.782312",
+      "id": "b16a453d2c930181843b435fa0f9aed2",
+      "link": "https://www.wheresyoured.at/credit-crunch/",
+      "published": "2026-10-06T14:54:08+00:00",
+      "author": "Ed Zitron"
+    },
+    {
+      "headline": "Pluralistic: Swapping money for expertise (06 Oct 2026)",
+      "one_liner": "来自pluralistic.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了pluralistic的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><!--\nTags:\nai, expertise, theory-free inference, reverse centaurs,bubbles\n\nSummary:\nSwapping money for expertise; Hey look at this; Upcoming appearances; Recent appearances; Latest books; Upcoming books\n\nURL:\nhttps://pluralistic.net/2026/10/06/nonfungible/\n\nTitle:\nPluralistic: Swapping money for  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解pluralistic讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "pluralistic"
+      ],
+      "level": "中级",
+      "source": "pluralistic.net",
+      "generated_at": "2026-10-07T05:14:30.627392",
+      "id": "7ff6fb4ad7a97d01c252ec5ecddcb4e2",
+      "link": "https://pluralistic.net/2026/10/06/nonfungible/",
+      "published": "2026-10-06T12:58:26+00:00",
+      "author": "Cory Doctorow"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-11",
+  "date_display": "2026年10月11日",
+  "articles": [
+    {
+      "headline": "Dwarf Fortress uses version control now",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control <em>more</em>. That's art.</p>\n<p>I went looking and I'm sad to re 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-11T05:01:57.588146",
+      "id": "5e79fa48416b161bcfde7d270f02ef20",
+      "link": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+      "published": "2026-10-11T00:52:37+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Python 3.15.0 added to actions/python-versions",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong><a href=\"https://github.com/actions/python-versions/commit/49858b91c92d27403416ee43117032e91d00ce24\">Python 3.15.0 added to actions/python-versions</a></strong></p>\nBit of a niche link, but I've been waiting for this for a couple of days - I even <a href=\"https://chatgpt.com/share/6acad42 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-11T05:01:59.435261",
+      "id": "509e2e86d4169d203c7b2fb26389ace2",
+      "link": "https://simonwillison.net/2026/Oct/10/python-actions/",
+      "published": "2026-10-10T23:58:04+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Sunnny",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>My thanks to Sunnny for sponsoring this week at DF. How can B2B software be so friggin’ delicious? Find out when early access launches on Monday, October 19.</p>\n\n<div>\n<a href=\"https://daringfireball.net/linked/2026/10/10/sunnny\" title=\"Permanent link to ‘Sunnny’\">&nbsp;★&nbsp;</a>\n</div> 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-11T05:02:01.302447",
+      "id": "16d320b7e8316acc5d68abc2c3c103ea",
+      "link": "https://sunnny.com/",
+      "published": "2026-10-10T16:11:45+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "‘Proof-of-Human’",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Benjamin Mayo (on X, of course), commenting on Apple promoting behind-the-scenes footage showing that the cross-stitch “Welcome Home” logo for next week’s keynote/experience was stitched by hand:</p>\n\n<blockquote>\n  <p>There needs to be a name for this phenomenon where every\npublished piece of ar 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-11T05:02:03.183066",
+      "id": "a0fd3d36c7c24ca1685da08e170fc6bf",
+      "link": "https://x.com/bzamayo/status/2108498107184934914",
+      "published": "2026-10-10T16:06:17+00:00",
+      "author": "John Gruber"
+    }
+  ]
+}

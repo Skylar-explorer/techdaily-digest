@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-13",
+  "date_display": "2026年10月13日",
+  "articles": [
+    {
+      "headline": "The Dock on Mac, From OS 10 to macOS 27",
+      "one_liner": "来自blog.jim-nielsen.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了blog的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>I wrote <a href=\"https://blog.jim-nielsen.com/2022/short-history-of-ios-app-icons/\">the chapter on app icon history for <em>The iOS App Icon Book</em></a>.</p>\n<p>The other day I found an old note stashed away where I had started researching the macOS version of that chapter (which Michael ultima 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解blog讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "blog"
+      ],
+      "level": "中级",
+      "source": "blog.jim-nielsen.com",
+      "generated_at": "2026-10-13T06:14:39.960438",
+      "id": "2996c6ea6e24bc807f66b5ea72f9a83b",
+      "link": "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time/",
+      "published": "2026-10-12T19:00:00+00:00",
+      "author": "blog.jim-nielsen.com"
+    },
+    {
+      "headline": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Python 3.15 <a href=\"https://www.python.org/downloads/release/python-3150/\">is here</a>! Here's the essential <a href=\"https://docs.python.org/3.15/whatsnew/3.15.html\">What's new in Python 3.15</a> guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-13T06:14:41.880528",
+      "id": "6d0de6064d15579cbef0494e208c2188",
+      "link": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "published": "2026-10-12T18:15:38+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Mark Stephens, a.k.a. Robert X. Cringely, Died at 73",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Mary Alyce Stephens (née Neader), posting on Cringely’s Facebook account:</p>\n\n<blockquote>\n  <p>Hello, this is Mary Alyce, Bob’s wife. I am coming to you with\nimmense sadness to let you know that Bob passed away. His obituary\nfollows. His family is not requesting anything, however, if you\nwould  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-13T06:14:43.768257",
+      "id": "2d408f62fdac698de5b36e4b68eb7a92",
+      "link": "https://www.facebook.com/story.php?story_fbid=pfbid0YbCLrAJfBirAWuPBy4a7pauaQ6gHkAPUwtbzyg2wAjeMcruFC7dWUZKQJKkNChP9l&id=536506060&_rdr",
+      "published": "2026-10-12T16:43:46+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "web-edit 0.1a0",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/web-edit/releases/tag/0.1a0\">web-edit 0.1a0</a></p>\n        <p>I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM i 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-13T06:14:45.654466",
+      "id": "90d1c46cc2bbf346f859f3c10def7cc0",
+      "link": "https://simonwillison.net/2026/Oct/12/web-edit/",
+      "published": "2026-10-12T15:54:36+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "The X is Off-Target",
+      "one_liner": "来自tedium.co的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了tedium的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<h2>Is X good again? That's probably the wrong question. The right one: Are we past the era when a single social network needs to be everything to everyone?</h2><img alt=\"The X is Off-Target\" src=\"https://static.tedium.co/uploads/X-logo-compressed.gif\" /><div class=\"whitebox\"><p><strong>I don’t know 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解tedium讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "tedium"
+      ],
+      "level": "中级",
+      "source": "tedium.co",
+      "generated_at": "2026-10-13T06:14:47.541267",
+      "id": "7b45342a5d5c637a5b621a2191a432d7",
+      "link": "https://feed.tedium.co/link/15204/17494770/x-social-media-monoliths-critique",
+      "published": "2026-10-12T15:53:18+00:00",
+      "author": "Ernie Smith"
+    },
+    {
+      "headline": "Pluralistic: How labor rights rescued Ultima from a monopolist (12 Oct 2026)",
+      "one_liner": "来自pluralistic.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了pluralistic的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><!--\nTags:\nchokepoint capitalism, termination of transfer, copyright termination, rebecca giblin, ultima online, stop killing games, games, videogames, rpgs, ultima, richard garriott, lord british, labor rights, copyfight\n\nSummary:\nHow labor rights rescued Ultima from a monopolist; Hey look at th 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解pluralistic讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "pluralistic"
+      ],
+      "level": "中级",
+      "source": "pluralistic.net",
+      "generated_at": "2026-10-13T06:14:49.432842",
+      "id": "63fef1873a818d9780f2a8369e8b81f3",
+      "link": "https://pluralistic.net/2026/10/12/termination-of-transfer/",
+      "published": "2026-10-12T11:40:39+00:00",
+      "author": "Cory Doctorow"
+    }
+  ]
+}

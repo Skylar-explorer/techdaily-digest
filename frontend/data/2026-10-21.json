@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-21",
+  "date_display": "2026年10月21日",
+  "articles": [
+    {
+      "headline": "eMudhra Intermediate CA Compromise",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong><a href=\"https://emudhra.we-have-a-problem.com\">eMudhra Intermediate CA Compromise</a></strong></p>\nThis is very, very bad news:</p>\n<blockquote>\n<p>The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-21T04:02:11.027236",
+      "id": "cf32db9eecb2eeb54334bbd7236122f4",
+      "link": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+      "published": "2026-10-20T23:50:25+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>My latest vibe coded game experiment is a Command &amp; Conquer style RTS (Real Time Strategy) game called <a href=\"https://github.com/simonw/battledrones#readme\">Battle Drones</a> (<a href=\"https://simonw.github.io/battledrones/\">play it here</a>). Unlike <a href=\"https://simonwillison.net/2026/ 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-21T04:02:12.824710",
+      "id": "144d05732de3bf7d772b7e8a9f44fcfd",
+      "link": "https://simonwillison.net/2026/Oct/20/battledrones/",
+      "published": "2026-10-20T19:34:19+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "How to install an app on your Commodore 64",
+      "one_liner": "来自anildash.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了anildash的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>It’s time to install an app! But here in 1986, we still call them “programs,” not apps. So, you’ll want to set aside some time to get started installing a program.</p>\n<p>Since you have a Commodore 64, there are really only two options for getting new programs this month: <em>COMPUTE!’s Gazette</ 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解anildash讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "anildash"
+      ],
+      "level": "中级",
+      "source": "anildash.com",
+      "generated_at": "2026-10-21T04:02:14.634483",
+      "id": "4beb0c11da9fdfbbc8eeb23d9e09f526",
+      "link": "https://anildash.com/2026/10/08/install-an-app-commodore-64/",
+      "published": "2026-10-20T17:36:24+00:00",
+      "author": "anildash.com"
+    },
+    {
+      "headline": "Death & Domains",
+      "one_liner": "来自tedium.co的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了tedium的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<h2>A recent piece on “forever domains” sparked bigger questions about permanence online: when domain owners die out, do we need new systems that don't rely on domains at all?</h2><img alt=\"Death &amp; Domains\" src=\"https://static.tedium.co/uploads/domains.gif\" /><div class=\"whitebox\"><p><strong>Sho 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解tedium讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "tedium"
+      ],
+      "level": "中级",
+      "source": "tedium.co",
+      "generated_at": "2026-10-21T04:02:16.528452",
+      "id": "bf2f4b473bf84ec4119a98b6817495f1",
+      "link": "https://feed.tedium.co/link/15204/17501584/death-domains-commentary",
+      "published": "2026-10-20T17:35:53+00:00",
+      "author": "Ernie Smith"
+    },
+    {
+      "headline": "Pluralistic: The death of history's most successful publisher (20 Oct 2026)",
+      "one_liner": "来自pluralistic.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了pluralistic的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><!--\nTags:\ngoogle, monopoly, ai, ai summaries, slop, search, tim wu, main character syndrome, patrick nielsen hayden\n\nSummary:\nThe death of history's most successful publisher; Hey look at this; Upcoming appearances; Recent appearances; Latest books; Upcoming books\n\nURL:\nhttps://pluralistic.net/2 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解pluralistic讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "pluralistic"
+      ],
+      "level": "中级",
+      "source": "pluralistic.net",
+      "generated_at": "2026-10-21T04:02:18.327181",
+      "id": "79fda87435e57c54994ca3903d9bda20",
+      "link": "https://pluralistic.net/2026/10/20/main-character-syndrome/",
+      "published": "2026-10-20T17:24:41+00:00",
+      "author": "Cory Doctorow"
+    },
+    {
+      "headline": "AI Had Better Work Out",
+      "one_liner": "来自wheresyoured.at的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了wheresyoured的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>If you liked this piece, you should subscribe to my premium newsletter, and you can subscribe on the following links:<a href=\"https://edzitronswheresyouredatghostio.outpost.pub/public/promo-subscription/w1KX6aWthd?ref=wheresyoured.at\"><u> &#x24;70 a year</u></a>,<a href=\"https://edzitronswheresyo 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解wheresyoured讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "wheresyoured"
+      ],
+      "level": "中级",
+      "source": "wheresyoured.at",
+      "generated_at": "2026-10-21T04:02:20.160539",
+      "id": "60a8ee7a0029ce74a6119b6f29c27bb7",
+      "link": "https://www.wheresyoured.at/ai-had-better-work-out/",
+      "published": "2026-10-20T16:12:06+00:00",
+      "author": "Ed Zitron"
+    },
+    {
+      "headline": "ClickHouse Will Let You Be Wrong at Scale",
+      "one_liner": "来自matduggan.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了matduggan的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>So I&apos;ve posted before how I think ClickHouse is great. Its columnar storage is fast, it has amazing compression. I won&apos;t bore you with those details, you can see them all here: <a href=\"https://matduggan.com/clickhouse-is-winning-the-observability-wars/\">https://matduggan.com/clickhouse 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解matduggan讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "matduggan"
+      ],
+      "level": "中级",
+      "source": "matduggan.com",
+      "generated_at": "2026-10-21T04:02:21.973505",
+      "id": "6fe834827428c97322be6e62fa502702",
+      "link": "https://matduggan.com/clickhouse-will-let-you-be-wrong-at-scale/",
+      "published": "2026-10-20T14:01:12+00:00",
+      "author": "Mathew Duggan"
+    },
+    {
+      "headline": "[Sponsor] Sunnny",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>All your B2B customer data. In that nice California sunnn. Early access now!</p>\n\n<div>\n<a href=\"https://daringfireball.net/feeds/sponsors/2026/10/sunnny_1\" title=\"Permanent link to ‘Sunnny’\">&nbsp;★&nbsp;</a>\n</div> 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-21T04:02:23.797433",
+      "id": "16d320b7e8316acc5d68abc2c3c103ea",
+      "link": "https://sunnny.com/",
+      "published": "2026-10-20T13:09:38+00:00",
+      "author": "Daring Fireball Department of Commerce"
+    }
+  ]
+}

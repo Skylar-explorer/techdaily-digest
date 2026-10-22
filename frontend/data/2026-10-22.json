@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-22",
+  "date_display": "2026年10月22日",
+  "articles": [
+    {
+      "headline": "★ The iPhone Duo",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>The very nature of the iPhone Duo raises numerous obvious questions about what it’s like to use. Does it not feel thick and heavy, awkward both to pocket and unpocket? Doesn’t the outer (cover) screen feel small and cramped, with an unfamiliar squat-rather-than-tall layout for UI controls in ever 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-22T04:03:25.237292",
+      "id": "464ce25070a69a4e3e0301ea849b470a",
+      "link": "https://daringfireball.net/2026/10/the_iphone_duo",
+      "published": "2026-10-21T22:59:14+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Pluralistic: Adversarial interoperability is a team sport (21 Oct 2026)",
+      "one_liner": "来自pluralistic.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了pluralistic的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><!--\nTags:\ncapital formation, adversarial interoperability, vibe coding, ai, 404 media, jason koebler,\n\nSummary:\nAdversarial interoperability is a team sport; Hey look at this; Upcoming appearances; Recent appearances; Latest books; Upcoming books\n\nURL:\nhttps://pluralistic.net/2026/10/21/brittle- 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解pluralistic讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "pluralistic"
+      ],
+      "level": "中级",
+      "source": "pluralistic.net",
+      "generated_at": "2026-10-22T04:03:27.144391",
+      "id": "dde04163e2b79395ecfb7950be6753aa",
+      "link": "https://pluralistic.net/2026/10/21/brittle-individualism/",
+      "published": "2026-10-21T20:05:21+00:00",
+      "author": "Cory Doctorow"
+    },
+    {
+      "headline": "Can they write a function?",
+      "one_liner": "来自idiallo.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了idiallo的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>For a software developer position, there isn't a trick to finding the best candidate. Your criteria do not determine how solid the candidates will be. Everyone is submitting 500 applications a month now, and those who automate the process submit thousands.</p>\t\t\t<p>So how do you hire a great cand 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解idiallo讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "idiallo"
+      ],
+      "level": "中级",
+      "source": "idiallo.com",
+      "generated_at": "2026-10-22T04:03:29.005011",
+      "id": "a7076a3790853f6460133000685c0ff0",
+      "link": "https://idiallo.com/blog/can-they-write-a-function",
+      "published": "2026-10-21T19:00:40+00:00",
+      "author": "rss@idiallo.com"
+    },
+    {
+      "headline": "No Need for Retirement When Utopia Is Around the Corner",
+      "one_liner": "来自blog.jim-nielsen.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了blog的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>I’ve mentioned before <a href=\"https://blog.jim-nielsen.com/2025/my-atomic-rabbithole/\">my interest in the history and development of nuclear weapons</a>.</p>\n<p>Currently, I’m reading <em>The Doomsday Machine: Confessions of a Nuclear War Planner</em> by Daniel Ellsberg (of <a href=\"https://en.w 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解blog讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "blog"
+      ],
+      "level": "中级",
+      "source": "blog.jim-nielsen.com",
+      "generated_at": "2026-10-22T04:03:30.960093",
+      "id": "c82ab539be2161c9f218072744fa9736",
+      "link": "https://blog.jim-nielsen.com/2026/skip-retirement-for-utopia/",
+      "published": "2026-10-21T19:00:00+00:00",
+      "author": "blog.jim-nielsen.com"
+    },
+    {
+      "headline": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong><a href=\"https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/\">Today&#x27;s PHP Security Release, and How We&#x27;re Strengthening PHP Security</a></strong></p>\nIf you're running anything on PHP it's vital you upgrade - today's upd 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-22T04:03:32.812643",
+      "id": "cb8674c4969887330c9dbd350d624ff4",
+      "link": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+      "published": "2026-10-21T18:41:53+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Panache — RTS Belle Époque pour mobile",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong><a href=\"https://github.com/menufactory43/panache/\">Panache — RTS Belle Époque pour mobile</a></strong></p>\nWell this is delightful: I <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">released Battle Drones</a> yesterday under an Apache 2.0 License and there's already a Frenc 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-22T04:03:34.693146",
+      "id": "1e78a18c798c2d63bd7eb65d41e94c84",
+      "link": "https://simonwillison.net/2026/Oct/21/panache/",
+      "published": "2026-10-21T16:25:16+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Going Somewhere",
+      "one_liner": "来自simone.org的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simone的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<img alt=\"Going Somewhere\" src=\"https://storage.ghost.io/c/8b/76/8b769e5f-3e93-489d-9b56-dcc0fae47787/content/images/2026/08/going-somewhere-marina.jpg\" /><p><em>Life, regardless of location. Chicago, ciao and see you soon.</em></p><p>&#x201c;Who talks to somebody that they don&apos;t know freely, h 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simone讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simone"
+      ],
+      "level": "中级",
+      "source": "simone.org",
+      "generated_at": "2026-10-22T04:03:36.597692",
+      "id": "d4a7b5c5a51fc587b9c37a3018f51baf",
+      "link": "https://simone.org/somewhere/",
+      "published": "2026-10-21T16:14:51+00:00",
+      "author": "Simone Salis"
+    },
+    {
+      "headline": "Widespread PHP Flaw May Cause Many Site Outages Today",
+      "one_liner": "来自krebsonsecurity.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了krebsonsecurity的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Expect to see quite a few websites serving error pages today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解krebsonsecurity讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "krebsonsecurity"
+      ],
+      "level": "中级",
+      "source": "krebsonsecurity.com",
+      "generated_at": "2026-10-22T04:03:38.509491",
+      "id": "8651e625050eb8ab8cf2c80e14339557",
+      "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+      "published": "2026-10-21T15:26:07+00:00",
+      "author": "BrianKrebs"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-23",
+  "date_display": "2026年10月23日",
+  "articles": [
+    {
+      "headline": "Software is slow because of bad design, not slow languages",
+      "one_liner": "来自seangoedecke.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了seangoedecke的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Many people <a href=\"https://rustify.rs/articles/rails-world-2026-keynote-dhh-hey-rust-ai-agents\">are saying</a> that AI will make software faster by rewriting it in faster languages, but this isn’t generally true. Most programs cannot be meaningfully sped up by rewriting them in C or Rust.</p>\n< 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解seangoedecke讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "seangoedecke"
+      ],
+      "level": "中级",
+      "source": "seangoedecke.com",
+      "generated_at": "2026-10-23T04:06:34.717622",
+      "id": "4c48f52397e8d0483d75ce5cf9116a90",
+      "link": "https://seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages/",
+      "published": "2026-10-23T00:00:00+00:00",
+      "author": "seangoedecke.com"
+    },
+    {
+      "headline": "DE STAAT - FREEDOM (Official Music Video)",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong><a href=\"https://www.youtube.com/watch?v=hKO4pQtIXow\">DE STAAT - FREEDOM (Official Music Video)</a></strong></p>\nOK well this is a first for me... at <a href=\"https://www.youtube.com/watch?v=hKO4pQtIXow&amp;t=44s\">00:44</a> in this new music video by Dutch alternative rock band <a href=\"h 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-23T04:06:36.589530",
+      "id": "17d3d90c0cc132dcb5274fbb45f0879a",
+      "link": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+      "published": "2026-10-22T19:42:26+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Apple Highlights 50+ iPhone Apps That Have Already Been Optimized for the Duo",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Apple Newsroom:</p>\n\n<blockquote>\n  <p>New editorial collections for iPhone Duo apps and games will go\nlive on the App Store this Friday, with additional app updates\nrolling out throughout the year. Apps optimized for iPhone Duo are\neasy to identify with a Made for iPhone Duo badge on product pag 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-23T04:06:38.547011",
+      "id": "dfc99e0cccf17a4c8ee26e296dd8e2d4",
+      "link": "https://www.apple.com/newsroom/2026/10/developers-bring-incredible-new-app-experiences-to-iphone-duo/",
+      "published": "2026-10-22T19:10:10+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Updates to My iPhone Duo Review",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Nothing major, but since publishing at 7:00pm last night, I’ve made a few additions and changes to my iPhone Duo review. I’m calling them out here, so that if you’ve already read it, you can see the changes. If I make more, I’ll add them to the top.</p>\n\n<p>Regarding the camera, added and/or clar 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-23T04:06:40.396654",
+      "id": "464ce25070a69a4e3e0301ea849b470a",
+      "link": "https://daringfireball.net/2026/10/the_iphone_duo",
+      "published": "2026-10-22T18:49:38+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Donating Agent Skills to the Agentic AI Foundation",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong><a href=\"https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation\">Donating Agent Skills to the Agentic AI Foundation</a></strong></p>\nNews today from Anthropic:</p>\n<blockquote>\n<p>We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-23T04:06:42.328594",
+      "id": "4b2657f99d2ef063199c24fcf47e9abe",
+      "link": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "published": "2026-10-22T18:09:56+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Productivity",
+      "one_liner": "来自idiallo.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了idiallo的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<blockquote>\n<p>I'd say in a given week I probably only do about fifteen minutes of real, actual, work. &mdash; Office Space</p>\n</blockquote>\n<p>I was watching a video where a guy said he has 8 agents working in the background. He was stressed out and was trying to \"get shit done.\" At one point he  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解idiallo讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "idiallo"
+      ],
+      "level": "中级",
+      "source": "idiallo.com",
+      "generated_at": "2026-10-23T04:06:44.311464",
+      "id": "5256ad1f6b59e72e30ca4f588ada1618",
+      "link": "https://idiallo.com/byte-size/productivity-video",
+      "published": "2026-10-22T16:56:14+00:00",
+      "author": "rss@idiallo.com"
+    },
+    {
+      "headline": "Quoting Armin Ronacher",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<blockquote cite=\"https://twitter.com/mitsuhiko/status/2113207589978636646\"><p>As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/mitsuhiko/status/211320758997 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-23T04:06:46.154895",
+      "id": "6564974e6eb591be65bdc5955f2f4ca6",
+      "link": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+      "published": "2026-10-22T15:34:13+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "What will computer chips look like in 2045?",
+      "one_liner": "来自dwarkesh.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了dwarkesh的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>I spent two days touring Intel&#8217;s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like.</p><p>A lot of what&#8217;s coming next &#8211; gate-all-around transistors, backside power, CFET, hybrid bonding &#8211; is hard to follow w 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解dwarkesh讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "dwarkesh"
+      ],
+      "level": "中级",
+      "source": "dwarkesh.com",
+      "generated_at": "2026-10-23T04:06:48.017619",
+      "id": "d52e3da1e518ca64a5108083b22707c0",
+      "link": "https://www.dwarkesh.com/p/intel-tour",
+      "published": "2026-10-22T15:02:21+00:00",
+      "author": "Dwarkesh Patel"
+    },
+    {
+      "headline": "If people would just",
+      "one_liner": "来自herman.bearblog.dev的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了herman的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>People use the word <em>just</em> a lot when talking about problems. If people would <em>just</em> drive slowly near schools. If people would <em>just</em> pay their taxes. If people would <em>just</em> follow the rules.</p>\n<p>It's a sentence that sounds reasonable as it's true that most problem 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解herman讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "herman"
+      ],
+      "level": "中级",
+      "source": "herman.bearblog.dev",
+      "generated_at": "2026-10-23T04:06:49.878638",
+      "id": "ab9830d5c600834d41db7155435f6e41",
+      "link": "https://herman.bearblog.dev/if-people-would-just/",
+      "published": "2026-10-22T12:19:00+00:00",
+      "author": "herman (hidden)"
+    },
+    {
+      "headline": "How to install an app on your Commodore 64",
+      "one_liner": "来自anildash.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了anildash的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>It’s time to install an app! But here in 1986, we still call them “programs,” not apps. So, you’ll want to set aside some time to get started installing a program.</p>\n<p>Since you have a Commodore 64, there are really only two options for getting new programs this month: <em>COMPUTE!’s Gazette</ 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解anildash讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "anildash"
+      ],
+      "level": "中级",
+      "source": "anildash.com",
+      "generated_at": "2026-10-23T04:06:51.746813",
+      "id": "4beb0c11da9fdfbbc8eeb23d9e09f526",
+      "link": "https://anildash.com/2026/10/08/install-an-app-commodore-64/",
+      "published": "2026-10-22T06:34:24+00:00",
+      "author": "anildash.com"
+    }
+  ]
+}

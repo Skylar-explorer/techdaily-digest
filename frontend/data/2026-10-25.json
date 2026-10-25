@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-25",
+  "date_display": "2026年10月25日",
+  "articles": [
+    {
+      "headline": "MacOS Extensions pack for the Apple Network Server v1.0",
+      "one_liner": "来自oldvcr.blogspot.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了oldvcr的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3Z41XAQEyv90YDSNsUZoRLFphrYb6i6dcfu2ZGSv0bIYyLdZ1ubThIPquyvjUS2fDx-GdIqf4sIUl77bKZCgodMzYrW-6lt2fci3thoYOJscOyOr0mTDnbIif9J324iDTr0wNpXR0AYuXZhCx-7CuPRL7vFLrmZbISj9Z585sNjYK7sYb5oXg62Bh3i 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解oldvcr讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "oldvcr"
+      ],
+      "level": "中级",
+      "source": "oldvcr.blogspot.com",
+      "generated_at": "2026-10-25T04:00:19.378974",
+      "id": "8ec7b8074928ae177231b1c55c2bd259",
+      "link": "https://oldvcr.blogspot.com/2026/10/macos-extensions-pack-for-apple-network.html",
+      "published": "2026-10-25T01:21:15+00:00",
+      "author": "ClassicHasClass (noreply@blogger.com)"
+    },
+    {
+      "headline": "Don't anthropomorphize big tech companies",
+      "one_liner": "来自seangoedecke.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了seangoedecke的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Bryan Cantrill has a great line from a <a href=\"https://www.youtube.com/watch?v=-zRN7XLCRhc&#x26;t=34m7s\">talk</a> where he cautions against anthropomorphizing<sup id=\"fnref-1\"><a class=\"footnote-ref\" href=\"https://seangoedecke.com/dont-anthropomorphize-big-tech-companies/#fn-1\">1</a></sup> Oracl 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解seangoedecke讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "seangoedecke"
+      ],
+      "level": "中级",
+      "source": "seangoedecke.com",
+      "generated_at": "2026-10-25T04:00:21.291656",
+      "id": "bddbb7999f12bb00fa4b5a28f1709e57",
+      "link": "https://seangoedecke.com/dont-anthropomorphize-big-tech-companies/",
+      "published": "2026-10-25T00:00:00+00:00",
+      "author": "seangoedecke.com"
+    },
+    {
+      "headline": "Nicole Nguyen’s Duo Review for the WSJ",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Nicole Nguyen (also with <a href=\"https://www.youtube.com/watch?v=9A6YGb9gqJs\">a 5-minute video</a>), writing for The Wall Street Journal (gift link):</p>\n\n<blockquote>\n  <p>Every time I used the Duo in phone mode, one-handed, I felt its\nheft. It’s wider and thicker than a Pro iPhone — and heavie 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-25T04:00:23.211551",
+      "id": "1f3c6a5a3f1f23fe65ff5f2e04a689e8",
+      "link": "https://www.wsj.com/tech/personal-tech/iphone-duo-review-cafcbbe7?st=GaYVMf",
+      "published": "2026-10-24T22:15:00+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Reuters and the WSJ on the Duo Launch",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Aditya Soni, Christine Chen, and Will Russell, reporting Friday for Reuters:</p>\n\n<blockquote>\n  <p>CEO Ternus played greeter at a store in Austin, Texas, throwing\nopen the doors and high-fiving customers as they streamed in, a\nvideo ​posted on X by CBS Austin showed. A known car enthusiast,\nTern 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-25T04:00:25.097972",
+      "id": "557889c9b07e0bf3f98a4e462eddba87",
+      "link": "https://www.reuters.com/business/retail-consumer/apple-bets-iphone-duo-can-remake-foldable-market-sales-begin-2026-10-22/",
+      "published": "2026-10-24T22:08:17+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Marion Barry Meets the iPhone Duo",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Jay Peters, The Verge:</p>\n\n<blockquote>\n  <p>The iPhone Duo officially goes on sale today, but a few units\nalready have broken screens. According to posts on Reddit about\nthe affected units, the issue appears to be happening at a similar\nspot on all of them: Some kind of problem shows up on the  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-25T04:00:27.086670",
+      "id": "652cae9fabe229eda4109f9487f3a07f",
+      "link": "https://www.theverge.com/tech/1017623/iphone-duo-broken-cracked-screen",
+      "published": "2026-10-24T21:10:06+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "MKBHD’s Duo Review",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Marques Brownlee thinks the lack of Face ID will be the biggest gripe. I agree. And I love his central framing for the review: that the Duo is extremely polished around the edges (figuratively, but also true literally) but rough in the middle.</p>\n\n<p>But he spends more time griping about third-p 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-25T04:00:28.950875",
+      "id": "633d5784c4586f36392c79a372fee1e5",
+      "link": "https://youtu.be/ESABTN4VtrA",
+      "published": "2026-10-24T20:47:28+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Tim Pan’s iPhone Duo Review",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>I hadn’t heard of Tim Pan or Mediastorm until running across his 24-minute video review of the Duo. It’s a good and fair review, but what struck me are the rather astonishing <a href=\"https://x.com/mediastorm_en/status/2113197007217295440\">production values</a>. Amongst other things, they stress- 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-25T04:00:30.852400",
+      "id": "df3ac001c106f28512e1984d275253be",
+      "link": "https://www.youtube.com/watch?v=8pCccpKjjos",
+      "published": "2026-10-24T19:15:45+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Apple Built a Photo-Realistic Functional Original iPod for Apple Music’s 404 Page",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>It <a href=\"https://x.com/kianworld/status/2113519872999301172\">seems like</a> this amazing Easter egg only launched yesterday, to celebrate <a href=\"https://x.com/tfadell/status/2113708201762033691\">the original iPod’s 25th anniversary</a>. Exquisitely well done. More like this, please.</p>\n\n<di 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-25T04:00:32.773339",
+      "id": "4dffabc3c3031328d7671930fc5f4d55",
+      "link": "https://music.apple.com/404",
+      "published": "2026-10-24T15:50:02+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Chan Karunamuni on the Duo’s Open/Close Translucent Transition",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Chan Karunamuni, human interface designer at Apple, on X:</p>\n\n<blockquote>\n  <p>iPhone Duo is here! Excited to have worked on the design of our\nopen/close transition. It’s designed to make the two displays feel\nlike one seamless experience by perceptually bending the focal\nplane, not the content 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-25T04:00:34.698770",
+      "id": "0fbbc2408e1707a79c84fdb8d8b85919",
+      "link": "https://x.com/chan_k/status/2113622379050246243",
+      "published": "2026-10-24T15:03:44+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "battledrones v14: Compass Rose, a four player map",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/battledrones/releases/tag/v14\">battledrones v14: Compass Rose, a four player map</a></p>\n        <p>I added four player online mode to <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">Battledrones</a> - previous maps were l 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-25T04:00:36.713336",
+      "id": "7802d95a6ccb026fbbd7492ea812f21e",
+      "link": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "published": "2026-10-24T03:59:57+00:00",
+      "author": "simonwillison.net"
+    }
+  ]
+}

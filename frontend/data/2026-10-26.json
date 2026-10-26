@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-26",
+  "date_display": "2026年10月26日",
+  "articles": [
+    {
+      "headline": "Sunnny",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>My thanks to Sunnny for sponsoring last week at DF. Sunnny’s pitch to B2B companies is simple: you store valuable customer information across a myriad of systems, making it hard to get a simple overview. Sunnny consolidates your customer data, cleans it, resolves identities, identifies relationsh 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-26T04:04:49.856297",
+      "id": "16d320b7e8316acc5d68abc2c3c103ea",
+      "link": "https://sunnny.com/",
+      "published": "2026-10-25T21:50:00+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Duo Users Are Registering the Base of Their Index Finger as a Touch ID Coping Strategy",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Some guy on Reddit (with an illustration video):</p>\n\n<blockquote>\n  <p>Saw this online, tried it, and it works beautifully. Basically, I\nregistered the lowest part of my right index finger. That part of\nthe finger sits naturally when you go to swipe up at the phone.</p>\n\n<p>This resolves a major 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-26T04:04:51.908420",
+      "id": "53f34e242ce54f472da3a722786e08e3",
+      "link": "https://www.reddit.com/r/iPhoneDuo/comments/1xehtcj/best_fingerprint_method/",
+      "published": "2026-10-25T21:47:57+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "one_liner": "来自minimaxir.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了minimaxir的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><span></span></p>\n<p>Let&rsquo;s look at a quick timeline of the major LLM model announcements from both <a href=\"https://openai.com\">OpenAI</a> and <a href=\"https://www.anthropic.com\">Anthropic</a> over the past few months. All pricing numbers provided are <code>input MTok / output MTok / cache  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解minimaxir讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "minimaxir"
+      ],
+      "level": "中级",
+      "source": "minimaxir.com",
+      "generated_at": "2026-10-26T04:04:53.821100",
+      "id": "c10a2b502fcca58ba777d3b5d79f5191",
+      "link": "https://minimaxir.com/2026/10/cheap-llms/",
+      "published": "2026-10-25T21:00:00+00:00",
+      "author": "minimaxir.com"
+    },
+    {
+      "headline": "The Talk Show: ‘Lubricate the Inside of the Hinge’",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Special guest: Joanna Stern. <br />\nSpecial topic: The iPhone Duo.</p>\n\n<p><audio controls=\"controls\" preload=\"none\" src=\"https://traffic.libsyn.com/secure/daringfireball/thetalkshow-456-joanna-stern.mp3\"></p>\n\n<p><strong>Sponsored by:</strong></p>\n\n<ul>\n<li><a href=\"https://factormeals.com/talks 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-26T04:04:55.725627",
+      "id": "2848a4ec587da520c58aaccbcc8e3834",
+      "link": "https://daringfireball.net/thetalkshow/2026/10/25/ep-456",
+      "published": "2026-10-25T19:03:13+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "iPhone Portrait Mode, 10 Years In",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Speaking of Johnnie Manzari, he wrote a post yesterday marking the 10 year anniversary of Portrait Mode:</p>\n\n<blockquote>\n  <p>Initially, Portrait mode was seen as a giant math problem. You’d\ndo disparity calculations on the two sensors and output a depth\nmap. The problem was this approach feels 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-26T04:04:57.769193",
+      "id": "fb7e1abd9a387c4b7593a7c1d812855c",
+      "link": "https://x.com/johnnie/status/2114007844605612167",
+      "published": "2026-10-25T18:09:19+00:00",
+      "author": "John Gruber"
+    }
+  ]
+}

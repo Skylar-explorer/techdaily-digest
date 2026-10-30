@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-30",
+  "date_display": "2026年10月30日",
+  "articles": [
+    {
+      "headline": "API credits benefit for eligible ChatGPT subscriptions",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong><a href=\"https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions\">API credits benefit for eligible ChatGPT subscriptions</a></strong></p>\nEarlier this month Anthropic <a href=\"https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/#api-credits\">a 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-30T05:06:19.236714",
+      "id": "2686ec1eaed7b5a28fbbf2024a139538",
+      "link": "https://simonwillison.net/2026/Oct/29/api-credits/",
+      "published": "2026-10-29T22:48:29+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Apple Drops App Store Commission by a Whopping 4 Percentage Points in Taiwan",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Apple Developer News:</p>\n\n<blockquote>\n  <p>Apple is making changes to the Taiwan storefront of the App Store,\nfollowing discussions with the Taiwan Fair Trade Commission.</p>\n\n<p>As of October 31, 2026, the commission rate for standard Apple\nIn-App Purchase and paid app transactions will be 26% 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-30T05:06:21.042792",
+      "id": "49702cae669ac99950e8bd99eca5b905",
+      "link": "https://developer.apple.com/news/?id=w9mxlhek",
+      "published": "2026-10-29T21:03:42+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "A Health Update From Craig Hockenberry",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Craig Hockenberry:</p>\n\n<blockquote>\n  <p>If you noticed that the Iconfactory sites were kinda broken last\nweek, now you know why. It’s because I was kinda broken last week.</p>\n\n<p>Now I’m finishing this post from a comfy chair on our deck. Typing\ninto the latest version of WordPress and PHP. An 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-30T05:06:22.916561",
+      "id": "2d5494d6cc3072a80d86af999d7f0650",
+      "link": "https://furbo.org/2026/10/28/a-health-update/",
+      "published": "2026-10-29T19:57:21+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Rolfe Winkler at The WSJ: ‘The Beleaguered Chip Sellers Getting Their Revenge on Apple’",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Rolfe Winkler, in a crackerjack story for The Wall Street Journal (gift link):</p>\n\n<blockquote>\n  <p>Blevins, who <a href=\"https://www.wsj.com/articles/former-apple-executive-says-company-blundered-by-firing-him-after-tiktok-video-11670553178?mod=article_inline\">left Apple</a> in 2022, sometimes 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-30T05:06:24.723085",
+      "id": "012258effa14eb55f99ed43edd41e793",
+      "link": "https://www.wsj.com/tech/apple-iphone-memory-chips-ai-c0084cc9?st=FNAyaT",
+      "published": "2026-10-29T19:44:11+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Celebrating SIM Cards",
+      "one_liner": "来自blog.jim-nielsen.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了blog的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>It’s time to celebrate a little win.</p>\n<p>The other day, my mom contacted me saying her 10-year-old iPhone wouldn’t turn on.</p>\n<p>After getting a hold of the device and doing some family IT support, I concluded the battery was dead.</p>\n<p>So I bought her a new (old) one on Walmart (SE 3rd ge 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解blog讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "blog"
+      ],
+      "level": "中级",
+      "source": "blog.jim-nielsen.com",
+      "generated_at": "2026-10-30T05:06:26.551527",
+      "id": "b09155160675e7df6af9540c331d227d",
+      "link": "https://blog.jim-nielsen.com/2026/celebrating-sim-cards/",
+      "published": "2026-10-29T19:00:00+00:00",
+      "author": "blog.jim-nielsen.com"
+    },
+    {
+      "headline": "Building a multiplayer game world with autonomous Fable-class models",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong><a href=\"https://twitter.com/jsnnsa/status/2115623382721126826\">How I Built the Most AI-Pilled Company in the World</a></strong></p>\nDon't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building <a href=\"https://spawn.co\">Spawn</a> is a fascinat 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-30T05:06:28.361326",
+      "id": "a0c591335685a06d80efbd7ccc28069c",
+      "link": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "published": "2026-10-29T17:00:26+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "What I learned about power from LBJ and Robert Moses",
+      "one_liner": "来自dwarkesh.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了dwarkesh的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><em>Thanks to <a href=\"https://x.com/maxwellfarrens\">Max Farrens</a>, who paired with me in writing the script for this video essay.</em></p><p>I recently interviewed Robert Caro. He&#8217;s spent the last 50 years writing a four volume biography of Lyndon Johnson, and he spent another 7 years be 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解dwarkesh讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "dwarkesh"
+      ],
+      "level": "中级",
+      "source": "dwarkesh.com",
+      "generated_at": "2026-10-30T05:06:30.250870",
+      "id": "4ef5a43682fccc97c9d15bed5a962721",
+      "link": "https://www.dwarkesh.com/p/lessons-in-power",
+      "published": "2026-10-29T16:48:39+00:00",
+      "author": "Dwarkesh Patel"
+    },
+    {
+      "headline": "The Space Shuttle Discovery’s Starboard Side ‘s’ Is Upside Down",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>How Jason Snell <a href=\"https://sixcolors.com/link/2026/10/typo-found-on-42-year-old-spaceship/\">beat me</a> to linking to this, I don’t know. But like I said <a href=\"https://daringfireball.net/linked/2026/02/25/h-bomb-wright\">back in February</a>, when it comes to signage, “Mind your P’s and Q 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-10-30T05:06:32.085188",
+      "id": "d251e347cde3a02ab49509d9177bc8d9",
+      "link": "https://www.theautopian.com/a-typography-geek-pointed-out-something-about-the-space-shuttle-discovery-and-now-i-cant-unsee-it/",
+      "published": "2026-10-29T15:06:56+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Quoting Ben Hylak",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<blockquote cite=\"https://twitter.com/benhylak/status/2115172657910120740\"><p>every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath.</p>\n<p>except for our product, of course. </p>\n<p>in our product, customers love the ui an 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-10-30T05:06:33.868104",
+      "id": "44d6b2c8cd9b9a5edead1eadadf098d7",
+      "link": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+      "published": "2026-10-29T14:06:27+00:00",
+      "author": "simonwillison.net"
+    }
+  ]
+}

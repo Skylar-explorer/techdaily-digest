@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-01",
+  "date_display": "2026年11月01日",
+  "articles": [
+    {
+      "headline": "Fast and slow ways to improve your reputation",
+      "one_liner": "来自seangoedecke.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了seangoedecke的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>To get a good reputation in tech companies, you need to work on important projects. However, you need a good reputation first in order to get assigned important projects. Doesn’t that make it impossible to get started? I get a lot of emails from engineers who are struggling with this problem. The 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解seangoedecke讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "seangoedecke"
+      ],
+      "level": "中级",
+      "source": "seangoedecke.com",
+      "generated_at": "2026-11-01T05:18:22.697576",
+      "id": "a0b6ee47c96da2a93c58cff0a624fdb0",
+      "link": "https://seangoedecke.com/how-to-get-assigned-interesting-work/",
+      "published": "2026-11-01T00:00:00+00:00",
+      "author": "seangoedecke.com"
+    },
+    {
+      "headline": "How We Took Over ChatGPT Accounts",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong><a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">How We Took Over ChatGPT Accounts</a></strong></p>\nParameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revis 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-11-01T05:18:24.580102",
+      "id": "8a2a7527d0f6c76ce9809c3c1b294892",
+      "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "published": "2026-10-31T23:15:22+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "datasette-llm 0.1a9",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a9\">datasette-llm 0.1a9</a></p>\n        <p>I have some big upgrades to <a href=\"https://agent.datasette.io/\">Datasette Agent</a> in the pipeline, but in the meantime here's a tiny user experience improve 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-11-01T05:18:26.538168",
+      "id": "d7ef0b333bbf7a506ebae694fc9527ae",
+      "link": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "published": "2026-10-31T22:10:01+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Pluralistic: Formalities (31 Oct 2026)",
+      "one_liner": "来自pluralistic.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了pluralistic的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><!--\nTags:\ncopyright, copyfight, monkey selfie, ai, copyright office, us copyright office, co, usco,\n\nSummary:\nFormalities; Hey look at this; Upcoming appearances; Recent appearances; Latest books; Upcoming books\n\nURL:\nhttps://pluralistic.net/2026/10/31/burn-berne/\n\nTitle:\nPluralistic: Formalitie 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解pluralistic讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "pluralistic"
+      ],
+      "level": "中级",
+      "source": "pluralistic.net",
+      "generated_at": "2026-11-01T05:18:28.579143",
+      "id": "7d6b5d4df81c3d97bb3cf1561edde761",
+      "link": "https://pluralistic.net/2026/10/31/burn-berne/",
+      "published": "2026-10-31T15:15:59+00:00",
+      "author": "Cory Doctorow"
+    }
+  ]
+}

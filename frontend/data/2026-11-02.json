@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-02",
+  "date_display": "2026年11月02日",
+  "articles": [
+    {
+      "headline": "If in doubt, delete the uv.lock file",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is:</p>\n<p><strong>If in doubt, delete the uv.lock file</strong></p>\n<p>Most of my projects are libraries which don't include a <code>uv.lock</code> file, sin 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-11-02T05:18:22.097736",
+      "id": "63716a490b14fb4632e9bbda4b3cf056",
+      "link": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+      "published": "2026-11-01T23:24:22+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "WorkOS: Let Agents Sign Up for Your App Without a Browser",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>My thanks to WorkOS for sponsoring last week at DF. An agent can’t click through a signup page built for humans, so give it something it can read instead. Publish an auth.md file and agents register themselves without ever touching a browser login, and the user never gets pulled out of what they  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-11-02T05:18:24.044736",
+      "id": "01dedcc113578cff66212af2ee607a44",
+      "link": "https://workos.com/auth-md?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q42026",
+      "published": "2026-11-01T20:22:56+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Quoting Kyle Kingsbury",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<blockquote cite=\"https://jepsen.io/analyses/particledb-1.1.4#llm-tradeoffs\"><p>More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-11-02T05:18:25.978350",
+      "id": "e4fc43e0bd6f6369d76dcad2313d668f",
+      "link": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+      "published": "2026-11-01T16:49:04+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Weekly Update 528: Reading AI-generated Code & the Economics of Solar",
+      "one_liner": "来自troyhunt.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了troyhunt的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<img alt=\"Weekly Update 528: Reading AI-generated Code &amp; the Economics of Solar\" src=\"https://storage.ghost.io/c/fb/33/fb3391dc-723d-4e74-b95a-d641b5feb38e/content/images/2026/11/dK01FOVwq4A-HD--1-.jpg\" /><p>By pure timing coincidence, <a href=\"https://x.com/josephfcox/status/2115814382001172714 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解troyhunt讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "troyhunt"
+      ],
+      "level": "中级",
+      "source": "troyhunt.com",
+      "generated_at": "2026-11-02T05:18:27.900439",
+      "id": "1249e07d897fa8166747fd9ac81f102c",
+      "link": "https://www.troyhunt.com/weekly-update-528/",
+      "published": "2026-11-01T07:35:23+00:00",
+      "author": "Troy Hunt"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-06",
+  "date_display": "2026年11月06日",
+  "articles": [
+    {
+      "headline": "How to install an app on your Commodore 64",
+      "one_liner": "来自anildash.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了anildash的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>It’s time to install an app! But here in 1986, we still call them “programs,” not apps. So, you’ll want to set aside some time to get started installing a program.</p>\n<p>Since you have a Commodore 64, there are really only two options for getting new programs this month: <em>COMPUTE!’s Gazette</ 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解anildash讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "anildash"
+      ],
+      "level": "中级",
+      "source": "anildash.com",
+      "generated_at": "2026-11-06T05:53:03.679554",
+      "id": "4beb0c11da9fdfbbc8eeb23d9e09f526",
+      "link": "https://anildash.com/2026/10/08/install-an-app-commodore-64/",
+      "published": "2026-11-06T02:32:14+00:00",
+      "author": "anildash.com"
+    },
+    {
+      "headline": "A database is a store for global variables",
+      "one_liner": "来自seangoedecke.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了seangoedecke的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Databases are for storing global variables. We usually call them “rows” or “records” instead, but they’re definitionally global variables: any part of your program can read or write them. Isn’t this kind of weird? It’s common programming advice that global variables are bad, and yet many elegant  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解seangoedecke讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "seangoedecke"
+      ],
+      "level": "中级",
+      "source": "seangoedecke.com",
+      "generated_at": "2026-11-06T05:53:05.425160",
+      "id": "a7b17a951f31c265b81e63870b7ffa94",
+      "link": "https://seangoedecke.com/a-database-is-a-store-for-global-variables/",
+      "published": "2026-11-06T00:00:00+00:00",
+      "author": "seangoedecke.com"
+    },
+    {
+      "headline": "Salon Ceases Publication",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Salon, in an unsigned goodbye post:</p>\n\n<blockquote>\n  <p>Thirty-one years is a remarkable run, but what matters most is\nwhat happened during those years: the journalism, the ideas, the\nvoices, the conversations and the community that grew around them.\nSalon helped demonstrate what digital journ 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-11-06T05:53:07.129617",
+      "id": "140b259f41f08c4de2137f4d4f5d907d",
+      "link": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
+      "published": "2026-11-05T21:31:04+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "The benchmark where AIs have to lie to win",
+      "one_liner": "来自dwarkesh.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了dwarkesh的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<div class=\"youtube-wrap\" id=\"youtube2-1NQwfImTseU\"><div class=\"youtube-inner\"></div></div><p>I&#8217;m a big fan of this social deception game called <a href=\"https://bloodontheclocktower.com/\">Blood on the Clocktower</a>. It&#8217;s similar to Werewolf or Mafia. I had different AI models play tons 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解dwarkesh讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "dwarkesh"
+      ],
+      "level": "中级",
+      "source": "dwarkesh.com",
+      "generated_at": "2026-11-06T05:53:08.922493",
+      "id": "260411b51dddd32bf1232cf612909322",
+      "link": "https://www.dwarkesh.com/p/clocktower",
+      "published": "2026-11-05T21:05:50+00:00",
+      "author": "Dwarkesh Patel"
+    },
+    {
+      "headline": "Meta Releases Mac Version of Edits",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>From Instagram’s Edits blog:</p>\n\n<blockquote>\n  <p>I’m Brett Westervelt, and I lead the Edits app.</p>\n\n<p>In just over a year, 50 million people have made Edits part of how\nthey bring ideas to life, and we’re excited to expand what Edits\ncan do for creators. Today we’re bringing Edits to the bi 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-11-06T05:53:10.645411",
+      "id": "143b8f0ef76aa23fe8d3ea533d453ff5",
+      "link": "https://edits.instagram.com/blog/edits-desktop-video-editor/",
+      "published": "2026-11-05T20:27:05+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "It's unbreakable in theory",
+      "one_liner": "来自idiallo.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了idiallo的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>I've seen the picture of the iPhone Duo, still in the store, perched on a stand, its screen flickering with broken white lines.</p>\n<div class=\"art-image\">\n  <img alt=\"broken duo\" src=\"https://cdn.idiallo.com/images/assets/daily/121/duo.jpg\" />\n</div>\n<p>Apple has touted testing the screen hinge, 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解idiallo讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "idiallo"
+      ],
+      "level": "中级",
+      "source": "idiallo.com",
+      "generated_at": "2026-11-06T05:53:12.417051",
+      "id": "6cdf705fe388b7815095a2e3d402211d",
+      "link": "https://idiallo.com/byte-size/unbreakable-in-theory",
+      "published": "2026-11-05T20:20:10+00:00",
+      "author": "rss@idiallo.com"
+    },
+    {
+      "headline": "Quoting Paul Ford",
+      "one_liner": "来自simonwillison.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了simonwillison的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<blockquote cite=\"https://ftrain.com/aboard-the-web-is-more-than-enough\"><p>The web browser is very, very, very powerful software for applications, <em>and the cost of accessing that power is going down seemingly every day</em>.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://ftrain.com/ab 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解simonwillison讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "simonwillison"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-11-06T05:53:14.204079",
+      "id": "47b83a0356cecd79fcf44156f28e1253",
+      "link": "https://simonwillison.net/2026/Nov/5/paul-ford/",
+      "published": "2026-11-05T17:34:03+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "Pluralistic: Without CDA 230, Facebook will own the internet forever (05 Nov 2026)",
+      "one_liner": "来自pluralistic.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了pluralistic的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p><!--\nTags:\ncda 230, intermediary liability, intermediaries, section 230, message boards\n\nSummary:\nWithout CDA 230, Facebook will own the internet forever; Hey look at this; Upcoming appearances; Recent appearances; Latest books; Upcoming books\n\nURL:\nhttps://pluralistic.net/2026/11/05/see-you-in-c 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解pluralistic讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "pluralistic"
+      ],
+      "level": "中级",
+      "source": "pluralistic.net",
+      "generated_at": "2026-11-06T05:53:15.949679",
+      "id": "35763849479cf4b06a2112f8be9bc20e",
+      "link": "https://pluralistic.net/2026/11/05/see-you-in-court/",
+      "published": "2026-11-05T08:53:45+00:00",
+      "author": "Cory Doctorow"
+    }
+  ]
+}

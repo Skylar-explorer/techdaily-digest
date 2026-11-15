@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-15",
+  "date_display": "2026年11月15日",
+  "articles": [
+    {
+      "headline": "datasette-llm 0.1a11",
+      "one_liner": "Datasette 插件现在能接任意 OpenAI 兼容端点，本地模型直接驱动数据问答。",
+      "key_points": [
+        "datasette-llm 是 Datasette 的中间层插件，本身不提供对话界面，只负责为其他插件配置 LLM。这次 0.1a11 加入 OpenAI 兼容端点支持，意味着 LM Studio、Ollama、llama.cpp 这类本地推理服务都能作为后端接入。",
+        "配置方式是通过 `-s plugins.datasette-llm.default_model` 传入一段 JSON，包含 model、model_name、api_base 三个字段。示例里 api_base 指向 `http://localhost:1234/v1`，即 LM Studio 的默认端口，模型名是 qwen/qwen3.8-27b。",
+        "整条链路用 `uvx --with datasette-agent` 一条命令拉起，无需预装环境。截图显示 Agent 会自主调用 list_databases_and_tables 和 sql_query 两个工具，把\"有多少 repo 和 release\"翻译成带子查询的 SQL，返回 200 和 1889 两个数字。"
+      ],
+      "detailed_analysis": "Datasette 一直缺一个统一的模型配置入口，每个上层插件各自管 API key 和端点，重复且难切换。datasette-llm 的思路是把\"用哪个模型\"抽成独立插件，其他插件只声明需要 LLM，具体后端由它决定。之前它主要对接官方 API，这次补上 OpenAI 兼容协议，等于一次性打开了本地推理生态的大门。配合 datasette-agent 的工具调用能力，用户用 uvx 一条命令就能起一个能查 SQLite 的本地聊天界面，数据不出机器，模型也不出机器。这是把\"自然语言查数据库\"从云服务降级成单机可跑的最小可行形态。",
+      "key_insight": "真正的信号不是本地模型变强了，而是 OpenAI 的 API 格式已经成了事实上的行业插座。一个第三方插件只要支持这个协议，就自动兼容 LM Studio、Ollama、llama.cpp 三家，边际成本趋近于零。协议标准化带来的杠杆，比任何单点模型能力提升都更值得押注。",
+      "why_it_matters": "llama.cpp 刚发 v1.0.0，本地推理的工程稳定性跨过了可用门槛；同时 27B 级模型在消费级硬件上已经能跑出可接受的质量。两件事叠加，让\"本地模型 + 本地数据 + 工具调用\"第一次成为普通开发者能一键复现的方案。对做内部数据工具的人，这意味着可以先用本地模型验证 Agent 工作流，再决定是否付费上云，试错成本被压到几乎为零。",
+      "tags": [
+        "Datasette",
+        "OpenAI 兼容端点",
+        "本地 LLM"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-11-15T05:43:06.706400",
+      "id": "cbf5757fc7e88498873fa4a32798e9d7",
+      "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "published": "2026-11-14T23:59:28+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "乔安娜·斯特恩评测HomeView",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>This is so goddamn good. Both informative and hilarious.</p>\n\n<p>(She made <a href=\"https://www.instagram.com/reels/Dfsq5nPAoUw/\">a fun bonus reel</a> that’s right up my alley too — but watch <a href=\"https://www.youtube.com/watch?v=yVTcVtLn2o4\">the main review</a> first.)</p>\n\n<div>\n<a href=\"htt 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-11-15T05:43:12.623251",
+      "id": "0a5690996625c009888385e4c093ede2",
+      "link": "https://www.youtube.com/watch?v=yVTcVtLn2o4",
+      "published": "2026-11-14T17:50:00+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "杰森·斯内尔的HomeView评测",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Jason Snell:</p>\n\n<blockquote>\n  <p>The hardware is solid and coherent, the screen a pleasure to touch\nand tilt. In terms of software, though, the HomeView feels like a\npeculiar amalgam of numerous other Apple products. Its main\ninterface makes it look a bit like an overgrown Apple Watch,\ncomplet 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-11-15T05:43:18.649298",
+      "id": "06fd22226ae4ca121bc7eb13fce1ad8b",
+      "link": "https://sixcolors.com/post/2026/11/homeview-review-a-late-arrival-with-promise-but-still-showing-some-seams/",
+      "published": "2026-11-14T17:45:00+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "帕特里克·麦吉谈约翰尼·斯鲁吉与英伟达",
+      "one_liner": "Srouji去英伟达当CEO？作者押注他根本不会动心。",
+      "key_points": [
+        "麦基认为Srouji在苹果已触天花板、永远当不上CEO、野心极大，且长期希望芯片设计主导苹果产品节奏，因此判断他会接受英伟达邀约。这套推理看似成立，却忽略了苹果高管群体的特殊性。",
+        "Gruber的反驳核心是\"六色血统\"：Cue、Federighi、Joswiak都不会为别家CEO职位离开苹果，库克在乔布斯手下当COO时也拒绝过多份CEO邀约。驱动他们的是只有苹果才做的那种产品方式，而非头衔。",
+        "即便Srouji愿意走，英伟达本身也是烂摊子：市值一周内从5万亿跌到4万亿，AI时代约20%的对华销售涉嫌违反出口管制，公司没有内部领导层级，黄仁勋还把未来押在OpenAI和数据中心热潮不是泡沫上。而Srouji所在的苹果恰恰完全避开了这些赌注。"
+      ],
+      "detailed_analysis": "事情的起点是Semafor报道英伟达董事会\"考虑\"让Srouji接替黄仁勋。麦基从职业理性出发推演：Srouji在苹果升无可升，英伟达CEO是巨大跃迁，他应该会接。Gruber不买账。他的论据不是Srouji本人（他承认没接触过），而是苹果高管的整体行为模式：这群人真心认同苹果做产品的方式，库克当年就拒绝过多份CEO邀约。所以\"英伟达CEO比苹果硬件负责人更高级\"这个前提本身就是错的。再加上英伟达当下的治理混乱、出口管制风险和泡沫敞口，Gruber的结论很刻薄：英伟达董事会放风考虑Srouji，就像地狱里的人说要订冰水。",
+      "key_insight": "这场争论真正的分歧在于\"CEO头衔\"和\"参与定义一种产品架构\"哪个更值钱。Srouji的毕生作品是Apple Silicon，这是一种无法在别处复制的职业资产。英伟达董事会放风本身可能只是治理信号，而非真实招聘意图——一个没有领导层级的公司，用泄露候选人名单来向市场展示继任规划，成本极低。",
+      "why_it_matters": "时机敏感在于英伟达正同时承受市值回撤、对华出口合规调查和\"AI是否泡沫\"的三重质疑，此时放出换帅风声，更像稳定叙事的动作。对芯片与系统架构师而言，这提醒一件事：真正的护城河是软硬一体的架构主导权，而非职位高低。评估职业机会时，先看对方是否让你参与定义产品，再看头衔。",
+      "tags": [
+        "Apple Silicon",
+        "高管继任",
+        "AI芯片供应链"
+      ],
+      "level": "初级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-11-15T05:43:24.942924",
+      "id": "01cee966b1e15fbfee6f4b07bf62187e",
+      "link": "https://x.com/patrickmcgee_/status/2120799867140550999",
+      "published": "2026-11-14T17:40:39+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "datasette-vega 0.7",
+      "one_liner": "沉寂七年的图表插件借 Datasette Lite 复活，浏览器端跑插件成真。",
+      "key_points": [
+        "datasette-vega 上一次发布是 2018 年 7 月，这次 0.7 版隔了近七年才动，主要目的是兼容最新 Datasette alpha 版本，并针对 Datasette Lite 做外观调整，说明插件生态的维护成本被长期低估。",
+        "Datasette Lite 现在能运行 JavaScript 插件了，这是本次发布真正的技术前提。README 里的实时演示已改为直接链接到 Lite 上的版本，用 fivethirtyeight 的 airline-safety CSV 数据，通过 URL 参数指定 mark=bar、x_column=airline、y_column=fatalities_00_14 即可出图。",
+        "插件本身基于 Vega-Lite 渲染，界面提供 Bar/Line/Scatter 三种图表类型、X/Y 列选择与类型（Label/Numeric）、交换轴、颜色和尺寸映射，属于低门槛的可视化配置层，而非完整 BI 工具。"
+      ],
+      "detailed_analysis": "这篇文章表面是发版公告，实际讲的是一个老插件如何被新能力救活。datasette-vega 是 Datasette 生态里最久没维护的插件，七年没更新，原因很直接：它依赖宿主环境，宿主一变就得跟着改。这次作者把它升级到兼容最新 alpha，顺手修了在 Datasette Lite 里的显示问题。关键在于 Datasette Lite 刚获得运行 JavaScript 插件的能力，于是这个图表插件不再需要服务器，直接在浏览器里对 CSV 数据出图。演示链接就是证据：一个 URL 带上 install、csv 和图表参数，打开即见柱状图。这既是插件的复活，也是 Lite 能力的一次公开验证。",
+      "key_insight": "真正的信号不是图表插件更新，而是 Datasette Lite 从\"只读查看器\"变成\"可装插件的运行时\"。这意味着整个 Datasette 插件生态有机会脱离服务器部署，变成可分享的 URL。对数据记者和轻量分析场景，一个链接就是一份可交互的报告，分发成本趋近于零。",
+      "why_it_matters": "七年不更新的插件突然复活，说明作者在集中补齐 Lite 的插件加载能力，这是平台级动作的前奏。对开发者，现在可以评估把现有 Datasette 插件改造成浏览器可运行的成本；对数据产品经理，URL 即应用的分发模式值得纳入原型设计；对架构师，客户端插件沙箱的安全边界需要提前想清楚。",
+      "tags": [
+        "Datasette Lite",
+        "Vega-Lite",
+        "浏览器端插件"
+      ],
+      "level": "初级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-11-15T05:43:30.677838",
+      "id": "fdaa3dc616ddc6b12b33f14ea9d87665",
+      "link": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+      "published": "2026-11-14T17:09:09+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "微软称云服务中断“与网络攻击或AI/代理无关”",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Microsoft, yesterday, in a statement on X:</p>\n\n<blockquote>\n  <p>This was a technical issue not related to cyber or AI / agents.\nThe incident was introduced by an issue during an earlier network\ncapacity upgrade that surfaced following a recent network change.\nWe have addressed the underlying is 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-11-15T05:43:36.136434",
+      "id": "779f8993e89172f8d6a4fe16c3866aa8",
+      "link": "https://x.com/microsoft/status/2121282013600907325",
+      "published": "2026-11-14T16:00:00+00:00",
+      "author": "John Gruber"
+    }
+  ]
+}

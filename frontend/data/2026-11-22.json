@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-22",
+  "date_display": "2026年11月22日",
+  "articles": [
+    {
+      "headline": "每周更新531：Optimizely、脚本依赖与第三方",
+      "one_liner": "来自troyhunt.com的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了troyhunt的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<img alt=\"Weekly Update 531: Optimizely. Script Dependencies &amp; Third Parties\" src=\"https://storage.ghost.io/c/fb/33/fb3391dc-723d-4e74-b95a-d641b5feb38e/content/images/2026/11/maxresdefault.webp\" /><p>&quot;You can&apos;t outsource accountability&quot;. But it feels like that&apos;s what&apos;s  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解troyhunt讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "troyhunt"
+      ],
+      "level": "中级",
+      "source": "troyhunt.com",
+      "generated_at": "2026-11-22T05:56:33.371037",
+      "id": "3f17755520829812717bda418e9c08bd",
+      "link": "https://www.troyhunt.com/weekly-update-531/",
+      "published": "2026-11-22T05:24:12+00:00",
+      "author": "Troy Hunt"
+    },
+    {
+      "headline": "写好代码，避免犯错",
+      "one_liner": "写代码的核心竞争力是少犯灾难性错误，而非炫技。",
+      "key_points": [
+        "文章列出五类典型\"暴击\"：引入并行系统做同一件事、为关键数据造第二个真相源、把安全的同步操作改成脆弱的异步、增加隐蔽的失败点、复杂化关键接口。作者认为最致命的两个根源是不一致性和引入不必要的需求，前者破坏信任，后者因\"粘性\"和组合爆炸长期拖累代码库。",
+        "作者给出两条硬性操作准则：第一，先找到任务在当前代码库中最\"正常\"的落点；第二，把需求裁剪到最小集合。他甚至把\"我可以用这个巧妙模式实现\"当作危险信号，认为这类念头意味着注意力已偏离主线，暴击风险上升。",
+        "一个反直觉的类比：国际象棋中从不送子大约能到1600-1700等级分，足以赢下几乎所有业余棋手；网球中只要稳定回球就能击败多数对手。编程同理，因为软件工程无法积累\"99比1\"式的领先优势，一次暴击就能把优雅的代码库变成一团乱麻。"
+      ],
+      "detailed_analysis": "文章要解决的问题是：为什么很多聪明工程师写不出好代码。作者的思路是把编程类比成棋类和网球，指出这些领域的胜利主要来自不犯大错，而非灵光一现。但编程比棋类更残酷：篮球领先99比1时失误只丢几分，代码库里一次暴击却可能让整个系统从优雅变垃圾，因为工程优势无法像比分那样被锁定。由此他推出两个操作原则：让任务以最常规的方式嵌入现有代码库，以及把需求砍到最小。最后他提醒，聪明和技巧有时是负担，真正需要的是对细节的专注和对\"避免暴击\"的执念。",
+      "key_insight": "这篇文章真正指向的是大型代码库的\"熵管理\"：代码库的恶化不是渐进的，而是由少数几个决策点跳变完成的。因此资深工程师的价值不在于写更多代码，而在于识别并否决那些看似合理、实则引入第二真相源或多余需求的改动。这也解释了为什么代码评审中\"这个能不能不做\"往往比\"这个怎么写更好\"更有价值。",
+      "why_it_matters": "文章脚注点出当下语境：AI编码代理在一致性上已接近人类，但在\"避免不必要需求\"上明显更差。这意味着随着代理大量写代码，需求膨胀和组合爆炸的风险会被放大。对开发者而言，评审重点应从风格转向\"是否引入了多余需求\"；对架构师而言，需要在规范中显式约束代理的改动范围；对产品经理而言，应预期工程团队更频繁地拒绝\"顺手加上\"的功能。",
+      "tags": [
+        "代码库一致性",
+        "需求最小化",
+        "AI编码代理"
+      ],
+      "level": "中级",
+      "source": "seangoedecke.com",
+      "generated_at": "2026-11-22T05:56:41.859384",
+      "id": "80f3e6a66feea4ad47332bb860d01b76",
+      "link": "https://seangoedecke.com/to-code-well-avoid-blunders/",
+      "published": "2026-11-22T00:00:00+00:00",
+      "author": "seangoedecke.com"
+    },
+    {
+      "headline": "穆鲁",
+      "one_liner": "mod_wsgi作者用AI辅助Rust重写Python应用服务器，边开发边公开全过程。",
+      "key_points": [
+        "Muru是Graham Dumpleton的新项目，用Rust编写，同时支持ASGI和WSGI，目标是成为开发和生产环境统一的Python应用服务器。他20年前创建mod_wsgi，这次是带着全部踩坑经验重来。",
+        "三周内发布了18篇开发日志，从\"import once, fork many\"的worker模型、开发环境HTTPS、WSGI与ASGI共存，到\"releases not restarts\"、无service mesh的金丝雀发布、按worker上报数据扩缩容、缩容到零、定时overlay、页面内嵌toolbar和tracing，几乎覆盖了生产部署的每个环节。",
+        "他在\"AI as a lifestyle choice\"中明确表态：AI承担了大量表面工作，但判断\"什么还不够好\"仍由他负责，而20年在mod_wsgi上犯错的经历正是这种判断力的来源。"
+      ],
+      "detailed_analysis": "这篇文章本身很短，本质是一个索引：Simon Willison把Dumpleton三周内密集发布的18篇Muru开发日志串在一起，并摘出那句关于AI与经验关系的话。问题背景是Python Web部署长期割裂——开发用一套、生产用另一套，WSGI和ASGI各走各路，容器和Kubernetes的适配靠外部工具硬凑。Dumpleton的思路是用Rust写一个原生理解worker生命周期、发布、扩缩容和可观测性的服务器，把这些能力做进服务器本身而不是围绕它搭外围。结果是项目仍在早期，但设计文档已经异常完整。",
+      "key_insight": "真正稀缺的不是AI写代码的能力，而是\"知道什么算不够好\"的品味。Dumpleton把20年踩坑史当作AI的验收标准，这提示了一种新的分工：资深工程师的价值从\"写\"转向\"判\"，而公开开发日志本身既是过程记录，也是建立信任的手段。",
+      "why_it_matters": "Rust生态成熟到可以写生产级应用服务器，AI辅助让单人能维持如此高的产出密度，而Kubernetes时代的部署复杂度已经让\"服务器自己懂发布和扩缩容\"变得有吸引力。对架构师而言，这是一个可能替代gunicorn加外部编排组合的候选；对开发者，现在读开发日志正是参与设计讨论的窗口期。",
+      "tags": [
+        "ASGI/WSGI",
+        "Rust服务器",
+        "AI辅助开发"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-11-22T05:56:49.560968",
+      "id": "25fe3ffa864cdbfdea42fb6bcbebd762",
+      "link": "https://simonwillison.net/2026/Nov/21/muru/",
+      "published": "2026-11-21T23:56:28+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "MacOS 27.3 Beta 2新隐私控制一周体验",
+      "one_liner": "macOS 27.3 的全盘访问权限改造总体成功，但常驻菜单栏指示器设计失当。",
+      "key_points": [
+        "针对申请 Full Disk Access 的应用，用户现在可以改为只授予一组指定文件夹的访问权，而不是被迫二选一。这是文章作者认为整套改动最有价值的部分，它把\"全有或全无\"变成了可细分的授权粒度。",
+        "新弹窗会在授权前直接展示你个人照片的缩略图，用具体画面替代\"full disk access\"这个抽象词。作者认为这种\"惊吓\"是合理的，因为它降低了抽象层级，让人真正意识到授权意味着什么，而不是无谓恐吓。",
+        "新增的跨应用控制指示器无法关闭（只能靠未公开的 defaults 命令），作者在自己的 MacBook Pro 上同时有 8 个常驻指示器挤在 Dynamic Island 里，包括 Scroll Reverser、Keyboard Maestro、Moom 等。指示器常亮反而让人忽略真正的异常行为。"
+      ],
+      "detailed_analysis": "事情的起点是 Meta 的 Muse 应用：用户随手点了 Full Disk Access，结果它连收到的 iMessage 都能读。苹果一个月前承诺整改，27.3 beta 2 落地。作者用了一周后给出结论：这是胜利。核心在于授权从\"全盘或没有\"变成\"可以只给几个文件夹\"，控制权实际增加了。弹窗变吓人是有意为之，因为看到自己照片的缩略图比读一行术语更能让人停下来想一想。唯一的败笔是那个跨应用控制的菜单栏指示器：设计者显然没料到有这么多常驻工具在\"控制其他应用\"，结果指示器永远亮着，警示作用归零。",
+      "key_insight": "安全提示的价值取决于信噪比，而不是提示本身的强度。苹果这次在两个地方做对了：用具体画面提高单次授权的注意力，用文件夹粒度降低单次授权的代价。但在指示器上犯了反向错误——把\"持续可见\"当成\"持续警觉\"，实际上是把警报变成了背景噪音。这是所有做权限与告警设计的产品都该记住的一课。",
+      "why_it_matters": "AI agent 类应用正在大量申请深度系统权限，用户\"随手点通过\"的习惯已经从浏览器蔓延到桌面。苹果此时收紧并细化授权，等于给整个桌面 AI 工具生态定了一个新基线：想拿全盘访问，就得接受用户看到缩略图、接受被拆成文件夹级授权。开发者和产品经理现在就该检查自己的权限申请路径，别指望用户还会无脑点\"允许\"。",
+      "tags": [
+        "Full Disk Access",
+        "权限粒度",
+        "菜单栏指示器"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-11-22T05:56:58.001660",
+      "id": "d89c998bf715b13a8fc5d167190f02e1",
+      "link": "https://daringfireball.net/2026/11/a_week_with_the_new_privacy_controls_in_macos_273",
+      "published": "2026-11-21T20:09:57+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "美国在特朗普和小罗伯特·肯尼迪治下毫无意外地失去麻疹消除地位",
+      "one_liner": "美国因疫苗政策倒退失去麻疹消除资格，且恢复可能遥遥无期。",
+      "key_points": [
+        "文章引用《华尔街日报》记者Sumathi Reddy的报道：美国失去麻疹消除状态，这是重大的公共卫生挫败。流行病学家根据其他国家的经验估计，恢复这一资格最多需要五年，但前提是联邦政府积极参与并主动推动麻疹疫苗接种工作。",
+        "文章随后搬出The Verge主编Nilay Patel两年前支持卡玛拉·哈里斯的文章标题作为对照：\"投票给唐纳德·特朗普就是投票给校园枪击和麻疹\"。这个标题在当时被不少人视为夸张的党派修辞，如今则被作者当作精准预言来引用，构成全文的核心论证手法。",
+        "整篇文章的结构极简：一段新闻事实，一段旧文标题，没有额外评论。作者John Gruber用\"Utterly Predictably\"（完全可预见地）作为标题定语，把公共卫生结果直接归因于特朗普与RFK Jr.的政策取向，暗示这不是意外，而是选举选择的必然兑现。"
+      ],
+      "detailed_analysis": "这篇文章本质上不是在报道新闻，而是在做一次\"预言验证\"。它先摆出事实：美国丢了麻疹消除资格，专家说恢复要五年，而且还得联邦政府愿意干活。然后它翻出两年前Nilay Patel那篇支持哈里斯的文章标题，那个标题把特朗普当选和麻疹直接挂钩，当时看着像政治夸张，现在成了准确预言。作者的逻辑很清楚：这不是天灾，是可预见的人祸，标题里的\"Utterly Predictably\"就是全文的态度。整篇没有展开论证RFK Jr.具体做了什么，而是靠这个前后对照让读者自己得出结论。",
+      "key_insight": "这篇文章真正的信息量不在麻疹本身，而在它展示了一种新的媒体论证范式：用旧标题当证据。当公共卫生政策与选举政治深度绑定后，专家的\"五年恢复期\"估算就变成了政治变量而非科学变量。这也意味着，技术决策者在评估美国市场的数据合规、临床试验、疫苗供应链时，需要把政策可逆性纳入风险模型，而不是假设监管环境稳定。",
+      "why_it_matters": "麻疹消除资格是WHO认证的硬指标，失去它意味着美国在全球公共卫生体系中的信用降级，这会波及药品审批互认、跨境旅行健康协议等具体机制。对做医疗健康产品、跨境数据合规或依赖美国监管背书的团队来说，现在需要重新评估\"美国标准\"的稳定性假设。行动上，建议把政策连续性风险写进合规路线图，而不是等到下一个认证周期才发现背书失效。",
+      "tags": [
+        "公共卫生政策",
+        "监管风险",
+        "疫苗供应链"
+      ],
+      "level": "初级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-11-22T05:57:06.454150",
+      "id": "f8b4cb3067fc195daf49c6a1971a4640",
+      "link": "https://www.wsj.com/health/measles-is-back-it-will-take-years-to-eliminate-it-again-9971736e?st=GKiu3E",
+      "published": "2026-11-21T18:28:22+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "苹果文件披露各iCloud+付费层级Apple Intelligence额外使用限制",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Apple Support:</p>\n\n<blockquote>\n  <p>Starting with the 2027 software releases, Siri AI and Apple\nIntelligence features are available for free for users with a\nsupported device set to a supported language. Some features rely\non powerful server models and have limits where increased access\nis avai 文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-11-22T05:57:13.944580",
+      "id": "910c6ff78726f238efd7d12e9d070cce",
+      "link": "https://support.apple.com/en-us/127901",
+      "published": "2026-11-21T18:02:51+00:00",
+      "author": "John Gruber"
+    }
+  ]
+}

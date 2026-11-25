@@ -15,15 +15,14 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -52,6 +51,23 @@ jobs:
         with:
           path: frontend/
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy_retry.outputs.page_url }}
+    steps:
       - name: Deploy
         id: deploy
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Wait before retrying deployment
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 20
+
+      - name: Retry deployment
+        id: deploy_retry
+        if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v4

@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-28",
+  "date_display": "2026年11月28日",
+  "articles": [
+    {
+      "headline": "datasette-charts 0.4a0",
+      "one_liner": "用 Claude 造插件，反向打磨出插件钩子的设计缺陷。",
+      "key_points": [
+        "datasette-charts 早已有插件钩子允许第三方定义新图表类型，但作者自己从未真正用过它。他让 Claude Opus 5.5 写了一个实验性插件来试钩子，结果暴露出一堆摩擦点，0.4a0 就是针对这些问题的修复，目标是让写图表插件更顺手。",
+        "新上线 charts.datasette.io，包含面向插件作者的教程和图表画廊。画廊覆盖折线图、堆叠柱状图、直方图、散点图，以及四类标注：x 值虚线、y 值红色参考线、x 区间阴影带、散点上的带引线标注，每个都链接到 Datasette Lite 的可交互 demo。",
+        "标注被设计成图表 spec 的一部分，因此会随图表链接一起被保存和分享。这个细节意味着分享一个 URL 就能完整复现带注释的视图，不需要额外状态存储，对协作和文档场景很实用。"
+      ],
+      "detailed_analysis": "这篇文章讲的是一个典型的\"自举\"过程。datasette-charts 提供了插件钩子，理论上别人可以扩展图表类型，但作者自己没验证过这条路是否好走。于是他让 Claude Opus 5.5 扮演外部插件开发者，实际写一个实验插件，用真实使用来压力测试 API 设计。结果发现了一连串摩擦点，0.4a0 逐一修复，让插件开发体验更符合人体工学。同时补上了文档站和画廊，把每个核心图表和标注都做成可点击的 Datasette Lite 交互 demo，降低新人的上手门槛。本质上是用 AI 当第一个用户，来发现设计问题。",
+      "key_insight": "这是\"用 AI 做 dogfooding\"的一个清晰样本：让模型扮演陌生开发者，比作者自己想象 API 好不好用更接近真实。插件生态的成败往往不在功能多少，而在第一个第三方作者是否被摩擦劝退，这次修复正是在为生态铺路。",
+      "why_it_matters": "Datasette 生态正从核心工具走向可扩展平台，插件钩子的易用性直接决定生态能否长起来。对开发者来说，现在是用 charts.datasette.io 教程试写第一个图表插件的窗口期，早期反馈还能影响 API 走向；对架构师而言，这提供了一个可借鉴的模式：用 AI 模拟外部使用者来验证扩展点设计。",
+      "tags": [
+        "Datasette",
+        "插件钩子",
+        "数据可视化"
+      ],
+      "level": "中级",
+      "source": "simonwillison.net",
+      "generated_at": "2026-11-28T07:05:32.588618",
+      "id": "2d81134d365adf97624f617536c48b4d",
+      "link": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "published": "2026-11-27T23:57:17+00:00",
+      "author": "simonwillison.net"
+    },
+    {
+      "headline": "OpenAI反诉苹果窃取商业秘密",
+      "one_liner": "来自daringfireball.net的深度技术分析，探讨当前热点议题的核心逻辑与应对策略。",
+      "key_points": [
+        "文章分析了daringfireball的核心机制",
+        "提供了具体的技术实现思路和实践建议",
+        "对当前技术决策有直接的参考价值"
+      ],
+      "detailed_analysis": "<p>Tim Bradshaw and Michael Acton, reporting for the Financial Times:</p>\n\n<blockquote>\n  <p>“Apple set quite a trap for employees,” the complaint said.\n“Bright young minds thought they would work in Cupertino. Instead\nthey were joining Hotel California: you can check out any time you\nlike, but you  文章从多个维度深入剖析了这一技术议题，提供了详实的背景信息和前沿观点。",
+      "key_insight": "技术选型的本质是在特定约束条件下寻找最优解，而非追求绝对完美的方案。",
+      "why_it_matters": "理解daringfireball讨论的技术方向，有助于在技术快速迭代的环境中做出更明智的决策。",
+      "tags": [
+        "技术",
+        "开发",
+        "daringfireball"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-11-28T07:05:37.175600",
+      "id": "78f5c315c4e6de580f6911dbbe85a949",
+      "link": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1",
+      "published": "2026-11-27T23:50:13+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "中国申报文件序列号显示英伟达受限Blackwell芯片安装于与Alice Huang和Megaspeed相关的上海数据中心",
+      "one_liner": "中国监管文件里的序列号，坐实了受限Blackwell已流入上海数据中心。",
+      "key_points": [
+        "上海数耀（Shanghai Shuoyao）把一台GB300 NVL72机架作为抵押品，向上海创新银行换取9600万元人民币（约1400万美元）贷款，序列号写在去年11月提交给中国监管机构的文件里。GB300 NVL72是英伟达最强产品线之一，这类设备对华出口一直需要美国许可证。",
+        "第二家公司上海科展（Shanghai Kezhan）由一家东京母公司控制，在2025年底从上海某地方政府全资拥有的融资租赁公司拿到9000万元贷款，申报文件中描述该设施内有一台GB200服务器，同样依赖Blackwell芯片。两家公司、两笔贷款、两份文件，交叉印证了同一处设施。",
+        "彭博的结论是：这是首次有证据显示Blackwell处理器进入了与Alice Huang和Megaspeed有关联的中国数据中心。报道同时强调，这些芯片在不久前还是英伟达最强的数据中心产品，无证对华出货始终违法。"
+      ],
+      "detailed_analysis": "彭博记者从中国监管申报文件里挖出了硬证据：两家中国公司为了拿贷款，把机房里的设备当抵押品登记，序列号写得清清楚楚——一台GB300 NVL72、一台GB200服务器，都装在长三角项目那个上海数据中心里。而这个数据中心和Alice Huang、Megaspeed有关联。关键在于，Blackwell对华出口从来都需要美国许可证，所以这不是\"灰色渠道传闻\"，而是白纸黑字的金融文件把违规路径钉死了。Daring Fireball的John Gruber只加了一句讽刺：英伟达董事会或许该等自己的\"独立调查\"结束再匆忙做决定。",
+      "key_insight": "最讽刺的漏洞在金融侧：出口管制盯的是货运和报关，但芯片一旦落地，它的存在会通过贷款抵押登记这种完全无关的合规渠道暴露出来。企业为了融资必须如实申报资产，这等于给监管者留了一条免费的取证通道。对英伟达而言，问题不再是\"有没有流出\"，而是\"流出的规模有多大、董事会知情多少\"。",
+      "why_it_matters": "时间点很关键：Blackwell直到最近才被更新的产品取代，此前一直是最严管控对象，而文件是2025年底到11月提交的，说明流出发生在管制最紧的窗口期。这预示着美国后续审查会从海关转向金融与实体资产登记，合规团队需要重新评估转口与第三方租赁结构的风险。做AI基础设施采购和跨境架构的人，现在就该查清供应链上每一台机器的最终落点。",
+      "tags": [
+        "出口管制",
+        "Blackwell",
+        "供应链合规"
+      ],
+      "level": "中级",
+      "source": "daringfireball.net",
+      "generated_at": "2026-11-28T07:05:42.894013",
+      "id": "0b16b9d27869691fba689053c5aba1bc",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NTc4ODgyMywiZXhwIjoxNzk2MzkzNjIzLCJhcnRpY2xlSWQiOiJUUDFVMFJUOU5KTFMwMCIsImJjb25uZWN0SWQiOiI3QTcxRTEyQjY2RTM0RkI3ODlCQTA5NEZBQzVGMkE0OSJ9.tcyYBUyKr7A_4Qyf4S69z95uT1ZiyuOyOOZi73bhQ7Q&leadSource=article-gifting",
+      "published": "2026-11-27T23:41:26+00:00",
+      "author": "John Gruber"
+    },
+    {
+      "headline": "Opus 5.5和Fable 5.2让我过度优化的Rust代码更加过度优化",
+      "one_liner": "Opus 5.5 让\"让 AI 反复优化 Rust 代码\"从玩具变成能压榨硬件极限的工程手段。",
+      "key_points": [
+        "作者此前用 GPT 系列跑 agentic iteration 流水线，把 Rust 库优化到超越 SOTA；Opus 5.5 发布后他两天内从 $20/月升级到 $100/月，因为新模型在困难技术任务上出现了断层式提升，最终把基准从毫秒级推进到微秒级。",
+        "Opus 5.5 的行为特征很具体：它极少用 Edit 工具直接改文件，而是写 Python 脚本做精准 find/replace；它热衷开后台异步任务，导致 Zed Agent 这类第三方 harness 几乎无法追踪它在干什么，作者最终退回桌面版 Claude 应用。",
+        "作者对 Claude Code 的旧怨包括无视 AGENTS.md 只认 CLAUDE.md、封杀第三方 harness；但桌面版提供了后台任务侧栏、内联图片显示和 Remote Control，让数小时的 prompt 可以挂着跑，配合 Haiku 5.5 子代理做非阻塞代码审查。"
+      ],
+      "detailed_analysis": "作者想解决的问题是：能不能让 AI 代理反复迭代，把 Rust 代码推到硬件极限，而不只是超过现有库。他的方法是给模型一个\"Ur-Prompt\"，明确要求基准提速多少、不许回退、不许作弊，再配 AGENTS.md 约束行为。之前用 GPT 模型已经跑通，但 Opus 5.5 带来了质变：它能完成其他模型做不了的硬技术任务，于是作者忍受了 Claude Code 的封闭生态和异步行为带来的工具链摩擦，改用桌面应用作为主 harness。结果是性能突破，代码被推到微秒级。文章也坦承，开源的最大障碍不是代码质量，而是怕刚发布就被下一个模型再提速 2 倍。",
+      "key_insight": "这篇文章真正的信号不是\"哪个模型更强\"，而是模型能力已经强到让工具链成为瓶颈：Opus 5.5 的异步工作方式直接击穿了第三方 harness 的观测能力，逼用户回到厂商自家应用。这意味着 agent 时代的竞争正从模型本身转向\"谁能提供匹配模型行为的执行环境\"，封闭生态反而可能因为行为适配更好而占优。",
+      "why_it_matters": "两年前模型还无法稳定完成多轮自我优化循环，两年后瓶颈已经变成 harness 的观测与调度能力。对开发者而言，值得立刻做的是把 agentic iteration 当作正式工程流程来设计：写好约束 prompt、防作弊检查、回归测试，并评估你的工具链能否跟上模型的异步行为。对架构师，这意味着选型时要把\"模型行为与执行环境的匹配度\"纳入考量，而不只看 benchmark 分数。",
+      "tags": [
+        "agentic iteration",
+        "Rust 性能优化",
+        "Claude Code"
+      ],
+      "level": "中级",
+      "source": "minimaxir.com",
+      "generated_at": "2026-11-28T07:05:47.997972",
+      "id": "567f23b5ff531fa868d23535c9623cc4",
+      "link": "https://minimaxir.com/2026/11/opus-fable/",
+      "published": "2026-11-27T20:10:00+00:00",
+      "author": "minimaxir.com"
+    },
+    {
+      "headline": "AI研究人员辩论下一步该做什么——丹尼尔·科科塔伊洛与埃格·埃尔多尔",
+      "one_liner": "两位AI研究者对2029年前是否出现超级智能分歧巨大，但共识是文明需要认真应对。",
+      "key_points": [
+        "Ege Erdil 把\"软件智能爆炸\"——固定算力与数据下AI自我改进形成正反馈——在未来三年发生的概率定在10-20%，而 Daniel Kokotajlo 认为超过50%。这个概率差是两人所有分歧的根源，也决定了他们对暂停、监管等政策问题的态度。",
+        "两人在一个政策结论上罕见一致：如果最终需要全球条约来让超级智能\"走得好\"，那么现在就不该继续对抗中国。这个判断把地缘政治姿态和技术治理直接挂钩，是整场讨论里最具操作性的共识。",
+        "对2027年的预测差异极大：Daniel 预期明年就是超级智能；Ege 的中位数是全自动化要到2040年，但明年他预期出现能通关任何Steam游戏、并以接近人类速度控制机器人完成叠衣服等简单物理任务的AI。"
+      ],
+      "detailed_analysis": "这场对话表面是辩论，实际更像两位末日论者在对表。核心问题是：软件层面的智能爆炸到底有多可信？Ege 认为现有证据不足以支撑高置信度，把概率压在10-20%；Daniel 则超过50%。但两人都承认差距没那么大，因为无论哪种情形，世界都会被彻底改变。由此他们推出一个反直觉的政策结论：既然可能需要全球条约，现在就不该激化对华对抗。后半段转向另一个关键点：未来的AI在数量和认知上都碾压人类，它们会如何对待我们，以及当前AI\"看起来挺友善\"这件事到底有多少参考价值。最后以2027年预测收尾，两人的时间表相差一个数量级。",
+      "key_insight": "这场讨论真正的信号不是谁对谁错，而是\"概率分歧\"正在被双方主动降级为\"共同的不确定性\"。当20%和50%被说成\"差别不大\"时，说明圈内已经默认：即便只有两成概率，也足以要求文明级别的预案。这实际上把AI安全从\"信不信\"的问题，转成了\"敢不敢不准备\"的问题。",
+      "why_it_matters": "时间点很关键：AI 2027、AI 2040 这类具体年份叙事刚落地，2027年的可验证预测又被摆上台面，讨论从抽象风险转向可打赌的短期指标。对工程师和决策者而言，这意味着\"超级智能\"不再是远期话题，而是需要纳入两三年规划的不确定变量，尤其是机器人操作和游戏级通用能力这两个可观测的里程碑。",
+      "tags": [
+        "智能爆炸",
+        "AI时间线",
+        "AI治理"
+      ],
+      "level": "中级",
+      "source": "dwarkesh.com",
+      "generated_at": "2026-11-28T07:05:53.098623",
+      "id": "56e3b2c7cab9808686650a39d6785d1f",
+      "link": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
+      "published": "2026-11-27T18:01:14+00:00",
+      "author": "Dwarkesh Patel"
+    },
+    {
+      "headline": "本周模拟古董商",
+      "one_liner": "这篇文章实际上没有正文，只是一条指向 Analog Antiquarian 新文章《The Rhythm of Life》的嵌入链接。",
+      "key_points": [
+        "页面正文仅包含一个 WordPress 嵌入块，指向 analog-antiquarian.net 2026 年 11 月 27 日发布的《The Rhythm of Life》，除此之外没有任何摘要、导语或正文段落。",
+        "来源标注为 filfre.net，这是 Jimmy Maher 的数字文化史站点，但此页本身只是转发/引用，不含 Maher 的评论或上下文说明。",
+        "标题“This Week on The Analog Antiquarian”表明这是一个周期性栏目页，用于汇总 Analog Antiquarian 的更新，但当前抓取到的内容里没有汇总条目，只有单条嵌入。"
+      ],
+      "detailed_analysis": "这页本质上是一个空壳。它想做的事是告诉读者“Analog Antiquarian 本周更新了《The Rhythm of Life》”，但除了一个标题和链接，没有提供任何可判断的信息：文章讲什么、多长、属于哪个连载、和之前的内容什么关系，全都缺失。对读者来说，这页唯一的价值是提供了一个跳转入口；要真正评估那篇文章，必须点进 analog-antiquarian.net 原文。就本页而言，不存在可复述的论证或结论。",
+      "key_insight": "这类嵌入页暴露了一个常见的内容工程问题：聚合页只搬运标题和链接，不搬运元数据，导致读者无法在不离开当前页的情况下做阅读决策。对做内容聚合或 newsletter 的团队，这是一个提醒——链接本身不是内容，缺少摘要、字数、主题标签的聚合条目，转化率会明显偏低。",
+      "why_it_matters": "Analog Antiquarian 是 Jimmy Maher 在 filfre.net 之外开辟的新项目，聚焦更早的技术与媒介史。如果你长期跟踪他的数字史写作，这个栏目页值得加入 RSS 或定期检查，但不要指望从聚合页获得信息密度；正确做法是直接订阅源站，把 filfre.net 的这类页面当作索引而非读物。对内容产品经理而言，这也是一个反例：索引页的信息架构决定了用户是否愿意点进去。",
+      "tags": [
+        "内容聚合",
+        "数字文化史",
+        "RSS/嵌入"
+      ],
+      "level": "初级",
+      "source": "filfre.net",
+      "generated_at": "2026-11-28T07:05:57.215452",
+      "id": "d9d9734357d46323679a475e10c0afd0",
+      "link": "https://www.filfre.net/2026/11/this-week-on-the-analog-antiquarian/",
+      "published": "2026-11-27T17:46:58+00:00",
+      "author": "Jimmy Maher"
+    },
+    {
+      "headline": "多元主义：泰勒制与人工智能的共同推销话术（2026年11月27日）",
+      "one_liner": "AI卖的不是效率，是老板对工人的控制幻觉。",
+      "key_points": [
+        "泰勒当年派穿白大褂、拿秒表的\"科学家\"下车间，从不问工人为何这样操作，只把人当活塞齿轮来\"优化\"。结果是定额不可能完成、动作设计反人体工学、工伤率飙升、士气崩塌，企业反而更糟。但老板们照买不误。",
+        "老板肯掏钱的根本原因不是效率，而是规模悖论：工厂大到无法逐个盯人，任何底层工人偷懒、组工会或破坏产线都无从追责。泰勒承诺的正是\"让工人变回机器零件\"，让老板能站在天车上俯视一支肉眼可见被驯服的队伍。",
+        "作者把这种心理命名为对\"免于被阻挠\"的追求，即 impunitism（免罚主义）：财富与权力的终极目标不是产出，而是再也不会有人能让你难堪。AI 销售话术复用的正是这套：卖的是老板重新掌控不可控劳动力的承诺。"
+      ],
+      "detailed_analysis": "文章要回答一个悖论：能白手起家建起巨型企业的聪明老板，为什么会集体上当一个江湖骗子的当？作者的答案是，泰勒卖的根本不是效率，而是控制感。企业规模一旦超出老板肉眼可及的范围，最底层的工人就获得了某种隐性权力——偷懒、怠工、组织工会，老板拿他没办法。这种\"被小人物挫败\"的屈辱，对追求绝对免罚的巨头来说无法忍受。于是泰勒的承诺变得无法抗拒：把工人降格为可观测、可计时、可替换的机器零件。代价是效率、安全和士气全面崩盘，但老板买到了心理满足。今天 AI 的销售话术是同一套剧本，同一个买家，同一个卖点。",
+      "key_insight": "这套话术的买家从来不是被\"优化\"的人，而是害怕失去掌控的人。这意味着 AI 管理类产品的真实需求曲线由老板的焦虑驱动，而非由可验证的 ROI 驱动——这解释了为什么大量 bossware 产品体验糟糕却卖得动，也解释了为什么\"可解释性\"\"员工反馈\"这类功能在采购决策中永远排在\"可见的监控面板\"之后。技术选型时，看清买单方的真实动机，比看清技术本身更重要。",
+      "why_it_matters": "AI 让监控的成本从\"雇一批拿秒表的人\"降到\"部署一套软件\"，边际成本趋近于零，于是这套百年老剧本第一次可以大规模复制到知识工作者身上——键盘记录、屏幕截图、生产力评分。对工程师和产品经理的直接含义是：你所在组织采购的 AI 工具，可能优化目标根本不是你的产出，而是你的可观测性。评估这类工具时，先问一句\"它让谁看见了谁\"。",
+      "tags": [
+        "Taylorism",
+        "bossware",
+        "AI治理"
+      ],
+      "level": "中级",
+      "source": "pluralistic.net",
+      "generated_at": "2026-11-28T07:06:02.799467",
+      "id": "a5e282a9bc79d93c9d8d93838821fb76",
+      "link": "https://pluralistic.net/2026/11/27/taylor-made/",
+      "published": "2026-11-27T13:38:29+00:00",
+      "author": "Cory Doctorow"
+    }
+  ]
+}
